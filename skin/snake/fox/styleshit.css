@@ -1,0 +1,72 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #666666; FONT-SIZE: 12px; SCROLLBAR-HIGHLIGHT-COLOR: #333333; SCROLLBAR-SHADOW-COLOR: #999999; COLOR: #FFFFFF; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #666666; margin-top:0px; BACKGROUND-COLOR: #666666;margin:0;background:#000 url("sfondo.gif") repeat left top;
+}
+A { text-decoration: none}
+A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none 
+}
+A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.ab_normal {
+	FONT-SIZE: 12px; VERTICAL-ALIGN: top; COLOR: #efefef; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.titolo {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; VERTICAL-ALIGN: top; COLOR: #ffffff; Writing-mode:tb-rl;Text-align:left; BACKGROUND-COLOR: #660000
+}
+.nuvole {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(sfondo_rosso.gif); VERTICAL-ALIGN: top; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #660000
+}
+.cella_1 {
+	FONT-SIZE: 12px; VERTICAL-ALIGN: top; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #660000
+}
+.cella_2 {
+	FONT-SIZE: 7pt; VERTICAL-ALIGN: top; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #660000
+}
+.titolo_quick {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; VERTICAL-ALIGN: top; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #000000
+}
+#calendar{
+margin:-15px 0 0 0;
+width:100%;
+BACKGROUND-COLOR: #999;
+}
+#calendar caption {  
+font:11px 'Century Gothic', Arial, Helvetica,sans-serif;  
+}
+#calendar table { 
+border-collapse: collapse; 
+} 
+#calendar th{  
+font: normal 12px;  
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;   
+}
+#calendar td a{ 
+COLOR: #c00;
+}
+#calendar td a:hover{ 
+COLOR: #fff;
+}
+ul {
+margin:0;
+padding:0;
+font: normal 12px;
+}
+select,input {
+background-color: #fff;
+border: 1px solid #000;
+font-size: 12px;
+color: #000;
+}
+#form_comment textarea {
+background-color: #C1E27D;
+border: 1px solid #333;
+font-size: 12px;
+color: #666;
+}

@@ -1,0 +1,303 @@
+/*
+=== Cascading StyleSheet File ===============================
+ Style Name: EaSyBlue
+     Author: EaSy
+Last Update: 2005-07-21
+Modified by EaSy 允许非商业使用 保留此信息
+Http://Www.EaSy.Ful.Cn
+==============================================================
+*/
+
+a:link,a:visited {
+	color: #076AA6;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3FA8E7;
+	text-decoration: none;
+}
+
+body {
+	background-color: #FFFFFF;
+	background-image: url(images/bg.gif);
+	background-repeat: repeat-x;
+	font-family: Tahoma, Arial;
+	font-size: 12px !important;
+	font-size: 11px;
+	margin: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+form {
+	display: inline;
+}
+
+h1 {
+	border-bottom: 1px dashed #000000;
+	color: #000000;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0,8px,0,8px;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #CCCCCC;
+	height: 1px;
+}
+
+input {
+	background-color: #FFFFFF;
+	border: 1px #000000 dotted;
+	font-family: Tahoma, Arial;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+input.text {
+	background-color: #F6F6F6;
+	border: 1px solid #076AA6;
+	color: #076AA6;
+	height: 20px;
+	padding: 1px;
+}
+
+select {
+	background-color: #F6F6F6;
+	border: 1px solid #076AA6;
+	color: #076AA6;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+}
+
+table {
+	color: #000000;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+}
+
+td{
+	word-break: break-all;
+}
+
+textarea {
+	background-color: #F6F6F6;
+	border: 1px solid #076AA6;
+	color: #076AA6;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+}
+
+.announce{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.announce-content{
+	color: #076AA6;
+	padding: 10px;
+}
+
+.left {
+	padding: 0,10px,0,10px;
+}
+
+.sidebar {
+	background-color: #FFFFFF;
+	float: left;
+	padding: 10px,4px,0,4px;
+	width: 200px;
+}
+
+.textbox{
+	margin-bottom: 15px;
+	padding-bottom: 25px;
+}
+
+.textbox-content{
+	color: 000000;
+	font-family: Tahoma, Arial;
+	font-size: 12px !important;
+	font-size: 11px;
+	padding: 0,10px,10px,10px;
+	word-wrap: break-word;
+}
+
+.textbox-content img {
+}
+
+.textbox-label{
+	color: #91CDF1;
+	font-size: 12px !important;
+	font-size: 11px;
+	padding-left: 5px;
+}
+
+.textbox-title{
+	background: url('./images/title_icon.jpg') no-repeat left top;
+	font-size: 14px;
+	height: 42px;
+	padding-left: 42px;
+	padding-top: 2px;
+	word-wrap: break-all;
+}
+
+.textbox-title h4{
+	color: #076AA6;
+	display: inline;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.textbox-title h4 a:link,
+.textbox-title h4 a:visited,
+.textbox-title h4 a:active {
+	color: #076AA6;
+}
+
+.textbox-urls {
+	border-top: 1px dashed #C0C0C0;
+	color: #91CDF1;
+	float: right;
+	font-size: 12px !important;
+	font-size: 11px;
+	padding: 4px,12px,4px,150px;
+}
+
+#blogtitle {
+	color: #FFFFFF;
+	font-size: 14.7px;
+	font-weight: bold;
+}
+
+#calendar {
+	width:175px;
+}
+#calendar caption {  
+font:11px 'Century Gothic', Arial, Helvetica, sans-serif;  
+}
+#calendar table { 
+border-collapse: collapse; 
+} 
+#calendar th{  
+font: normal 12px;  
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;   
+}
+
+#count {
+	display: none;
+}
+
+#footer {
+	background: url('images/footer_bg.jpg');
+	clear: both;
+	height: 65px;
+}
+
+#footer a{
+	color: #FFFFFF;
+}
+
+#header {
+	background: url('images/main_bg.jpg') repeat-y;
+}
+
+#innercontent {
+	margin-left: 200px;
+	overflow: visible;
+}
+
+#innerfooter {
+	color: #FFFFFF;
+	font-size: 11px;
+	padding: 10px;
+	text-align: center;
+}
+
+#innerheader {
+	background: url('images/header_bg.jpg') no-repeat;
+	color: #FFFFFF;
+	font-size: 12px;
+	height: 150px;
+	padding-left: 48px;
+	padding-right: 25px;
+	padding-top: 30px;
+	vertical-align: bottom;
+}
+
+#innerwrapper {
+	background: url('images/main_bg.jpg') repeat-y;
+	width: 100%;
+}
+
+#leftnav {
+	padding-bottom: 20px;
+}
+
+#mainwrapper {
+	margin-left: 18px;
+	margin-right: 20px;
+}
+
+#placard {
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	color: #076AA6;
+	width:175px;
+	margin: 4px,10px,4px,10px;
+	padding: 4px,6px,4px,10px;
+}
+
+#saveurl {
+	clear: none!important;
+}
+
+#titlesmall {
+	color: #FFFFFF;
+	font-size: 11px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	width: 780px;
+}
+.contentline {
+	background-image: url(panel_line.gif);
+	background-repeat: repeat-x;
+	background-position: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 31px;
+}
+.oblog_text {
+overflow: hidden;
+}
+#oblog_edit {  /* 编辑窗口的定义。 */
+background-color: #fff;  /* 背景色为白色，以前是灰色。 */
+border: 0px  /* 边框为0，以前是1px，灰色。 */
+}
+#oblog_edit .oblog_Btn {  /* 加粗，斜体等小图的设置。 */
+background-color: #fff;  /* 背景为白色，原来是灰色。 */
+}
+/*
+.oblog_TBGen {
+display:none;
+}
+*/
+#powered {
+display:none;
+}
+#oblog_edit iframe.oblog_Composition {
+border: 1px dotted #333;
+}

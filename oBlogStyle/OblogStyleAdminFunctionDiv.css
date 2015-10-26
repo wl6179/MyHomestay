@@ -1,0 +1,249 @@
+/*CssStyle DESIGNED BY myhomestay.com.cn WangL wangliang6179@163.com*/
+/* MainBox*/
+#top{
+	clear:both;
+	width:100%;
+	display:block;
+	height:70px!important;
+	height:75px;
+	text-align:center;
+	background:#9cc url(OblogStyleAdminImages/div_top_background.gif) repeat-y;
+	border-bottom:5px solid #018383;
+}
+#style_change{width:200px;float:right;height:20px;text-align:right;color:#fff}
+/* Menu Function */
+#menu{
+	clear:both;
+	width:100%;
+	border-bottom:1px solid #366;
+	display:block;
+	text-align:left;
+	height:24px;
+	background-color: #366;
+	background-image: url(OblogStyleAdminImages/menu-bg.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#menu ul,li{list-style:none;margin:0px;padding:0px}
+#main select{z-index:1}
+/* Nav Menu */
+#nav *{z-index:100;}
+#nav{line-height:19px;list-style-type:none; z-index:100 }
+#nav a{display:block;width:80px;text-align:center; color:#fff; padding-top:3px;padding-bottom:1px}
+#nav li li a{color:#000;}
+#nav li{float:left;width:80px; background-image:url(OblogStyleAdminImages/div_menu_hover.gif);}
+#nav li a:hover{ background-image:url(OblogStyleAdminImages/div_menu_hover_effect.gif);}
+#nav li ul{list-style-type:none;text-align:left;left:-999em; width:240px;position:absolute; display:block;border: 1px solid #366; margin:0 auto auto 2px;background:#BECFC9; padding:2px;
+opacity:.9;filter:alpha(opacity=90)
+}
+#nav li ul li{
+	float:left;
+	width:50%;
+	display:block;
+	background:#BECFC9;
+}
+
+#nav li ul a{
+	display:block;
+	width:100%;
+	text-align:left;
+	text-indent:1.5em;
+	background-image: url(OblogStyleAdminImages/folder.png);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	line-height:160%;
+}
+#nav li hr{height:1px;margin:0 auto; padding:0;color:#999;display:none}
+#nav li ul a:link{color:#000;text-decoration:none}
+#nav li ul a:visited{color:#000;text-decoration:none}
+#nav li ul a:hover{color:#fff;text-decoration:none;font-weight:normal;background:#000}
+#nav li:hover ul{left:auto}
+#nav li.sfhover ul{left:auto}
+#nav ul li.w100p li{
+width:100%;
+float:none}
+/*End of Menu Function*/
+#main{display:block;width:100%;clear:both;text-align:center;background:#BFE0FB}
+#bottom{
+display:block;
+height:30px;
+width:98%;
+padding:0.5em 0.5em;
+text-align:center;
+color:#666;
+margin-top:20px;
+border:#fff 2px solid;
+font:11px Arial,Helvetica,sans-serif;
+background:#A1E5FA
+}
+#list{display:block;text-align:center;margin-left:10px;background:center}
+#list h1{font-weight:bold;margin-top:10px;font-size:12px;text-align:left;}
+#list h2{font-size:12px;text-align:left;font-weight:normal}
+#list ul{text-align:center;padding-left:0;margin:auto;display:block;clear:both}
+#list ul.list_edit{text-align:left;margin-bottom:5px}
+#list li{
+list-style-type:none;
+padding:0.25em 0em;
+border-left:0px solid;
+float:left;
+margin-left:0px;
+text-align:left;
+display:block
+table-layout:fixed;
+overflow:hidden;
+word-break: break-all;
+}
+#list ul.list_top{text-align:left;font-weight:bold;border-bottom:#808080 1px solid;margin-left:0px; height:25!important;height:auto;}
+#list ul{ width: 100%;padding:0;}
+#list ul.list_content{border-bottom:#808080 1px solid;margin-left:0px;height:auto;}
+#list ul.list_content_mouserover{
+	
+	border-bottom:#808080 1px solid;
+	margin-left:0px;
+	height:auto;
+	background:#3293D8;
+	}
+#list ul.list_bot{width:80%;padding-top:10px;text-align:left;border-bottom:0px solid}
+#list .skinpic{width:230px;height:180px;margin-top:5px;margin-bottom:5px;float:left;display:block;text-align:left}
+#list .list_left{float:left;margin:auto;padding:0px;width:150px;text-align:left}
+#list .list_right{float:right;margin:auto;padding:0px;width:750!important;width:auto}
+.filepic{width:150px;text-align:left;margin-bottom:10px;display:block;float:left}
+.fileimg{width:48px;height:48px;float:left;border:0px none}
+.photopic{width:200px;height:150px;text-align:left;margin-bottom:10px;display:block;float:left}
+.photoimg{height:100px;/*width:100px;*/ float:left;border:0px none}
+.photoimg_div{float:left}
+#prompt{margin:auto;width: 500px;text-align:center}
+#prompt ul{width:400px;text-align:left}
+/*SideImageFunction*/
+.side_a1{height:70px;width:20px;float:left}
+.side_a2{height:70px;width:20px;float:right}
+.side_b1{}
+.side_b2{}
+.side_c1{height:20px;width:20px;float:left;background:left}
+.side_c2{height:20px;width:20px;float:right}
+.side_d1{height:20px;width:20px;float:left}
+.side_d2{height:20px;width:20px;float:right}
+.side_e1{height:20px;width:20px;float:left}
+.side_e2{height:20px;width:20px;float:right}
+.side11{margin-top:-1px;margin-left:-1px}
+.side12{margin-left:-1px;margin-bottom:-1px}
+.side21{margin-top:-1px;margin-right:-1px}
+.side22{margin-right:-1px;margin-bottom:-1px}
+/*TopFunction*/
+.logo{
+/*height:70px;
+width:200px;
+float:center;
+background:url(OblogStyleAdminImages/div_logo.gif) no-repeat center center*/
+}
+.top_button{position:absolute;height:40px;width:400px;top:35px;left:20px}
+.top_button img{margin-right:8px;height:52px;width:40px;border:none;}
+img.ico_1{background:url(OblogStyleAdminImages/ico_1.gif) no-repeat}
+img.ico_2{background:url(OblogStyleAdminImages/ico_2.gif) no-repeat}
+img.ico_3{background:url(OblogStyleAdminImages/ico_3.gif) no-repeat}
+img.ico_4{background:url(OblogStyleAdminImages/ico_4.gif) no-repeat}
+img.ico_5{background:url(OblogStyleAdminImages/ico_5.gif) no-repeat}
+img.ico_6{background:url(OblogStyleAdminImages/ico_6.gif) no-repeat}
+img.ico_7{background:url(OblogStyleAdminImages/ico_7.gif) no-repeat}
+.top_button a{}
+.top_menu{
+height:18px;
+position:absolute;
+right:5px;
+top:75px;
+font-size:12px;
+line-height:normal;
+color:#fff;
+padding: 2px 5px 0 5px;
+border:1px solid #049a9a;
+border-bottom:none;
+margin:-2px 0 0 0!important;
+margin:0 0 -2px 0;
+background:#43afaf url(OblogStyleAdminImages/div_topmenu_bg.gif) repeat-x
+}
+.top_menu a{color:#fff}
+.top_menu a:hover{color:#cf0}
+/*MenuFunction*/
+.message{}
+/*SubMenuFunction*/
+.submenu{  width:100%; height:35px;}
+.submenu_content{margin:7px auto; text-align:left; color:#BFE0FB}
+.submenu_content a{background-color:#3293D8;padding:5px 8px 4px 8px;
+border-right:1px solid #60B9B9;
+border-bottom:1px solid #60B9B9;
+border-top:1px solid #E8F9F9;
+border-left:1px solid #E8F9F9;
+color:#000;
+
+}
+.submenu_content a:hover{color:#000;}
+.submenu_content a:active{
+border-right:1px solid #fff;
+border-bottom:1px solid #fff;
+border-top:1px solid #808080;
+border-left:1px solid #808080;}
+.menu_alink{margin-top:5px}
+.menu_navimg{
+float:left;
+height:20px;
+width:20px;
+margin:2px auto auto 5px;
+background:url(OblogStyleAdminImages/nav.gif) no-repeat
+}
+/*user_index*/
+.msg_left{float:left;margin:0;padding:20px;width:49%;word-wrap:break-word}
+.msg_right{float:right;margin:0;padding:20px;width:auto;word-wrap:break-word}
+.msg{text-align:left;margin:10px;margin-left:30px;height:80px;word-wrap:break-word;border-style: dashed;	border-color: #999999;border-width: 1px;background-color:B5DFDE; padding:5px;}
+.msg h1{font-weight:bold;margin:0;font-size:12px;text-align:left;border-bottom:#999999 1px solid; border-top:none}
+.msg span.msg_date{font-style:italic;color:#666;font-size:11px}
+.msg span.msg_user{font-weight:bold;color:#666}
+/*ContentFunction*/
+.content_top{
+height:15px;
+width:98%;
+border:#9cc 1px solid;
+border-bottom:none;
+display:block;
+text-align:center;
+font-weight:bold;
+color:#099;
+letter-spacing:1em;
+line-height:200%;
+padding-top:5px;
+background:url(OblogStyleAdminImages/div_content_top_background.gif) repeat-x
+}
+.content_body{
+border-top:1px;
+border-right:#9cc 1px solid;
+border-bottom:1px;
+border-left:#9cc 1px solid;
+width:98%;
+display:block;
+text-align:left
+}
+.content_bot{
+display:block;
+height:20px;
+width:98%;
+border-top:1px;
+border-right:#9cc 1px solid;
+border-bottom:#9cc 1px solid;
+border-left:#9cc 1px solid;
+background:url(OblogStyleAdminImages/div_content_bot_background.gif) repeat-x bottom
+}
+.none{display:none}
+.progress1{height:20px;width:400px;border:#104a7b 1px solid;text-align:left;margin-top:5px;margin-bottom:10px}
+.progress2{height:20px;border:0px none;margin:1px 1px 1px 1px;text-align:left;background:#76d769}
+#showpage{clear:both;text-align:center;width:100%}
+#powered{display:block;clear:both;text-align:center;width:100%;padding:8}
+.fix_list_edit{margin-left:0px!important;margin-left:-35px}
+.en{font-size:10px}
+#prompt{ margin-top:50px;}
+#prompt li{ margin-top:5;margin-bottom:15}
+#prompt a{background-color:#3293D8;padding:5px 8px 4px 8px;
+border-right:1px solid #60B9B9;
+border-bottom:1px solid #60B9B9;
+border-top:1px solid #E8F9F9;
+border-left:1px solid #E8F9F9;
+color:#000;}
+/*TheEndOfCssStyle*/

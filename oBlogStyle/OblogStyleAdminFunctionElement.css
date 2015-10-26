@@ -1,0 +1,96 @@
+/*CssStyle DESIGNED BY myhomestay.com.cn WangL wangliang6179@163.com*/
+/*Oblog系统后台界面由myhomestay.com.cn 王亮wangliang6179@163.com设计 设计版权所有，请不要更改版权信息，谢谢*/
+
+*{margin:auto;}
+ul{margin:auto!important;margin:0px;padding:0px;}
+h1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #006666;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #B9CDB6;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	text-indent: 1em;
+	border-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #999999;
+	background-color:B5DFDE;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:20px!important;
+	margin-top:auto;
+}
+h1.a{}
+h1.b{}
+h1.c{}
+h1.d{}
+
+h2{
+	color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-left: 5px;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #089C9C;
+	margin: 10px 5px!important;
+	margin: 0px 5px;
+	width: 98%;
+	padding-top: 2px;
+	padding-bottom:2px;
+	padding-right: 0px;
+	background-color: #3293D8;
+}
+h2.a{}
+h2.b{}
+h2.c{}
+h2.d{}
+
+h3{}
+h3.a{}
+
+div.box_a{}
+div.box_b{}
+
+span.font_a{
+	color: #99CCCC;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+span.font_b{}
+span.font_c{}
+
+em{}
+input.input_a{}
+
+button.but_a{}
+button.but_b{}
+
+/*TheEndOfCssStyle*/
+a {
+	color: #009966;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+a:hover {
+	color: #0099CC;
+	text-decoration: none;
+}
+
+div {
+	margin: auto;
+}
+hr{
+	margin-top:5px!important;
+	margin-top:0px;
+	margin-bottom:5px!important;
+	margin-bottom:0px;
+}

@@ -1,0 +1,80 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: white; MARGIN: 5px; line-height: 150%;SCROLLBAR-HIGHLIGHT-COLOR: #faebd7; SCROLLBAR-SHADOW-COLOR: silver; COLOR: #808080; SCROLLBAR-3DLIGHT-COLOR: #f49fc1; SCROLLBAR-ARROW-COLOR: #f49fc1; SCROLLBAR-TRACK-COLOR: silver; font: normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: gray; BACKGROUND-COLOR: silver
+}
+td {
+font: normal 12px;
+}
+A {
+	COLOR: #bc8f8f;text-decoration: none;
+}
+A:hover {
+	COLOR: #f49fc1
+}
+.Outer {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 7px; WIDTH: 80%; PADDING-TOP: 2px; BACKGROUND-COLOR: white
+}
+.Inner {
+	BORDER-RIGHT: #f49fc1 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #f49fc1 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #f49fc1 1px solid; WIDTH: 100%; PADDING-TOP: 5px; BORDER-BOTTOM: #f49fc1 1px solid; BACKGROUND-COLOR: white
+}
+.right {
+	WIDTH: 130px
+}
+.sidetext {
+	FONT-WEIGHT: bold;FONT-SIZE: 10pt
+}
+.head {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt
+}
+.date {
+	FONT-SIZE: 7pt; FONT-STYLE: italic
+}
+.countdown {
+	FONT-SIZE: 10pt; COLOR: white
+}
+.calendar {
+	FONT-SIZE: 7pt
+}
+.calenhead {
+	FONT-SIZE: 8pt
+}
+.DateHeader {
+	BORDER-RIGHT: #FF99CC 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #FF99CC 1px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 11pt; PADDING-BOTTOM: 3px; BORDER-LEFT: #FF99CC 1px solid; COLOR: #ffffff; PADDING-TOP: 3px; BORDER-BOTTOM: #FF99CC 1px solid; FONT-STYLE: italic; BACKGROUND-COLOR: #FFECF5;
+}
+.title {
+FONT-SIZE: 9pt;
+width:530px;
+table-layout:fixed;
+overflow: hidden;
+line-height:1.5;
+}
+.blogbottom {
+	FONT-SIZE: 7pt
+}
+DIV.blogrollmain {
+	FONT-SIZE: 7pt;
+}
+#calendar{ 
+width:100%; 
+}
+#calendar caption {  
+font:11px 'Century Gothic', Arial, Helvetica, sans-serif;  
+}
+#calendar table { 
+border-collapse: collapse; 
+} 
+#calendar th{  
+font: normal 12px;  
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;   
+}
+#ob_login {
+width:147px;
+}
+#ob_login input{
+border: 1px #333 solid;
+font-size: 11px;
+color: #666;
+height:18px;
+}

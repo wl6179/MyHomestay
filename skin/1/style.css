@@ -1,0 +1,31 @@
+a { 
+	color: #003366; 
+	text-decoration: none;
+}
+
+a:visited { 
+	color: #003366;
+}
+
+a:hover { 
+	color: #CC0000;
+	text-decoration: underline;
+}
+
+Div,P,body,td{FONT-SIZE: 11px; font-family: Verdana,tahoma, Arial, Helvetica, sans-serif; color:#000000}
+
+
+SELECT    {BACKGROUND-COLOR: f3f3f3; height: 20px; COLOR: #000000; FONT-FAMILY: Verdana,Tahoma, sans-serif; FONT-SIZE: 11px ; border: 0px #CCCCCC double}
+INPUT     {color: #333333; height: 21px; FONT-FAMILY: Verdana,MS Shell Dlg,Tahoma, sans-serif; FONT-SIZE: 11px}
+FONT.code{FONT-FAMILY: Monaco, Courier, Courier New;}
+
+
+code {font-family: "Courier" ; font-size: 11px}
+
+textarea {font:12px,Courier New;border: 1px double #999999;background:#FFFFFF}
+
+
+body, textarea {
+  FONT-FAMILY: Verdana,Tahoma;
+}
+.arrow { font-family:webdings}

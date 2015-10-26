@@ -1,0 +1,140 @@
+/* CSS Document */
+body{margin-left:0px; margin-right:0px}
+body,th,tr{font-size:14px}
+a{color:#000000; text-decoration:none}
+a:hover{color:#FF0000; text-decoration:underline}
+
+
+#tdh{line-height:24px; padding:5px 10px 0px 10px;}
+#tdh a{color:#000000; text-decoration:none;}
+#tdh  span a{color:#FF0000; font-weight:bold; text-decoration:underline}
+#tdh a:hover{color:#FF0000; text-decoration:underline;}
+.titlef1{color:#0F84BE; font-weight:bold; background:url(m_1tabon.gif);cursor:pointer}
+.titlef1 a{color:#0F84BE; font-weight:bold; background:url(m_1tabon.gif);cursor:pointer; text-decoration:none}
+.titlef1 a:hover{color:#0F84BE; font-weight:bold; background:url(m_1tabon.gif);cursor:pointer; text-decoration:none}
+#tdh2{line-height:20px; padding:5px 10px 0px 10px; font-size:12px}
+#tdh2 a{line-height:20px; padding:5px 10px 0px 10px; color:#FF0000; text-decoration:underline; font-weight:bold}
+#tdh2 a:hover{line-height:20px; padding:5px 10px 0px 10px; color:#FF0000; text-decoration:none; font-weight:bold}
+.titlef2{color:#0F84BE; background:url(m_2tabon.gif);cursor:pointer}
+.titlef2 a{color:#0F84BE; text-decoration:none}
+.titlef2 a:hover{color:#0f84be; text-decoration:none}
+#titlef{color:#0F84BE;}
+#toplink {color:#8C8C8C}
+#toplink a{color:#8C8C8C; text-decoration:none; margin:3px}
+#toplink a:hover{color:#FF0000; text-decoration:underline; margin:3px}
+#bm span{color:#0086D1}
+#bm a{color:#0086D1; text-decoration:none}
+#bm a:hover{color:#ff0000; text-decoration:underline}
+#bm{color:#4B4B4B; font-size:12px; line-height:20px}
+#centerlink {color:#000000; line-height:18px; font-size:13px}
+#centerlink ul {list-style:none; margin:0; padding:0; padding-left:3px; padding-bottom:20px}
+#centerlink a { color:#0768B7; text-decoration:underline; font-size:16px; line-height:20px}
+#centerlink a:hover { color:#ff0000; text-decoration:underline; font-size:16px; line-height:20px}
+#centerlink span a { color:#999999; text-decoration:none; line-height:18px;}
+#centerlink span a:hover { color:#ff0000; text-decoration:underline; line-height:18px}
+#centerlink span { color:#03922B; line-height:18px; padding-left:5px; font-size:13px}
+#more a{color:#0768b7;text-decoration:underline;line-height:20px;font-size:14px}
+#more a:hover{color:#ff0000;text-decoration:none;line-height:20px; font-size:14px}
+#more {font-size:14px}
+#quyucx a{color:#000000; text-decoration:none; margin-right:20px}
+#quyucx a:hover{color:#000000; text-decoration:underline;}
+#quyuyy a{color:#000000; text-decoration:none;}
+#quyuyy a:hover{color:#ff0000; text-decoration:underline;}
+#rightlink {color:#000000;}
+#rightlink ul {list-style:none; margin:0; padding:0; padding-left:3px; line-height:24px}
+#rightlink li {background:url(img4.gif) left top no-repeat; padding-left:10px; line-height:24px}
+#rightlink a { color:#000000; text-decoration:none; line-height:20px}
+#rightlink a:hover { color:#ff0000; text-decoration:underline; line-height:20px}
+#rightlink span a { color:#8C8C8C; text-decoration:none; line-height:20px}
+#rightlink span a:hover { color:#ff0000; text-decoration:underline; line-height:20px}
+#rightlink span { color:#8C8C8C; line-height:20px; padding-left:5px}
+#tjwz span{color:#0F84BE; font-size:12px}
+#tjwz a{color:#8C8C8C; text-decoration:none; font-size:12px}
+#tjwz a:Hover{color:#ff0000; text-decoration:underline; font-size:12px}
+#tjwz td{line-height:20px; padding-left:10px}
+input{border: 1px solid #BBCCD3}
+.input_radio{border:0px}
+button{font-weight:bold; font-size:14px}
+#login{color:#6F6A70}
+#login a{color:#6F6A70; text-decoration:none}
+#login a:hover{color:#FF0000; text-decoration:underline}
+#newpost {font-size:12px}
+#newpost a{color:#000000; text-decoration:none; font-size:12px}
+#newpost a:hover{color:#FF0000; text-decoration:underline; font-size:12px}
+#newpost2 a{color:#007DBA; text-decoration:none; font-size:12px}
+#newpost2 a:hover{color:#007DBA; text-decoration:underline; font-size:12px}
+#newpost2 span{font-weight:bold}
+#vgrayf {color:#646364}
+#p2_title{color:#6C6766}
+#p2_title a{color:#6C6766; text-decoration:none}
+#p2_title a:hover{color:#6c6766; text-decoration:underline}
+#p2_title span{color:#0F84BE; font-weight:bold}
+#qu_1 span{color:#0086D1; font-weight:bold; line-height:24px;}
+#qu_1 a{color:#6C6B6C; line-height:18px; text-decoration:none}
+#qu_1 a:hover{color:6c6b6c; line-height:18px; text-decoration:underline}
+#qu_1{padding:10px 10px 0px 10px;}
+#an_2 span{color:#0086D1; font-weight:bold; line-height:24px;}
+#an_2 a{color:#000000; line-height:18px; text-decoration:none}
+#an_2 a:hover{color:#ff0000; line-height:18px; text-decoration:underline}
+#an_2{padding:10px 10px 0px 10px;}
+#toppa {padding-top:10px}
+#huifu_doctor{color:#02945f; font-weight:bold}
+#an_1 span{color:#CC0104}
+#an_1 div{color:#02945F; font-weight:bold}
+#an_1 a{text-decoration:none}
+#an_1 a:Hover{text-decoration:underline}
+#an_1 td {font-size:12px;}
+#px12 {font-size:12px}
+#px12 a{color:#FF0000; font-weight:bold; text-decoration:underline}
+#px12 a:hover{color:#ff0000; text-decoration:none; font-weight:bold}
+#biaoti4 div{ font-weight:bold}
+#biaoti4 {line-height:18px}
+#biaoti4 a{color:#ff0000}
+#biaoti4 a:hover{color:#000000; text-decoration:none}
+.biaoti2 {font-weight:bold}
+.biaoti2 a{color:#0086D1}
+#wenben {line-height:18px; padding:20px 10px 0px 10px}
+#wenben a{font-weight:bold; color:#666666}
+#wenben a:hover{font-weight:bold; color:#FF0000}
+#tingzhen div{background:#02945F; color:#FFFFFF; width:100px; height:22px; font-weight:bold; padding-left:10px}
+#tingzhen {line-height:22px; font-size:12px; padding-left:10px; padding-right:5px}
+#tingzhen td{line-height:18px; font-size:12px; padding-left:3px; padding-right:3px}
+#tingzhen a{color:#000000; text-decoration:none}
+#tingzhen a:hover{color:#FF0000; text-decoration:none; text-decoration:underline}
+img {border-color:#000000}
+#biaoti3 a{color:#666666; text-decoration:underline}
+#biaoti3 a:hover{color:#666666; text-decoration:none}
+#topreg {position:absolute;left:821px;top:3px}
+#reglink a{font-size:12px; color:#999999; text-decoration:underline}
+#reglink a:hover{font-size:12px; color:#999999; text-decoration:none}
+#topreg2 {position:absolute;left:821px;top:3px}
+#reglink2 a{font-size:12px; color:#999999; text-decoration:underline}
+#reglink2 a:hover{font-size:12px; color:#999999; text-decoration:none}
+#all_hospital a{font-size:12px; color:#0F84BE;  text-decoration:none}
+#all_hospital a:hover{font-size:12px; color:#000000; text-decoration:none} 
+/*健康用户样式*/
+#blog_login td{color:#6F6A70; font-size:12px}
+#blog_login a{color:#6F6A70; text-decoration:none}
+#blog_login a:hover{color:#FF0000; text-decoration:underline}
+#blog_tdhleft{line-height:20px; padding:5px 10px 0px 10px; font-size:12px}
+#blog_tdhleft a{color:#000000; text-decoration:none;}
+#blog_tdhleft a:hover{color:#FF0000; text-decoration:underline;}
+#blog_star a{color:#ff0000; text-decoration:none;}
+#blog_star a:hover{color:#FF0000; text-decoration:underline;}
+#blog_tdhcenter{line-height:24px; padding:5px 5px 0px 10px}
+#blog_tdhcenter a{color:#000000; text-decoration:none;}
+#blog_tdhcenter a:hover{color:#FF0000; text-decoration:underline;}
+#blog_tdhcenter span a{color:#999999}
+#blog_tdhright td{line-height:20px;padding:0px 10px 0px 10px; font-size:12px}
+#blog_tdhright a{color:#000000; text-decoration:none;}
+#blog_tdhright a:hover{color:#FF0000; text-decoration:underline;}
+#bloglist_tdhright td{line-height:20px;padding:0px 10px 0px 5px; font-size:12px}
+#bloglist_tdhright a{color:#000000; text-decoration:none;}
+#bloglist_tdhright a:hover{color:#FF0000; text-decoration:underline;}
+#bloglisttop a{color:#000000; text-decoration:none;}
+#bloglisttop a:hover{color:#ff0000; text-decoration:none;}
+#bloglisttop {color:#000000}
+#bloglist_tdhcenter{line-height:24px; padding:5px 5px 0px 10px}
+#bloglist_tdhcenter a{color:#000000; text-decoration:underline;}
+#bloglist_tdhcenter a:hover{color:#FF0000; text-decoration:underline;}
+#bloglist_tdhcenter span a{color:#999999}

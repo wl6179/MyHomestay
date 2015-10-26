@@ -1,0 +1,48 @@
+
+td {font: 12px/150%;color: #484848;}
+a:link {color: #484848; text-decoration: none;line-height:170%}
+a:visited {color:  #484848; text-decoration: none;line-height:170%}
+a:hover {color: #ff0000; text-decoration: none;line-height:170%}
+
+.a_topnews:link {color: #ff0000; text-decoration: none;line-height:170%; font-weight: bold; }
+.a_topnews:visited {color:  #ff0000; text-decoration: none;line-height:170%; font-weight: bold;}
+.a_topnews:hover {color: #F47528; text-decoration: none;line-height:170%; font-weight: bold; }
+
+.td1{font: 12px/150%;border-bottom:#ffffff 1px solid;padding-left:6px}
+.td_h{font: 12px/150%;;color:#AD4C04}
+.td_hb{font: 12px/150%;color:#F47528;font-weight:bold}
+.td_b{font: 12px/150%;;color:#000000;font-weight:bold}
+.td_l{font: 12px/150%;;color:#038880;font-weight:bold}
+
+.a_l:link {color: #035F6A; text-decoration: none;line-height:170%}
+.a_l:visited {color:  #035F6A; text-decoration: none;line-height:170%}
+.a_l:hover {color: #ff0000; text-decoration: none;line-height:170%}
+
+.a_l1:link {color: #25A6B7; text-decoration: none;line-height:170%}
+.a_l1:visited {color:  #25A6B7; text-decoration: none;line-height:170%}
+.a_l1:hover {color: #ff0000; text-decoration: none;line-height:170%}
+
+.a_h:link {color: #ff0000; text-decoration: none;line-height:170%;font-weight:bold}
+.a_h:visited {color:  #ff0000; text-decoration: none;line-height:170%;font-weight:bold}
+.a_h:hover {color: #035F6A; text-decoration: none;line-height:170%;font-weight:bold}
+
+.a_w:link {color: #ffffff; text-decoration: none;font-weight:bold}
+.a_w:visited {color:  #ffffff; text-decoration: none;font-weight:bold}
+.a_w:hover {color: #ffffff; text-decoration: none;font-weight:bold}
+
+.a_k:link {color: #484848; text-decoration: none;line-height:190%}
+.a_k:visited {color:  #484848; text-decoration: none;line-height:190%}
+.a_k:hover {color: #ff0000; text-decoration: none;line-height:190%}
+
+.input{border:#42444B 1px solid}
+.border{border:#BEBEBE 1px solid}
+.hi{padding-right:5px}.table {
+	background-attachment: fixed;
+	background-image: url(pic/m-1-7.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+a.serach:link {color: #67481f;text-decoration:  underline;}
+a.serach:visited {color: #67481f;text-decoration:  underline;}
+a.serach:hover {color: #67481f;text-decoration: none;}
+a.serach:active {color: #67481f;text-decoration:  underline;}

@@ -1,0 +1,95 @@
+body {
+	background-image: url(theme16BG.gif);
+	COLOR: #999999
+}
+.style2 {
+	FONT-SIZE: 18px
+}
+BODY {
+	FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+P {
+	FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; COLOR: #829a70; LINE-HEIGHT: 160%; PADDING-TOP: 3px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #000000; TEXT-DECORATION: none;
+}
+.newstext {
+	LINE-HEIGHT: 18px
+}
+.nav {
+	LINE-HEIGHT: 18px
+}
+.sorttit {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px; FONT: bold 12px/160% Verdana, Arial, Helvetica, sans-serif; BORDER-BOTTOM: #999999 1px dashed
+}
+.placard {
+	BORDER-RIGHT: #d0d3af 1px dashed; PADDING-RIGHT: 5px; BORDER-TOP: #d0d3af 1px dashed; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #d0d3af 1px dashed; PADDING-TOP: 5px; BORDER-BOTTOM: #d0d3af 1px dashed; BACKGROUND-COLOR: #f4fad6
+}
+#blogtitle {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; BORDER-LEFT: #b7bb91 5px solid; LINE-HEIGHT: 200%; BACKGROUND-COLOR: #eaf4b0
+}
+#blogtitle A {
+	FONT-WEIGHT: bold; COLOR: #000000
+}
+.more {
+	BORDER-TOP: #b7bb91 1px dashed; BORDER-LEFT-COLOR: #b7bb91; PADDING-BOTTOM: 6px; PADDING-TOP: 4px; BORDER-BOTTOM: #b7bb91 1px dashed; TEXT-ALIGN: right; BORDER-RIGHT-COLOR: #b7bb91
+}
+.time {
+	FONT: 9px Georgia, "Times New Roman", Times, serif; COLOR: #999999; TEXT-ALIGN: right
+}
+#blogtitle A:hover {
+	COLOR: #ffffff
+}
+.text {
+width:100%;
+table-layout:fixed;
+}
+/*
+table {
+table-layout:fixed;
+overflow: hidden;
+}
+*/
+#calendar{ 
+width:100%; 
+}
+#calendar caption {  
+font:10px 'Century Gothic', Arial, Helvetica, sans-serif; 
+}
+#calendar caption a{  
+font:10px 'Century Gothic', Arial, Helvetica, sans-serif;PADDING:0px; 
+}
+#calendar table { 
+border-collapse: collapse; 
+} 
+#calendar th{  
+font: normal 12px;  
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;   
+}
+#calendar td a{ 
+text-align:center;
+font-size: 10px;   
+}
+#ob_login {
+width:147px;
+}
+#ob_login input{
+border: 1px #333 solid;
+font-size: 11px;
+color: #666;
+height:18px;
+background-image: url(theme16BG.gif);
+}

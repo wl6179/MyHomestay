@@ -1,0 +1,80 @@
+/* 首页样式*/
+body,td,th{font-size:12px; font-family:"宋体"}
+body{margin:0 0 0 0}
+.ceng {	border: 1px solid #FFFFFF;}
+#navigation a{color:#0768B7; text-decoration:underline; margin-right:30px; font-size:14px; font-weight:bold}
+#navigation a:hover{color:#ff0000; text-decoration:underline; margin-right:30px; font-size:14px; font-weight:bold}
+#toplink div{color:#FFA200; font-size:10px}
+#toplink a{color:#FFA200; text-decoration:none; font-size:12px}
+#toplink a:hover{color:#FFA200; text-decoration:underline; font-size:12px}
+.biaoti{color:#0768B7; font-weight:bold}
+#neirong a{color:#0768B7; text-decoration:none; line-height:20px; font-weight:normal}
+#neirong a:hover{color:#ff0000; text-decoration:none; line-height:20px; font-weight:normal}
+#neirong {font-weight:bold; color:#999999}
+#banquan {color:#9B9B9B; line-height:20px}
+#banquan a{color:#9B9B9B; line-height:20px; text-decoration:none}
+#banquan a:hover{color:#ff0000; line-height:20px; text-decoration:underline}
+/*搜索结果页样式*/
+.bk{border-bottom:1px solid #74ADDC; border-top:1px solid #74ADDC}
+.biaoti2{color:#000000; font-weight:bold}
+.biaoti3{color:#000000; font-weight:bold; font-size:14px}
+#leftlink {color:#999999;border-top:1px solid #E4E4E4}
+#leftlink ul {list-style:none; margin:0; padding:0; padding-left:3px}
+#leftlink li {background:url(img3.gif) left no-repeat; padding-left:10px}
+#leftlink a { color:#000000; text-decoration:none; line-height:22px}
+#leftlink a:hover { color:#ff0000; text-decoration:underline; line-height:22px}
+#rightlink {color:#000000;border-top:1px solid #E4E4E4; line-height:20px}
+#rightlink ul {list-style:none; margin:0; padding:0; padding-left:3px}
+#rightlink li {background:url(img4.gif) left top no-repeat; padding-left:10px}
+#rightlink a { color:#000000; text-decoration:none; line-height:20px}
+#rightlink a:hover { color:#ff0000; text-decoration:underline; line-height:20px}
+#rightlink span a { color:#999999; text-decoration:none; line-height:20px}
+#rightlink span a:hover { color:#ff0000; text-decoration:underline; line-height:20px}
+#rightlink span { color:#999999; line-height:20px; padding-left:5px}
+#centerlink {color:#000000; line-height:18px; font-size:13px}
+#centerlink ul {list-style:none; margin:0; padding:0; padding-left:3px; padding-bottom:20px}
+#centerlink a { color:#0768B7; text-decoration:underline; font-size:16px; line-height:20px}
+#centerlink a:hover { color:#ff0000; text-decoration:underline; font-size:16px; line-height:20px}
+#centerlink span a { color:#999999; text-decoration:none; line-height:18px;}
+#centerlink span a:hover { color:#ff0000; text-decoration:underline; line-height:18px}
+#centerlink span { color:#03922B; line-height:18px; padding-left:5px; font-size:13px}
+#more  a { color:#0768B7; text-decoration:underline; line-height:18px; font-size:13px}
+#more  a:hover { color:#ff0000; text-decoration:underline; line-height:18px; font-size:13px}
+#more  { color:#000000; line-height:18px; padding-left:5px; font-size:13px}
+/*就医指南页样式*/
+#biaoti4{font-size:16px; font-weight:bold;}
+#biaoti4 span{font-size:16px; font-weight:bold; color:#FF0000}
+.luxianbiaoti{color:#666666; font-weight:bold}
+.luxianneirong td{padding:20px 10px 20px 10px}
+.luxianneirong222 td{padding:10px 10px 10px 10px;}    /* wl 临时使用在前台页面：clinic_HospLine.asp 医院路线页； */
+/*就医指南地区页样式*/
+#rightlink2 {color:#000000;border-top:1px solid #E4E4E4; line-height:20px}
+#rightlink2 ul {list-style:none; margin:0; padding:0; padding-left:3px; padding-bottom:10px}
+#rightlink2 li {background:url(img4.gif) left top no-repeat; padding-left:10px}
+#rightlink2 a { color:#000000; text-decoration:none; line-height:20px}
+#rightlink2 a:hover { color:#ff0000; text-decoration:underline; line-height:20px}
+#rightlink2 span a { color:#999999; text-decoration:underline; line-height:20px}
+#rightlink2 span a:hover { color:#ff0000; text-decoration:underline; line-height:20px}
+#rightlink2 span { color:#999999; line-height:20px; padding-left:5px}
+#neirong2 a{color:#000000; text-decoration:none; line-height:20px; font-weight:normal}
+#neirong2 a:hover{color:#ff0000; text-decoration:underline; line-height:20px; font-weight:normal}
+#neirong2 {color:#999999}
+#neirong2 span{font-weight:bold}
+/*就医出诊时间列表界面*/
+#wenben {line-height:18px; padding-left:10px; padding-right:10px}
+#wenben a{font-weight:bold; color:#666666}
+#wenben a:hover{font-weight:bold; color:#FF0000}
+#keshiliebiao a{color:#666666; line-height:20px}
+#keshiliebiao a:hover{color:#FF0000;line-height:20px}
+.doctor_list td{padding:5px 5px 5px 5px}
+#doctor_list a{ color:#FF3333; font-weight:bold; text-decoration:underline}
+#doctor_list a:hover{ color:#FF0000; font-weight:bold; text-decoration:none}
+#doctor_list { color:#666666}
+/*医生个人信息页面*/
+#wenben2 span {line-height:18px; font-weight:bold}
+#wenben2 {line-height:18px; padding-left:10px}
+/*区域医院查询*/
+#quyucx a{color:#000000; text-decoration:none; margin-right:20px; line-height:20px}
+#quyucx a:hover{color:#000000; text-decoration:underline; margin-right:20px; line-height:20px}
+#quyuyy a{color:#000000; text-decoration:none; margin-right:40px; line-height:20px}
+#quyuyy a:hover{color:#000000; text-decoration:underline; margin-right:40px; line-height:20px}

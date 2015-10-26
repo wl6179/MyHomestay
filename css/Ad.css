@@ -1,0 +1,61 @@
+/*-----------------------------------------------------------
+CSS:  CSS File Design For www.MyHomestay.com.cn's Index Advertisement
+Author:WL wangliang6179@163.com
+-------------------------------------------------------------*/
+div#adBox{
+  width:202px;
+  height:276px;   /*整个广告框D75372的高度298BD6 WL eeeeee*/
+  border:8px #eeeeee solid;
+  overflow:hidden;
+  }
+div#adBox .imgBox{
+border-left:2px #E48B9F solid;
+  height:220px;
+  width:201px;
+  overflow:hidden;
+  background:#ffffff;
+  padding:0px 0px 0px 0px;}
+   /*去掉有链接的 大广告图片的周围边框！ WL Begin*/
+div#adBox .imgBox IMG{
+  border:0px;
+  }  
+   /*去掉有链接的 大广告图片的周围边框！ WL End*/
+   
+div#adBox #control{
+  width:193px;
+  height:18px;   /*图像显示控制框的高度 WL*/
+  background:#ffffff;
+  overflow:hidden;
+  border-top:1px #C8C8C8 solid;}
+div#adBox #control div{
+  width:22px;
+  height:12px;
+  font-size:10px;
+  
+  font-family:Arial, Helvetica, sans-serif;
+  line-height:13px;
+  text-indent:1px;
+  color:#eeeeee;
+  text-align:center;
+  float:right;
+  margin-left:1px;
+  margin-right:3px;
+  cursor:pointer;
+  background:#666666;}
+div#adBox #info{
+  /*font-weight:bold;*/
+  text-align:center;
+  margin-left:3px; 
+  height:30px;
+  overflow:hidden;
+  background:#ffffff;
+  /*border-top:1px #666666 solid;*/
+  font-size:13px;
+  color:#333333;
+  line-height:30px;}
+div#adBox #info a{
+  color:#333333;
+  text-decoration:none;}
+div#adBox #info a:hover{
+  color:#003366;
+  text-decoration:underline;}

@@ -1,0 +1,66 @@
+<script type="text/javascript">
+	var obj=document.getElementById;
+	var currentAd=0;
+	var adTimer;
+	var baseurl="images/";//WL已修改； 广告图片的根目录 ***WL
+	var maxinfo=18;//信息栏可显示的最长字数
+	var adDelay=3000;//广告切换时间
+	var controlItemId="controlMyHomestayAd";//根据自己的页面为跟踪条取ID前缀
+	var mapcolor="#0EBBE0";//Ad跟踪条颜色，建议与信息栏的a:hover一样
+	var imglink=new Array();
+	imglink[0]=new Array("sarah.jpg","http://www.myhomestay.com.cn/new_SiteModel/content.html","第一期homestay活动火热报名中","")
+	imglink[1]=new Array("02.jpg","http://www.myhomestay.com.cn/new_SiteModel/content.html","《海贼王》第2部明日在江汉影城上映","")
+	imglink[2]=new Array("03.jpg","http://www.myhomestay.com.cn/new_SiteModel/content.html","NARUTO，我最钟爱的角色投票","")
+	imglink[3]=new Array("homestay.jpg","http://www.myhomestay.com.cn/new_SiteModel/content.html","《狮子王2》制片方宣称进入最后剪辑合成阶段","")
+	imglink[4]=new Array("05.jpg","http://www.myhomestay.com.cn/new_SiteModel/content.html","荷兰动物学家也在中国北京入住啦","")
+	imglink[5]=new Array("06.jpg","http://www.myhomestay.com.cn/new_SiteModel/content.html","日本动漫高手12日赴武汉进行学术交流","")
+	for(i=0;i<imglink.length;i++){
+		if(imglink[i][2].length<maxinfo)imglink[i][3]=imglink[i][2];
+		else imglink[i][3]=imglink[i][2].substring(0,maxinfo-3)+"...";}
+</script>							
+<div id="adBox">
+
+	<div class="imgBox">
+		<a href="http://www.myhomestay.com.cn" ID="Href_ID" target="_blank">
+		<img src="images/homestay.gif" style="filter: progid:DXImageTransform.Microsoft.GradientWipe(GradientSize=0.25,wipestyle=1,motion=forward);" id="show" alt="" />
+		</a>
+	</div>
+	
+	<div id="control"></div>
+	
+	<div id="info"></div>
+	
+</div>
+<script type="text/javascript">
+	for(i=0;i<imglink.length;i++){
+	var itemBox=document.createElement();
+	  itemBox.innerHTML="<div id='"+controlItemId+i+"'>"+"0"+(i+1)+"</div>";
+													//王亮：图片控制栏按钮区域的修改；
+	  control.appendChild(itemBox);}
+	var controlItem=obj("control").getElementsByTagName("div");
+	function changeImg(){
+	   obj("show").filters[0].apply();
+	   obj("show").src=baseurl+imglink[currentAd][0];
+	   obj("show").filters[0].play();
+		   //王亮：Begin 让图像也改变成设定的链接！
+		   //
+		   obj("Href_ID").href=imglink[currentAd][1];
+		   //
+		   //王亮：End 让图像也拥有链接！
+	   obj("info").innerHTML="<a href='"+imglink[currentAd][1]+"' title='"+imglink[currentAd][2]+"' TARGET='_BLANK'>"+imglink[currentAd][3]+"</a>";
+																			//王亮：上边这行js加入TARGET='_BLANK'>让其新打开窗口；
+	   for(i=0;i<controlItem.length;i++){
+		  controlItem[i].style.backgroundColor=(i==currentAd)?mapcolor:"#D75372";}//设置控制跟踪按钮的背景色；
+	   currentAd++;
+	   currentAd=(currentAd==imglink.length)?0:currentAd;
+	   adTimer=setTimeout("changeImg()",adDelay);}
+	   changeImg();
+	for(i=0;i<controlItem.length;i++){
+	   controlItem[i].onclick=function(){
+		  clearTimeout(adTimer);
+		  currentAd=parseInt(this.id.substring(this.id.length-1,this.id.length));
+		  changeImg();};
+	   }
+	obj("info").onmouseover=function(){clearTimeout(adTimer)};
+	obj("info").onmouseout=function(){adTimer=setTimeout("changeImg()",adDelay)};
+</script>

@@ -1,0 +1,59 @@
+<img style="filter : progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/rdl_ice.gif', sizingMethod='image');" alt="我的住家 你我的新家" src="images/homestay.gif" />
+
+<IMG style="filter : progid:DXImageTransform.Microsoft.DropShadow(color=#FF404040,offX=3,offY=3,positives=true);" src="http://localhost:6179/images/IMG0302A.jpg" border=0></P>
+<P>欢迎光临 <STRONG>我的住家网 MyHomestay</STRONG></P>
+
+
+
+
+
+
+
+<html xmlns:rdl>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>Rainer's Handbook</title>
+<style>
+body{margin:0px;padding:16px;background:#FFFFFF;overflow:auto;}
+body,table,input,select,textarea,a{font-family:verdana,tahoma,arial;font-size:11px;color:#000000;word-break:break-all;}
+table,img{border:0px;}
+a{text-decoration:none;color:#003399;}
+a:hover{color:#000000;text-decoration:underline;}
+#id_div3{padding-top:8px;border-top:1px solid #000000;line-height:15px;}
+#id_span3{font-size:10px;font-family:tahoma;}
+</style>
+<style>
+#idParentDiv{width:100%;height:100px;padding:6px;background-color:buttonshadow;position:relative;background-image:url(images/homestay-s.gif);}
+#idDiv{width:80%;height:80px;padding:6px;position:absolute;z-index:3;left:9px;top:9px;filter:progid:DXImageTransform.Microsoft.MaskFilter();}
+#idCodeDiv{width:100%;padding:4px;font-family:verdana,tahoma;margin:12px 0px 0px 0px;background-color:#EEEEEE;font-weight:bold;}
+</style>
+
+<script>
+var sFilter="filter : progid:DXImageTransform.Microsoft.MaskFilter(Color=code) ;";
+var sCodeEnd="startX=0, startY=0, finishX=100, finishY=100,";
+function rdl_change(e){
+var oCodeDiv=document.all("idCodeDiv");
+var oDiv=document.all("idDiv");
+with (document.all("idSel")) var sValue=options[selectedIndex].value;
+with (oDiv.filters[0]) Color=sValue;
+oCodeDiv.innerText=sFilter.replace(/code/g,sValue);
+}
+</script>
+
+</head>
+<body>
+<div id=idParentDiv>
+<style>
+DIV.aFilter {
+	filter:mask(color=#008800); width: 100; height:100px;
+}
+</style>
+
+
+
+<div id=idDiv><img src="images/homestayCooperateSign2.gif" style="float:left;">请从下方选择滤镜参数的值。</div>
+
+
+
+</div>
+<br>

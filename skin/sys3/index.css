@@ -1,0 +1,75 @@
+/* Name: 清凉一夏 */
+/* File: index.css */
+/* Date: 2005-7-18 */
+/* Powered: 17ex.com
+/* QQ:77617427 QQuan:9090669 Email:ExNet0595@yahoo.com.cn */
+<!--
+td { font-family: verdana, Tahoma; font-size: 12px; }
+td.TableTitle1 { background-color: #009ace; Color: #FFFFFF; }
+td.TableBody1 { background-color: #F1F9FE; line-height: normal; }
+.tableBorder5 { border: 1px #009ace solid; background-color: #F3F5F6; }
+.titletable { border: solid 1px #009933;background-color: #ffffff;padding: 2px 2px 2px 2px; }
+.tdtitle { border-top: 2px solid green;font-weight: bold;background-color: #F4FCF3; }
+.tdmaintitle1 { border-top: 1px solid #CBF1C7;border-bottom: 1px solid #CBF1C7;border-left: 1px solid #CBF1C7;border-right: 1px solid #CBF1C7;font-weight: bold;background-color: #F4FCF3; }
+.tdmaintitle2 { border-top: 1px solid #CBF1C7;font-weight: bold;background-color: #fffffd; }
+.show_class { padding: 5px 5px 5px 25px; margin: 2px; line-height: 14pt;}
+.show_cityblogger { padding: 5px 5px 5px 30px; }
+.show_friends { padding: 5px 5px 5px 20px; }
+.placard{ height:120px; overflow:auto; }
+.menu a { color: #ffffff; }
+.menu A:hover { COLOR: #fffffd; TEXT-DECORATION: underline; }
+.list{ margin:2px 10px 2px 30px; color:#666666; margin-top:auto!important; margin-top:15px; }
+.list li{ display:block;margin-top:auto!important;margin-top : -15px; margin-bottom : 17px; }
+.list a{ color:#333333; text-decoration:none; }
+.list a:hover{color:#000000;text-decoration:underline;}
+SELECT {BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #f4f4f4}
+input {BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; HEIGHT: 20px; BACKGROUND-COLOR: #f4f4f4; BORDER-RIGHT-WIDTH: 1px}
+textarea {BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #f4f4f4}
+A { TEXT-DECORATION: none; Color: #333333 }
+A:hover { TEXT-DECORATION: underline;Color: #000000 } 
+body {margin-top:0 ;margin-bottom:0; MARGINHEIGHT:0; MARGINWIDTH:0;font-family: verdana, Tahoma; font-size: 12px;  }
+.other { color: #999999; }
+.other a { color: #999999; text-decoration: none; }
+.other a:hover { color: #c61c18; text-decoration: underline; }
+.side {
+	border-right: #cccccc 1px solid;
+	border-top: #cccccc 1px solid;
+	border-left: #cccccc 1px solid;
+	border-bottom: #cccccc 1px solid;
+	padding: 12px;
+	background-color: #fafafb;
+}
+#bot {
+ margin-top: 0px;
+ margin-bottom: 2px;
+ background-color: #ffffff;
+ border-top: 1px solid #009933;
+ border-right: 0px solid #ffffff;
+ border-bottom: 0px solid #ffffff;
+ border-left: 0px solid #ffffff;
+ clear: both;
+ color: #666666;
+ line-height: 150%;
+ font-family: verdana, Tahoma, sans-serif,宋体;
+ font-size: 12px;
+ text-align: center;
+}
+#bot p {
+ margin: 0px;
+ padding: 0px;
+ font-size: 12px;
+ font-family: Tahoma, sans-serif,宋体;
+}
+#loader {
+FILTER: Alpha(opacity=75);
+DISPLAY: none; Z-INDEX: 2; LEFT: 0px; POSITION: absolute; TOP: 0px
+font-family: Tahoma, Verdana, "宋体";
+font-size: 12px; 
+background-color: #f3f3f3;
+BORDER-RIGHT: #DDE0E5 3px solid;
+BORDER-BOTTOM: #DDE0E5 3px solid;
+BORDER-LEFT: #DDE0E5 3px solid;
+border-top: #DDE0E5 3px solid;
+}
+.foot { background-color: #009933; width=760px; height=1px;} 
+-->

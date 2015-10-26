@@ -1,0 +1,39 @@
+html{ margin:0; padding:0}
+body {
+scrollbar-face-color: #eeeaeb; 
+scrollbar-highlight-color: #fbfdfc;
+scrollbar-shadow-color: #666;
+scrollbar-arrow-color: #000000;
+scrollbar-darkshadow-color: #D4D0C8;
+scrollbar-base-color: #666;
+}
+body {
+	background-color: #7da8a8;
+	background-image: url("OblogStyleAdminImages/left-menu.png");
+	background-position: right top;
+	margin:0;
+	padding:0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:left}
+#sub{ margin:8px 0; color:#fff;padding:0; text-align:center}
+a{ color:#fff; text-decoration:none}
+a:hover{ color:#D2E1E1}
+a img {
+border:0px solid #000;
+}
+li{ text-align:left;}
+ul,li{ margin:0; padding:0;width:100%;}
+* html li a{padding:4px 0 2px 11px;display:block; line-height:200%; color:#023C3C}
+li a{padding:0 0 1px 11px;display:block; line-height:190%; color:#023C3C}
+li a:hover {
+color:#036B6B;
+}
+* html .menu-t1 { background: url("OblogStyleAdminImages/left-menu-style.png") no-repeat; color:#fff;text-align:left;padding:5px 0 5px 30px;CURSOR: hand;}
+.menu-t1 { background: url("OblogStyleAdminImages/left-menu-style.png") no-repeat; color:#fff;text-align:left;padding:1px 0 4px 30px;CURSOR: hand;}
+li.menu-t1 a:hover{ color:#ccc; text-decoration:none}
+#toplogo {width:140px;height:41px;}
+/* ×ó²àLOGO
+-----------------------------------------------------------
+#toplogo {width:140px;height:41px;background: url("OblogStyleAdminImages/left-top.png") no-repeat right top;}
+*/

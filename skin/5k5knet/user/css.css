@@ -1,0 +1,168 @@
+* {margin: 0;padding: 0;border: 0;}
+body {
+	background: #FFEFDE url(bg.gif) repeat-y center;color: #C68618;margin: 0 auto;padding: 0;
+	border: 0;
+	text-align: center;
+	font-family: 'Century Gothic', Arial, Helvetica, sans-serif;;
+	font-size: 12px;
+	line-height: 150%;
+}
+
+a:hover {color: #FF8A00;}
+a {color: #C68618;text-decoration: none;}
+#head {margin:0px auto;height: 120px;background: url(headtop.jpg) no-repeat top center;margin:0px;}
+#headnav {padding: 0;width: 762px;margin: 0 auto;text-align: left;}
+#sub{position:relative ;margin:-8px 0px 0px 0px;height:35px;position:relative;z-index:2;background:url("navbg.png") no-repeat left top;}
+
+#sub ul, #sub li { float:left;margin:0;display:block;}
+#sub li a {height:10px;margin:0;padding:0 5px;color: #C68618;border:3px double #C68618;background: url(bg.gif);}
+#sub li a:hover{color:#FF8A00;text-decoration:underline;}
+/*
+#sub ul, #sub li { float:left;margin:0;display:block;}
+#sub li {padding:0px 0px 3px 3px;display:block;background:url("navleft.gif") no-repeat left top;}
+#sub li a{margin:0; padding:3px 3px 3px 3px;color: #C68618;display:block;background:url("navright.gif") no-repeat right top;}
+#sub li a:hover{color:#FF8A00;text-decoration:underline;}
+*/
+
+
+* html #container {padding:0px;width:762px;margin:0 auto;text-align:left;}
+#container {padding: 10px;width: 762px;margin: 0 auto;text-align: left;}
+
+.lefttop {height:28px;background:url("lefttop.gif");}
+* html .lefttop {height:28px;background:url("lefttop.gif");}
+.leftend {margin: 0px 0px 0px 0px;height:15px;}
+.left {float: left;width: 200px;margin: 0px 0px 0px 4px;color: #C68618;background:url("leftbg.gif") }
+.left a{color:#C68618;}
+.left a:hover {color:#FF8A00;}
+
+h1 {width: 140px;font-size:12px;font-weight:bold;border-bottom: 2px #FFCF8C dotted;text-align:center;}
+
+H4 {
+	font-size: 12px;
+	color: #A3A3A3;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+H2 {
+	font-size: 18px;
+	color: #C47C00;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+H3 {
+	font-size: 12px;
+	color: #C68618;
+}
+
+.postoptions {
+	text-align: center;
+	border-top: 1px solid #FFDBAD;
+	border-bottom: 2px solid #FFDBAD;
+	margin-top: 15px;
+	font-size: 12px;
+	color: #FFDBAD;
+	margin-bottom: 20px;
+	padding: 5px 0px 5px;
+	font-weight: bold;
+}
+.postoptions a {color: #C68618;padding: 0px 4px;}
+.postoptions a:hover {color: #FF8A00;}
+.postoptions a:active {color: FF8A00;}
+
+#right {
+	float: right;
+	overflow: hidden;
+	width: 530px;
+	margin: 0px 4px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+* html #right {
+	float: right;
+	width:530px;
+	margin: 0px 4px 0px 0px;
+	padding: 0px 0px 0px;
+}
+
+#placard {margin: 10px 10px 10px 10px;padding: 10px 5px;line-height:150%;color: #C68618;font-size: 12px;font-weight: normal;background: #FFFBF7 url(placard.GIF) no-repeat top right;border: 1px solid #C68618;}
+#placard:first-letter{margin: 0pt 5pt 0pt 0pt;padding: 3px; font: 35px bold; float: left; border : 1px dotted buttonface;}
+#placard a{color: #C68618;}
+#placard a:hover {color: #FF8A00;}
+
+*html #footer {margin:0px auto;clear: both;padding:10px 0px 0px 0px;height: 30px;background: url(footer.gif) no-repeat bottom center;}
+#footer {margin:0px auto;clear: both;padding:10px 0px 0px 0px;height:30px;background: url(footer.gif) no-repeat bottom center;}
+/* 日历 */
+
+table {font-size: 12px;color: #C68618;}
+table p{font-size: 12px;color:#FCD7B2;}
+
+#calendar{
+    width:200px;    /* 日历的宽度为180px */
+    margin-left:0px;    /* 左边距5px */
+	font-size: 10px;
+}
+#calendar caption {    /*定义日历顶部月份*/
+    line-height:20px;    /* 行高为 20px */
+    font-weight:bold;    /* 粗体 */
+    font-family:'Century Gothic', Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#calendar caption a {background-color: #fff;color: #f00;}
+#calendar caption a:hover {background-color: #ff0000;color: #fff;}
+th{ font-size: 12px;color: #C68618;}
+#calendar table { border-collapse: collapse;} 
+#calendar td{font-size: 10px;} /* 日历单元格样式 */ 
+#calendar a{background-color: #FCD7B2;width:16px;height:10px;} /* 有文章的号数样式(链接样式） */
+#calendar a:hover{background-color: #ff0000;color: #fff;} /* 鼠标经过日历有链接的号数的样式 */
+
+
+/* 表单样式 */
+textarea {
+	background-color: #FFF3DE;
+	border: 1px solid #333;
+	color: #FFF;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+}
+input {
+	background-color: #FFF3DE;
+	border: 1px #A05D00 solid;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+	line-height: 15px;
+	color: #C68618;
+}
+
+input.text {
+	background-color: #FFF3DE;
+	border: 1px solid #A05D00;
+	color: #CCC;
+	height: 20px;
+	padding: 1px;
+	color: #C68618;
+}
+
+select {
+	background-color: #FFF3DE;
+	border: 1px solid #A05D00;
+	color: #000;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+	color: #C68618;
+}
+#calendar
+{ width:100%; }
+#calendar caption 
+{  
+font:11px 'Century Gothic', Arial, Helvetica, sans-serif;  
+}
+#calendar table 
+{ border-collapse: collapse; 
+} 
+#calendar th{  
+font: normal 12px;  
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;   
+}

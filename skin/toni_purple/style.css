@@ -1,0 +1,80 @@
+/* modified by blogskin.cn some rights reserved */
+A:link {
+	COLOR: #996699; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #996699; TEXT-DECORATION: none
+}
+A:hover {
+	BACKGROUND: #996699; COLOR: #ffffff; TEXT-DECORATION: none
+}
+BODY {
+	BACKGROUND: url(bg_purple.gif) #f5f5f5 repeat-x; MARGIN: 0px; FONT: 11px/17px Verdana, Arial, sans-serif; COLOR: #131313; TEXT-ALIGN: left
+}
+H2 {
+	BORDER-RIGHT: #e2c6e3 1px solid; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; MARGIN: 0px 10px 10px 0px; FONT: 18px Georgia, "Times New Roman", Times, serif; PADDING-TOP: 5px
+}
+H3 {
+	FONT-WEIGHT: normal; PADDING-BOTTOM: 2px; MARGIN: 10px 0px 0px; FONT-FAMILY: Georgia, "Times New Roman", Times, serif
+}
+INPUT {
+	BORDER-RIGHT: #996699 1px solid; BORDER-TOP: #996699 1px solid; FONT-SIZE: 11px; BACKGROUND: #e2c6e3; BORDER-LEFT: #996699 1px solid; BORDER-BOTTOM: #996699 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: #996699 1px solid; BORDER-TOP: #996699 1px solid; FONT-SIZE: 11px; BACKGROUND: #e2c6e3; BORDER-LEFT: #996699 1px solid; BORDER-BOTTOM: #996699 1px solid
+}
+P.credit {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 10px; TEXT-ALIGN: left;border-top:1px ##e2c6e3 solid;
+}
+.feedback {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 30px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #e2c6e3 1px solid; TEXT-ALIGN: right
+}
+.meta{
+	DISPLAY: inline; BORDER-BOTTOM: #e2c6e3 1px solid;
+}
+.storytitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 16px Georgia, "Times New Roman", Times, serif; PADDING-TOP: 0px
+}
+.storycontent{
+    padding-top:10px;padding-bottom:10px;
+}
+#content {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: #ffffff; FLOAT: left; PADDING-BOTTOM: 20px; MARGIN: 0px; WIDTH: 540px; PADDING-TOP: 20px;overflow: hidden;
+}
+#header {
+	PADDING-LEFT: 20px; BACKGROUND: #996699; PADDING-BOTTOM: 10px; MARGIN: 53px 0px 0px; FONT: 22px Georgia, "Times New Roman", Times, serif; PADDING-TOP: 10px;
+ text-align:left;
+ color:#fff;
+ width:100%;
+}
+#header A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#menu {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: #e2c6e3; PADDING-BOTTOM: 10px; WIDTH: 180px; PADDING-TOP: 10px; TEXT-ALIGN: left;float:left
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#menu p {
+	PADDING-RIGHT: 0px; BORDER-bottom: #ffffff 1px solid; PADDING-LEFT: 0px;  MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none;margin-bottom:4px;
+}
+#rap {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#calendar{ 
+width:100%; 
+}
+#calendar caption {  
+font:11px 'Century Gothic', Arial, Helvetica, sans-serif;  
+}
+#calendar table {
+border-collapse: collapse;
+} 
+#calendar th{
+font: normal 12px;  
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;
+}

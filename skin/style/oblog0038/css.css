@@ -1,0 +1,110 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #8F9285;
+	background-image: url(index_26.jpg);
+	background-repeat: repeat-y;
+	font-size: 12px;
+	line-height: 1.6em;
+	text-decoration: none;
+}
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.oblog {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 18px;
+	line-height: 180%;
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	color: #f60;
+	text-decoration: none;
+}
+.a1:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.a1:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.a1:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #CC0000;
+	text-decoration: none;
+}
+.b1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.b2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.b3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+li {
+list-style-type:circle;COLOR: #333;
+}
+#main_left div ,#main_left ul,#main_left from{
+margin:0;
+}
+.left_menu_content ul{
+margin:0 0 0 10px;
+padding:0 0 0 10px;
+}
+.login_content {
+border: 1px #ccc solid;
+}
+hr {
+filter:alpha(opacity=100,finishopacity=0,style=3);
+}

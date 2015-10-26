@@ -1,0 +1,12 @@
+# robots.txt for http://www.myhomestay.com.cn
+
+User-agent: *		# This is allow all the robots for search;
+Disallow: 		# There is No Limit;
+			# Disallow: /	Disallow all the files!
+			# Example:
+			# Disallow: /cyberworld/map/ 	# This is an infinite virtual URL space
+			# Disallow: /mss/ 	# these will soon disappear
+			# Disallow: /secret.html
+			# Disallow: /~joe/
+
+

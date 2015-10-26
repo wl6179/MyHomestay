@@ -1,0 +1,44 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #ffffff; SCROLLBAR-HIGHLIGHT-COLOR: #cccccc; SCROLLBAR-SHADOW-COLOR: #cccccc; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #cccccc; SCROLLBAR-TRACK-COLOR: #ffffff; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+
+TD {
+	FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 15px; FONT-FAMILY: 宋体, Dotum, Arial,Helvetica; TEXT-DECORATION: none
+}
+
+a1.link {
+	FONT-SIZE: 12px; COLOR: #05a95d; FONT-FAMILY:宋体, Dotum, Arial,Helvetica; TEXT-DECORATION: none
+}
+
+
+
+A:link {
+	FONT-SIZE: 12px; COLOR: #038ad7; FONT-FAMILY: 宋体, Dotum, Arial,Helveticaa; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #038ad7; FONT-FAMILY:宋体, Dotum, Arial,Helvetica; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #038ad7; FONT-FAMILY: 宋体, Dotum, Arial,Helvetica; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #00a5dd; FONT-FAMILY:宋体, Dotum, Arial,Helvetica; TEXT-DECORATION: none
+}
+SELECT {
+	BORDER-RIGHT: #c1c1c1 1px solid; BORDER-TOP: #c1c1c1 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #c1c1c1 1px solid; COLOR: #333333; BORDER-BOTTOM: #c1c1c1 1px solid
+}
+.input {
+	BORDER-RIGHT: #c1c1c1 1px solid; BORDER-TOP: #c1c1c1 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #c1c1c1 1px solid; COLOR: #333333; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-FAMILY: 宋体, Dotum, Arial,Helvetica
+}
+.int1 {
+	FONT-SIZE: 12px; WORD-SPACING: normal; COLOR: #333333; LINE-HEIGHT: 20px; FONT-FAMILY: 宋体, Dotum, Arial,Helvetica; LETTER-SPACING: 0.2em; TEXT-DECORATION: none
+}
+
+.Eng_int1 {
+	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; WORD-SPACING: normal;COLOR: #333333;LINE-HEIGHT: 20px;TEXT-DECORATION: none
+}
+
+/*WL */
+H3 {
+	font-size: 14px;
+}

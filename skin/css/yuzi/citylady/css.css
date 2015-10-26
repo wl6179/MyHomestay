@@ -1,0 +1,285 @@
+BODY {
+ BACKGROUND: url(citylady.gif) #faa4a0 no-repeat center top; MARGIN: 0px; WIDTH: 100%; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 100%; TEXT-ALIGN: center;FONT-SIZE: 12px;
+}
+#username {
+ BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 200px; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffe6e6
+}
+#saveurl{
+FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: ËÎÌו,verdana,Arial, Helvetica, sans-serif;text-align:right
+}
+#homepage {
+ BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 200px; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffe6e6
+}
+#password {
+ BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 200px; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffe6e6
+}
+#commenttopic {
+ BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 200px; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #ffe6e6
+}
+
+div.quote{
+ margin:5px 20px;border:1px dotted #EF7190;padding:5px;background-color:#faa4a0
+}
+#oblog_edit
+{
+ 
+ border:1px solid #CCCCCC;
+ margin:0px!important;
+ text-align: left;
+ width: 360px!important;
+        
+}
+#oblog_edit li{
+display: inline;
+padding: 0;
+text-align:center;
+}
+#oblog_edit ul{
+ margin: 1px!important;
+ text-align: left;
+ width: 100%;
+ padding:0;
+}
+#oblog_edit iframe.oblog_Composition
+{
+ border: 1px dotted #EF7190;
+         BACKGROUND-COLOR: #ffe6e6;
+}
+
+#calendar caption {
+MARGIN: 0px 0px 10px; WIDTH: 100%
+}
+#calendar caption {    
+PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px;COLOR: #ffffff; PADDING-TOP: 4px;BACKGROUND-COLOR: #ef7190; TEXT-ALIGN: center
+}
+#calendar th{    
+ COLOR: #ffffff; padding-bottom:2px;background-color:#f7b6c8
+}
+#calendar td{
+COLOR: #ff3399
+}
+#calendar table { 
+   border-collapse: collapse; 
+}
+#calendar td a {
+ COLOR: #ffffff; TEXT-DECORATION: underline;BACKGROUND-COLOR: #ff3399; TEXT-ALIGN: center;padding-top:2px;padding-left:2px;padding-bottom:2px;padding-right:2px
+}
+#calendar td a:link {
+ COLOR: #ffffff; TEXT-DECORATION: underline
+}
+#calendar td a:visited {
+ TEXT-DECORATION: underline
+}
+#calendar td a:hover {
+ COLOR: #ffcccc; TEXT-DECORATION: none
+}
+
+#calendar{ 
+width:100%; 
+}
+#calendar caption {  
+font:11px 'Century Gothic', Arial, Helvetica, sans-serif;  
+}
+#calendar table { 
+border-collapse: collapse; 
+} 
+#calendar th{  
+font: normal 12px;  
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;   
+}
+
+A {
+ COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A:link {
+ COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A:visited {
+ COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A:active {
+ COLOR: #ffffff
+}
+A:hover {
+ COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.acalendar {
+ COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.acalendar:link {
+ COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.acalendar:visited {
+ TEXT-DECORATION: underline
+}
+A.acalendar:active {
+ 
+}
+A.acalendar:hover {
+ COLOR: #ffcccc; TEXT-DECORATION: none
+}
+A.amenu {
+ COLOR: #ffe6e6; TEXT-DECORATION: underline
+}
+A.amenu:link {
+ COLOR: #ffe6e6; TEXT-DECORATION: underline
+}
+A.amenu:visited {
+ TEXT-DECORATION: underline
+}
+A.amenu:active {
+ 
+}
+A.amenu:hover {
+ COLOR: #bababa; TEXT-DECORATION: none
+}
+#container {
+ MARGIN: 0px auto; WIDTH: 740px; TEXT-ALIGN: left
+}
+#banner {
+ WIDTH: 740px; HEIGHT: 160px
+}
+#subbanner {
+ 
+}
+#banner A {
+ COLOR: #ffffff; TEXT-DECORATION: none
+}
+#banner A:link {
+ COLOR: #ffffff; TEXT-DECORATION: none
+}
+#banner A:visited {
+ TEXT-DECORATION: none
+}
+#banner A:active {
+ 
+}
+#banner A:hover {
+ COLOR: #f7b6c8; TEXT-DECORATION: underline
+}
+#subbanner A {
+ COLOR: #cccccc; TEXT-DECORATION: none
+}
+#subbanner A:link {
+ COLOR: #cccccc; TEXT-DECORATION: none
+}
+#subbanner A:visited {
+ TEXT-DECORATION: none
+}
+#subbanner A:active {
+ 
+}
+#subbanner A:hover {
+ COLOR: #cccccc; TEXT-DECORATION: underline
+}
+H1 {
+ PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+ PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H3 {
+ PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #ffffff;
+}
+.description {
+ PADDING-RIGHT: 0px; PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; COLOR: #f7b6c8; PADDING-TOP: 0px; LETTER-SPACING: 2px; TEXT-ALIGN: left
+}
+#content {
+ PADDING-LEFT: 10px; FLOAT: left; WIDTH: 500px; PADDING-TOP: 10px
+}
+.blog {
+ MARGIN: 0px
+}
+.blogbody {
+ BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 10px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 5px; MARGIN-LEFT: 5px; BORDER-LEFT: #fff 1px solid; WIDTH: 480px; PADDING-TOP: 10px; BORDER-BOTTOM: #fff 1px solid;overflow: hidden;
+}
+.title {
+ PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #ffffff; PADDING-TOP: 5px; HEIGHT: 20px
+}
+
+.main {
+ FONT-SIZE: 12px; MARGIN: 15px 0px; COLOR: #ffe6e6; LINE-HEIGHT: 200%; LETTER-SPACING: 1px
+}
+.posted {
+ FONT-SIZE: 11px; MARGIN: 0px 0px 5px; COLOR: #ff3333; TEXT-ALIGN: right
+}
+A.aposted {
+ FONT-WEIGHT: bold; COLOR: #ff6666; TEXT-DECORATION: underline
+}
+A.aposted:link {
+ FONT-WEIGHT: bold; COLOR: #ff6666; TEXT-DECORATION: underline
+}
+A.aposted:visited {
+ FONT-WEIGHT: bold; COLOR: #f9ced1; TEXT-DECORATION: underline
+}
+A.aposted:active {
+ FONT-WEIGHT: bold
+}
+A.aposted:hover {
+ FONT-WEIGHT: bold; COLOR: #993300; TEXT-DECORATION: none
+}
+TABLE.form {
+ MARGIN: 25px 0px 0px 13px
+}
+
+#text {
+ BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 400px; BORDER-BOTTOM: #ffffff 1px solid; HEIGHT: 200px; BACKGROUND-COLOR: #ffe6e6
+}
+.pagetop {
+ FONT-SIZE: 12px; MARGIN: 5px 0px 25px; TEXT-ALIGN: left
+}
+#kk {
+ MARGIN-TOP: 330px; FLOAT: right; MARGIN-LEFT: 0px; WIDTH: 162px; MARGIN-RIGHT: 10px; TEXT-ALIGN: center
+}
+.sidetitle {
+ PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 12px; PADDING-BOTTOM: 4px; COLOR: #ffffff; PADDING-TOP: 4px; LETTER-SPACING: 4px; BACKGROUND-COLOR: #EF7190; FONT-WEIGHT: bold;TEXT-ALIGN: left
+}
+.side {
+ PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px;  PADDING-BOTTOM: 0px;  LINE-HEIGHT: 180%; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+A.aside {
+ COLOR: #ffcccc; TEXT-DECORATION: underline
+}
+A.aside:link {
+ COLOR: #ffcccc; TEXT-DECORATION: underline
+}
+A.aside:visited {
+ COLOR: #ffcccc; TEXT-DECORATION: underline
+}
+A.aside:hover {
+ COLOR: #ffffff; TEXT-DECORATION: none
+}
+IMG {
+ BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.message {
+ FONT-SIZE: 12px
+}
+.quotetable {
+ 
+}
+.quote {
+ PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; COLOR: #666666; PADDING-TOP: 1px
+}
+
+.checkers {
+ MARGIN-TOP: 10px; FONT-SIZE: 12px
+}
+A.#ob_logr5 {
+ FONT-WEIGHT: bold; COLOR: #ff6666; TEXT-DECORATION: underline
+}
+A.#ob_logr5:link {
+ FONT-WEIGHT: bold; COLOR: #ff6666; TEXT-DECORATION: underline
+}
+A.#ob_logr5:visited {
+ FONT-WEIGHT: bold; COLOR: #f9ced1; TEXT-DECORATION: underline
+}
+A.#ob_logr5:active {
+ FONT-WEIGHT: bold
+}
+A.#ob_logr5:hover {
+ FONT-WEIGHT: bold; COLOR: #993300; TEXT-DECORATION: none
+}

@@ -1,0 +1,115 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; SCROLLBAR-FACE-COLOR: #eeeeee; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 6px; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #dee3e7; SCROLLBAR-3DLIGHT-COLOR: #d1d7dc; SCROLLBAR-ARROW-COLOR: #000000; PADDING-TOP: 0px; SCROLLBAR-TRACK-COLOR: #ededed; FONT-FAMILY: Tahoma, Verdana, "宋体"; SCROLLBAR-DARKSHADOW-COLOR: #808080; BACKGROUND-COLOR: #ececec
+}
+INPUT {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-LEFT-COLOR: #c0c0c0; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #c0c0c0; PADDING-BOTTOM: 1px; COLOR: #000000; BORDER-TOP-COLOR: #c0c0c0; PADDING-TOP: 1px; FONT-FAMILY: Tahoma, Verdana, "宋体"; HEIGHT: 19px; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #c0c0c0
+}
+TEXTAREA {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-LEFT-COLOR: #c0c0c0; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #c0c0c0; COLOR: #000000; BORDER-TOP-COLOR: #c0c0c0; FONT-FAMILY: Tahoma, Verdana, "宋体"; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #c0c0c0
+}
+subject {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-LEFT-COLOR: #c0c0c0; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #c0c0c0; COLOR: #000000; BORDER-TOP-COLOR: #c0c0c0; FONT-FAMILY: Tahoma, Verdana, "宋体"; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #c0c0c0
+}
+SELECT {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Tahoma, Verdana, "宋体"; BACKGROUND-COLOR: #ffffff
+}
+TABLE {
+	FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Verdana, "宋体"
+}
+.wordbreak {
+	TABLE-LAYOUT: fixed; WORD-WRAP: break-word
+}
+A:link {
+	COLOR: #003366; FONT-FAMILY: Tahoma, Verdana, "宋体"; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #003366; FONT-FAMILY: Tahoma, Verdana, "宋体"; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff9900; FONT-FAMILY: Tahoma, Verdana, "宋体"; TEXT-DECORATION: none
+}
+.header {
+	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Tahoma, Verdana, "宋体"
+}
+.header A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.header A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.header A:hover {
+	COLOR: #fffa20; TEXT-DECORATION: none
+}
+.smalltxt {
+	FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Tahoma, Verdana, "宋体"
+}
+.code_main {
+	BORDER-RIGHT: #666666 1px dashed; PADDING-RIGHT: 4px; BORDER-TOP: #666666 1px dashed; PADDING-LEFT: 4px; FONT-SIZE: 11px; PADDING-BOTTOM: 4px; MARGIN: 2px; BORDER-LEFT: #666666 1px dashed; COLOR: #666666; PADDING-TOP: 4px; BORDER-BOTTOM: #666666 1px dashed; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #f8f8f8
+}
+.code_head {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN: 2px; FONT-FAMILY: Tahoma, Verdana, "宋体"
+}
+.calendar {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; COLOR: #666666; PADDING-TOP: 1px; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.calendar-week {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; COLOR: #666666; PADDING-TOP: 1px; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.calendar-today {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #cccccc 1px solid; COLOR: #666666; PADDING-TOP: 1px; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.calendar-thisday {
+	BORDER-RIGHT: #cccccc 1px dashed; PADDING-RIGHT: 1px; BORDER-TOP: #cccccc 1px dashed; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: #cccccc 1px dashed; COLOR: #666666; PADDING-TOP: 1px; BORDER-BOTTOM: #cccccc 1px dashed; FONT-FAMILY: Verdana; TEXT-ALIGN: center
+}
+.object_main {
+	BORDER-RIGHT: #f5f5f5 1px dashed; BORDER-TOP: #f5f5f5 1px dashed; PADDING-BOTTOM: 4px; BORDER-LEFT: #f5f5f5 1px dashed; BORDER-BOTTOM: #f5f5f5 1px dashed
+}
+.content_head {
+	BORDER-RIGHT: #cccccc 1px dashed; PADDING-RIGHT: 4px; BORDER-TOP: #cccccc 1px dashed; PADDING-LEFT: 4px; FONT-SIZE: 12px; PADDING-BOTTOM: 4px; BORDER-LEFT: #003366 1px dashed; WIDTH: 100%; PADDING-TOP: 4px; BORDER-BOTTOM: #cccccc 1px dashed; FONT-FAMILY: Tahoma, Verdana, "宋体"; BACKGROUND-COLOR: #f3f3f3
+}
+.content_main {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 12px; PADDING-BOTTOM: 4px; WIDTH: 100%; LINE-HEIGHT: 120%; PADDING-TOP: 4px; FONT-FAMILY: Tahoma, Verdana, "宋体"
+}
+.siderbar_head {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 4px; WIDTH: 100%; PADDING-TOP: 4px; BORDER-BOTTOM: #cccccc 1px dashed; FONT-FAMILY: Tahoma, Verdana, "宋体"
+}
+.siderbar_main {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 12px; PADDING-BOTTOM: 4px; WIDTH: 100%; LINE-HEIGHT: 120%; PADDING-TOP: 4px; FONT-FAMILY: Tahoma, Verdana, "宋体"
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Verdana, "宋体"
+}
+.message {
+	PADDING-RIGHT: 18px; PADDING-LEFT: 18px; FONT-SIZE: 12px; PADDING-BOTTOM: 18px; WIDTH: 95%; LINE-HEIGHT: 140%; PADDING-TOP: 18px; FONT-FAMILY: Tahoma, Verdana, "宋体"; POSITION: relative; TEXT-ALIGN: center
+}
+.hyperlink {
+	PADDING-LEFT: 6px; MARGIN: 4px 0px; BORDER-LEFT: #698cc3 4px solid; WIDTH: 142px
+}
+.msg_head {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(../images/msg_header.gif); PADDING-BOTTOM: 4px; WIDTH: 92%; COLOR: #ffffff; PADDING-TOP: 4px; TEXT-ALIGN: center
+}
+.msg_content {
+	BORDER-RIGHT: #0252ab 1px solid; PADDING-RIGHT: 24px; BORDER-TOP: #0252ab 1px solid; PADDING-LEFT: 24px; PADDING-BOTTOM: 24px; BORDER-LEFT: #0252ab 1px solid; WIDTH: 92%; PADDING-TOP: 24px; BORDER-BOTTOM: #0252ab 1px solid; TEXT-ALIGN: center
+}
+.msg_main {
+	BORDER-RIGHT: #0252ab 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #0252ab 1px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; BORDER-LEFT: #0252ab 1px solid; WIDTH: 92%; PADDING-TOP: 6px; BORDER-BOTTOM: #0252ab 1px solid; TEXT-ALIGN: center
+}
+.arrow {
+	FONT-FAMILY: webdings
+}
+#calendar{ 
+width:100%; 
+}
+#calendar caption {  
+font:11px 'Century Gothic', Arial, Helvetica, sans-serif;  
+}
+#calendar table { 
+border-collapse: collapse; 
+} 
+#calendar th{  
+font: normal 12px;  
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;   
+}

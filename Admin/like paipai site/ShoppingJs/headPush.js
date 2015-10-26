@@ -1,0 +1,15 @@
+document.write('<table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('<tr id="headPush0" style="display:none">');
+document.write('	<td width="80" height="60"><a href="http://www.myhomestay.com.cn/mall/sale/2008/06/huanbao/?ADTAG=388.19.15" target="_blank"><img src="ShoppingImages/index_80_60headImg.jpg" /></a></td>');
+document.write('	<td style="padding-left:10px"><a href="http://www.myhomestay.com.cn/mall/sale/2008/06/huanbao/?ADTAG=388.19.15" target="_blank" style="color:#fff">绿色环保总动员<br />共筑美好家园>></a></td>');
+document.write('</tr>');
+document.write('<tr id="headPush1" style="display:none">');
+document.write('	<td width="80" height="60"><a href="http://www.myhomestay.com.cn/mall/sale/2008/06/huanbao/?ADTAG=388.19.16" target="_blank"><img src="ShoppingImages/index_80_60headImg.jpg" /></a></td>');
+document.write('	<td style="padding-left:10px"><a href="http://www.myhomestay.com.cn/mall/sale/2008/06/huanbao/?ADTAG=388.19.16" target="_blank" style="color:#fff">绿色环保总动员<br />共筑美好家园>></td>');
+document.write('</tr>');
+document.write('<tr id="headPush2" style="display:none">');
+document.write('	<td width="80" height="60"><a href="http://www.myhomestay.com.cn/mall/sale/2008/06/huanbao/?ADTAG=388.19.17" target="_blank"><img src="ShoppingImages/index_80_60headImg.jpg" /></a></td>');
+document.write('	<td style="padding-left:10px"><a href="http://www.myhomestay.com.cn/mall/sale/2008/06/huanbao/?ADTAG=388.19.17" target="_blank" style="color:#fff">绿色环保总动员<br />共筑美好家园>></td>');
+document.write('</tr>');
+document.write('</table>');
+document.write('<script type="text/javascript">document.getElementById("headPush"+rand(3)).style.display="";</script>');

@@ -1,0 +1,14 @@
+
+.cn {
+ /* 这里是中文样式 */
+ color:#ffffff;
+
+ font-size:12px;
+}
+
+.en {
+ /* 这里是英文样式 */
+ color:#333;
+
+ font-size:11px;
+}

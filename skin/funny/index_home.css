@@ -1,0 +1,76 @@
+BODY {
+	BORDER-RIGHT: #666666 thick; BORDER-TOP: #666666 thick; SCROLLBAR-FACE-COLOR: #ffffff; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(../images/bg.jpg); MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; BORDER-LEFT: #666666 0px; SCROLLBAR-SHADOW-COLOR: #666666; COLOR: #333333; SCROLLBAR-3DLIGHT-COLOR: #666666; SCROLLBAR-ARROW-COLOR: #999999; SCROLLBAR-TRACK-COLOR: #ffffff; BORDER-BOTTOM: #666666 0px; FONT-FAMILY: Verdana,宋体; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 20px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "宋体", "sans-serif"
+}
+TR {
+	FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 20px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "宋体", "sans-serif"
+}
+A {
+	BORDER-RIGHT: #666666; BORDER-TOP: #666666; FONT-SIZE: 12px; BORDER-LEFT: #666666; COLOR: #333333; LINE-HEIGHT: 20px; BORDER-BOTTOM: #666666; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "宋体", "sans-serif"; TEXT-DECORATION: none
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 20px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "宋体", "sans-serif"; TEXT-DECORATION: none;font-weight : bold ;
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff3300; LINE-HEIGHT: 20px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "宋体", "sans-serif"; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 20px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "宋体", "sans-serif"; TEXT-DECORATION: none
+}
+.input {
+	BORDER-RIGHT: #666666 1px double; BORDER-TOP: #666666 1px double; FONT-SIZE: 11px; BORDER-LEFT: #666666 1px double; COLOR: #333333; BORDER-BOTTOM: #666666 1px double; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "宋体", "sans-serif"; BACKGROUND-COLOR: #ffffff; input: 
+}
+.toptitle {
+	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; TEXT-DECORATION: none
+}
+.text {
+	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "宋体", "sans-serif"
+}
+.bigtitle {
+	FONT-WEIGHT: 500; FONT-SIZE: 18px; COLOR: #ebebeb; FONT-STYLE: normal; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"
+}
+A.news {
+	FONT-SIZE: 12px; COLOR: #003366; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "宋体", "sans-serif"; TEXT-DECORATION: none
+}
+A.news:link {
+	FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "宋体", "sans-serif"; TEXT-DECORATION: none
+}
+A.news:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "宋体", "sans-serif"; TEXT-DECORATION: none
+}
+A.news:active {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "宋体", "sans-serif"; TEXT-DECORATION: none
+}
+.bottom {
+	BORDER-RIGHT: #333333 1px; BORDER-TOP: #333333 1px; FONT-SIZE: 12px; BORDER-LEFT: #333333 1px; COLOR: #000000; BORDER-BOTTOM: #333333 1px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif", "宋体"; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.bottom1 {
+	BORDER-RIGHT: #999999 1px double; BORDER-TOP: #999999 1px double; FONT-SIZE: 12px; BORDER-LEFT: #999999 1px double; COLOR: #666666; BORDER-BOTTOM: #999999 1px double; FONT-FAMILY: "Tahoma"; BACKGROUND-COLOR: #ffffff
+}
+.price {
+	TEXT-DECORATION: line-through
+}
+.cheap {
+	COLOR: #ff0000
+}
+.e {
+	FONT-SIZE: 11px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "宋体", "sans-serif"
+}
+#calendar{ 
+width:100%; 
+}
+#calendar caption {  
+font:11px 'Century Gothic', Arial, Helvetica, sans-serif;  
+}
+#calendar table { 
+border-collapse: collapse; 
+} 
+#calendar th{  
+font: normal 12px;  
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;   
+}

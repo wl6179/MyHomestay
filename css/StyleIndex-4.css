@@ -1,0 +1,263 @@
+@import url(Normal-4.css);/*大框架布局部分；*/
+@import url(Precision-4.css);/*细节布局部分；*/
+body
+{color:#333333;
+  background: #ffffff url(../images/background.gif) repeat-x top left;
+	margin: 0px; 
+	padding: 0px;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 13px;
+	scrollbar-face-color:#ffffff;
+	scrollbar-highlight-color: #cccccc;
+	scrollbar-shadow-color: #cccccc;
+	scrollbar-3d-light-color: #ffffff;
+	scrollbar-arrow-color : #cccccc;
+
+	SCROLLBAR-TRACK-COLOR: #ffffff;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+
+}
+
+#head
+{
+background: #ffffff url(../images/top.jpg) no-repeat top left;
+	width: 100%;
+	height: 365px;
+}
+	#head2
+	{
+	  /*background: #ffffff url(../images/top.jpg) no-repeat top left;*/
+		width: 1000px;
+		height: 365px;
+	}
+
+
+
+
+#body
+{
+  background: #ffffff url(../images/bg_left.jpg) repeat-x top left;
+	width: 100%;
+	height: 300px;
+}
+
+		
+	#gbody
+	{
+		width: 1000px;
+		height: 300px;
+	}	
+		#left-margin
+		{background: ;
+			width: 2%;
+			height: 100px;
+			float: left;
+		}
+		#main
+		{background: ;
+			width: 98%;
+			height: 300px;
+			float: left;
+		}
+			#operateList
+			{background: ;
+				width: 23%;
+				height: 300px;
+				float: left;
+				margin-right: 3px;
+				color:#ffffff;
+			}
+				#top-round
+				{background:  url(../images/top-round.gif) repeat-x top center;
+					width: 100%;
+					height: 30px;
+				}
+					#top-round-left
+					{background: url(../images/top-round.gif) repeat-x top left;
+						width: 60%;
+						height: 20px;
+						float: left;
+						padding-left: 20px;
+						padding-top: 10px;
+						font-weight:bold;
+						font-size: 12px;
+						color: #666666
+					}
+					
+					#top-round-right
+					{background: url(../images/top-round.gif) repeat-x top right;
+						width: 18%;
+						height: 30px;
+						float: right;
+					}
+				#main-round
+				{background:  url(../images/top-roundcenter.gif) repeat-y top left ;
+					width: 93%;
+
+					
+					/*word-break : break-all;*/
+					
+					padding: 0px 8px 0px 8px;
+				}
+				/*#main-roundII
+				... ...*/
+				/*#TextArea01 {
+					width: 96%;
+					word-wrap:break-word;
+					word-break : break-all;
+					overflow: hidden;
+					visibility: visible;
+					display: block;
+					padding: 0px 8px;
+				}*/
+					
+
+				#bottom-round
+				{background:  url(../images/top-round.gif) repeat-x bottom center;
+					width: 100%;
+					height: 30px;
+				}
+					#bottom-round-left
+					{background: url(../images/top-round.gif) repeat-x bottom left;
+						width: 20%;
+						height: 30px;
+						float: left;
+					}
+					#bottom-round-right
+					{background: url(../images/top-round.gif) repeat-x bottom right;
+						width: 20%;
+						height: 30px;
+						float: right;
+					}
+					
+					
+					
+					
+					
+					
+			#mainContentList
+			{background: #ffffff;
+				width: 66%;
+				height: 300px;
+				float: left;
+				margin-left:8px;
+			}
+				#main-top-round
+				{background:  url(../images/maintop-round.gif) repeat-x top center;
+					width: 100%;
+					height: 20px;
+				}
+					#main-top-round-left
+					{background: url(../images/maintop-round.gif) repeat-x top left;
+						width: 20%;
+						height: 20px;
+						float: left;
+					}
+
+				#main-main-round
+				{background: #ffffff;
+					width: 96%;
+					word-wrap:break-word;
+					/*word-break : break-all;*/
+					padding: 0px 8px;
+				}
+					/*#main-TextArea01
+					{background: #ffffff;
+						width: 96%;
+						table-layout:fixed; 对于表格table
+						style="table-layout:fixed;word-break:break-all"
+						
+						word-wrap:break-word;
+						word-break : break-all;
+						overflow: hidden;visibility: visible;display: block;
+						padding: 0px 8px;
+					}*/
+					/*main-TextArea01后细节在Precision中设置；*/
+				
+				#main-bottom-round
+				{background:  url(../images/maintop-round.gif) repeat-x bottom center;
+					width: 100%;
+					height: 30px;
+				}
+					#main-bottom-round-left
+					{background: url(../images/maintop-round.gif) repeat-x bottom left;
+						width: 20%;
+						height: 30px;
+						float: left;
+					}
+					#main-bottom-round-right
+					{background: url(../images/maintop-round.gif) repeat-x bottom right;
+						width: 20%;
+						height: 30px;
+						float: right;
+					}
+			
+			
+			
+			
+			#publicList
+			{background: #ffffff;
+				width: 6%;
+				height: 300px;
+				float: left;
+			}
+				#public-top-round
+				{background:  url(../images/publictop-round.gif) repeat-x top center;
+					width: 100%;
+					height: 20px;
+				}
+					#public-top-round-right
+					{background: url(../images/publictop-round.gif) repeat-x top right;
+						width: 20%;
+						height: 20px;
+						float: right;
+					}
+
+				#public-main-round
+				{background: #ffffff;
+					width: 93%;
+					word-wrap:break-word;
+					/*word-break : break-all;*/
+					
+					padding: 0px 8px;
+				}
+				
+				#public-bottom-round
+				{background:  url(../images/publictop-round.gif) repeat-x bottom center;
+					width: 100%;
+					height: 30px;
+				}
+					#public-bottom-round-left
+					{background: url(../images/publictop-round.gif) repeat-x bottom left;
+						width: 20%;
+						height: 30px;
+						float: left;
+					}
+					#public-bottom-round-right
+					{background: url(../images/publictop-round.gif) repeat-x bottom right;
+						width: 20%;
+						height: 30px;
+						float: right;
+					}
+
+
+
+
+
+#bottom
+{
+  /*background: #ffffff url(../images/6179.gif) no-repeat top left;*/
+	width: 100%;
+
+}
+	#bottom2
+	{
+	  /*background: #ffffff url(../images/6179.gif) no-repeat top left;*/
+		width: 800px;
+		height: 80px;
+		margin: 3px 3px 3px 110px;
+		padding-top: 23px;
+		/*border-top: 1px #333333 dashed;*/
+		/*border-top: dashed dotted;*/
+		line-height: 20px;
+	}

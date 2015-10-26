@@ -1,0 +1,507 @@
+/*-----------------------------------------------------------
+CSS:  CSS File Design For www.MyHomestay.com.cn's Index Precision细节布局等调整部分；
+Author:WL wangliang6179@163.com
+-------------------------------------------------------------*/
+/*operateList*/
+#head2-logo {
+	float:left;
+	width: 23%;
+	font-size: 12px;
+	color: #666666;
+	padding:13px 0px 0px 20px;
+}
+	#head2-logo ul {
+		margin:36px 0px 0px 160px;
+		width: 70px;
+	}
+	#head2-logo li {
+/*		font-weight: bold;*/
+		color: #666666;
+		width: 60px;
+		text-align:left;
+		margin:3px 0px 0px 0px;
+	}
+	#head2-logo li.active {
+		/*background:  url(../images/017.png) no-repeat top left ;*/
+		/*background: #ffffff;
+		color: #666666;*/
+	}
+		#head2-logo a:link {
+			color: #666666;
+			text-decoration: none;
+		}
+		#head2-logo a:visited {
+			color:#666666;
+			text-decoration: none;
+			}
+		#head2-logo a:hover {
+			color:#666666;
+			text-decoration: underline;
+			font-weight:bold;
+			background: #ffffff;
+		}
+
+
+#head2-menu {
+	float:left;
+	width: 66%;
+}
+	#head2-menu #head2-search {
+		width:750px;
+		height:30px;
+		text-align:right;
+		font-size:12px;
+		padding-top:0px;
+		line-height: 30px;
+		color: #333333;
+		CURSOR: hand; 
+	}
+		#head2-menu #head2-search span {
+		color:#1F84D2;
+		}
+		
+		#head2-menu #head2-search a {
+		color:#000000;
+		}
+		#head2-menu #head2-search a:link {
+			color: #000000;
+			text-decoration: none;
+		}
+		#head2-menu #head2-search a:visited {
+			color:#000000;
+			text-decoration: none;
+			}
+		#head2-menu #head2-search a:hover {
+			color:#ffffff;
+			text-decoration: underline;
+			font-weight:bold;
+			background: #2488D4;
+			/*font-weight:normal;
+			background: #ffffff;*/
+		}
+	
+	#head2-menu ul {
+		padding:0px 0px 0px 10px;
+		width: 600px;
+	}
+	#head2-menu li {
+		float:left;
+		margin-left: 15px;	
+		font-weight: bold;
+		color: white;
+		width: 70px;
+		text-align:center;
+	}
+	#head2-menu li.active {
+		/*background:  url(../images/017.png) no-repeat top left ;*/
+		/*background: #ffffff;
+		color: #666666;*/
+	}
+		#head2-menu a:link {
+			color: white;
+			text-decoration: none;
+		}
+		#head2-menu a:visited {
+			color:#ffffff;
+			text-decoration: none;
+			}
+		#head2-menu a:hover {
+		
+			color:#ffffff;
+			text-decoration: underline;
+			font-weight:bold;
+			background: none;
+		}
+	
+	
+	/*#main-round内部的*/
+	#TextArea01 
+						{
+							width: 96%;
+							word-wrap:break-word;
+							/*word-break : break-all;*/
+							overflow: hidden;
+							visibility: visible;
+							display: block;
+							/*padding: 0px 8px;*/
+						}
+		#TextArea01 hr {
+		   font-size: 1px;
+			color:#cccccc;
+			BORDER-TOP-STYLE: dotted;
+		}
+		#TextArea02 hr {
+		   font-size: 1px;
+			color:#cccccc;
+			BORDER-TOP-STYLE: dotted;
+		}
+		
+		#main-round p {
+		font-size: 12px;
+		color:#333333;
+			margin-top:13px;
+			/*margin-bottom:13px;*/
+		}
+			#main-round p a: visited {
+			font-size: 12px;
+			}
+			
+		#main-roundII p {
+		color:#333333;
+			margin-top:13px;
+			margin-bottom:13px;
+		}
+		
+		#TextArea01 input {
+		margin-bottom: 8px;
+			
+		}
+		#TextArea01 #loginname,#password {
+			width: 108px;
+			float: left;
+		}
+		#TextArea01 span {
+			display: block;
+			width: 68px;
+			float: left;
+		}
+		#TextArea01 ul {
+			width: 96%;
+			padding-left:3px;
+			padding-top:8px;
+			list-style-type:none;/*disc：圆饼形。
+			circle：空心圆形。
+			square：方形。
+			decimal：十进制数值。
+			lower-roman：小写罗马数字。
+			upper-roman：大写罗马数字。
+			lower-alpha：小写希腊字母。
+			upper-alpha：大写希腊字母。*/
+		}
+	
+#main-roundII
+				{background:  url(../images/top-roundcenter2.gif) repeat-y top left ;
+					width: 93%;
+					word-break : break-all;
+					padding: 0px 8px;
+				}
+	#TextArea02 
+						{
+							width: 100%;
+							word-wrap:break-word;
+							/*word-break : break-all;*/
+							overflow: hidden;
+							visibility: visible;
+							display: block;
+							/*padding: 0px 8px;*/
+						}
+		#main-roundII #TextArea02 p#GetSysClassesSearchHome_start {
+			margin-left:10px;
+		}
+		#TextArea02 hr {
+		   font-size: 1px;
+			color:#ffffff;
+			BORDER-TOP-STYLE: dotted;
+		}
+		#TextArea02 #title-clubLogin {
+			padding-top: 6px;
+			padding-left: 13px;
+			font-weight: bold;
+		}
+		#TextArea02 input {
+			margin-bottom: 8px;
+			
+		}
+		#TextArea02 #chinaHomeloginname,#chinaHomepassword {
+			width: 108px;
+			float: left;
+		}
+		#TextArea02 span {
+			display: block;
+			width: 68px;
+			float: left;
+			line-height: 21px;
+		}
+		#TextArea02 ul {
+			width: 96%;
+			padding-left:3px;
+			padding-top:8px;
+			list-style-type:none;
+		}
+						
+						
+#main-roundIII
+				{background:  url(../images/top-roundcenter2.gif) repeat-y top left ;
+					width: 93%;
+					word-break : break-all;
+					padding: 0px 8px;
+					padding-bottom: 16px;
+				}
+	#TextArea03 
+						{
+							width: 96%;
+							word-wrap:break-word;
+							/*word-break : break-all;*/
+							overflow: hidden;
+							visibility: visible;
+							display: block;
+							/*padding: 0px 8px;*/
+							
+						}
+		#TextArea03 hr {
+		   font-size: 1px;
+			color:#000000;
+			BORDER-TOP-STYLE: dotted;
+			margin-top: 1px;
+			margin-bottom: 2px;
+		}
+		#TextArea03 .title-clubNews {
+			background: #D75372;
+		   font-size: 13px;
+			color:#eeeeee;
+			font-weight: bold;
+			padding:0px;
+			
+		}
+		#TextArea03 p {
+		margin:0px;
+		padding:0px;
+		background: #ffffff;
+		   font-size: 13px;
+			color:#BF3E5C;
+line-height:18px;
+			padding-left:3px;
+		}
+		#TextArea03 ul {
+		margin:0px;
+		padding:0px;
+		padding-left:13px;
+		padding-top:3px;
+			background: #ffffff;
+		   font-size: 13px;
+			color:#000000;
+			line-height:18px;
+			width:90%
+		}
+			
+			#TextArea03 a:link {
+				color:#000000;
+				text-decoration: none;
+				
+				}
+			#TextArea03 a:visited {
+				color:#000000;
+				text-decoration: none;
+				}
+			#TextArea03 a:hover {
+				color:#ffffff;
+				text-decoration: underline;
+				font-weight:bold;
+				background: #D75372;
+			}
+							
+						
+	
+	
+/*mainContentList*/
+	#main-TextArea01
+						{  
+							background: #ffffff;
+							width: 96%;
+							/*table-layout:fixed; 对于表格table 
+							style="table-layout:fixed;word-break:break-all"*/
+							word-wrap:break-word;
+							/*word-break : break-all;*/
+							overflow: hidden;visibility: visible;display: block;
+							padding: 0px 8px;
+						}
+		#main-TextArea01-left {
+			width:48%;
+			float:left;
+			CURSOR: hand; 
+			/*border:1px #eeeeee solid;*/
+		}
+		#main-TextArea01-right {
+			width:48%;
+			float:right;
+			margin-top: 6px;
+		}
+		
+#main-main-round2
+				{background: #ffffff;
+					width: 96%;
+					padding: 16px 8px 3px 8px;
+				}
+				
+#main-main-round3
+				{
+					margin: 8px 0px 23px 0px;
+				}		
+			#main3-TextArea01 .titleArea {
+				width: 95%;
+				height: 20px;
+				background: #0EBBE0;
+				border:1px #666666 solid;
+				font-weight:bold;
+				color:#ffffff;
+				padding-top: 5px;
+				padding-left: 6px;
+				margin: 0px;
+				margin-top: 10px;
+			}
+			#main3-TextArea01 ul {
+				margin-top: 8px;
+				margin-left: 28px;
+				list-style-type:circle;/*disc：圆饼形。
+				circle：空心圆形。
+				square：方形。
+				decimal：十进制数值。*/
+			}
+#main-main-round4
+				{
+					margin: 8px 0px 0px 0px;
+				}			
+			#main4-TextArea01 .titleArea {
+				width: 95%;
+				height: 20px;
+				background: #4BA6DF;
+				border:1px #666666 solid;
+				font-weight:bold;
+				color:#ffffff;
+				padding-top: 5px;
+				padding-left: 6px;
+				margin: 0px;
+				margin-top: 10px;
+			}
+			#main4-TextArea01 ul {
+				margin-top: 8px;
+				margin-left: 28px;
+				list-style-type:square;/*disc：圆饼形。
+				circle：空心圆形。
+				square：方形。
+				decimal：十进制数值。*/
+			}
+	
+
+/*publicList*/				
+	/*#main-round内部的*/
+	.public-TextArea01 
+						{
+							width: 96%;
+							word-wrap:break-word;
+							/*word-break : break-all;*/
+							overflow: hidden;
+							visibility: visible;
+							display: block;
+							margin-bottom: 12px;
+						}
+							/*padding: 0px 8px;*/
+		.public-TextArea01 #public-title01 {
+			background: #666666;
+		   font-size: 12px;
+			color:#ffffff;
+			font-weight: bold;
+			padding-top:1px;
+			padding-right:3px;
+			padding-bottom:0px;
+			padding-left:3px;
+			width: 96%
+		}
+		.public-TextArea01 p {
+		   font-size: 12px;
+			color:#333333;
+			padding:3px;
+			width: 96%;
+			border:0px #D75372 solid;
+			margin-bottom:2px;
+		}
+			.public-TextArea01 p img {
+				float: left;
+				padding: 8px;
+			}
+		.public-TextArea01 ul {
+			padding:0px;
+			margin: 0px;
+			width: 96%;
+			border:0px #D75372 solid;
+			padding-top:6px;
+			padding-left: 13px;
+			margin-bottom:2px;
+			list-style-type:none;
+		}
+
+		.public-TextArea01 #public-title02 {
+			background: #288AD5;
+		   font-size: 12px;
+			color:#ffffff;
+			font-weight: bold;
+			padding-top:5px;
+			padding-right:3px;
+			padding-bottom:3px;
+			padding-left:3px;
+			width: 96%
+		}
+			
+
+		.public-TextArea01 #public-title03 {
+			background: #D75372;
+		   font-size: 12px;
+			color:#ffffff;
+			font-weight: bold;
+			padding-top:3px;
+			padding-right:3px;
+			padding-bottom:1px;
+			padding-left:3px;
+			width: 96%
+		}
+		
+		
+		.public-TextArea01 #public-title04 {
+			background: #D75372;
+		   font-size: 12px;
+			color:#ffffff;
+			font-weight: bold;
+			padding-top:5px;
+			padding-right:3px;
+			padding-bottom:3px;
+			padding-left:3px;
+			width: 96%
+		}
+		
+
+		
+/*bottom*/		
+#bottom2 {
+	font-size: 13px;
+	color: #666666;
+}
+	#bottom2 div {
+	margin-top:6px;
+	margin-bottom:6px;
+	}	
+	
+	#bottom2 A:link {
+		FONT-SIZE: 12px; 
+		COLOR: #038ad7; 
+		FONT-FAMILY: 宋体, Dotum, Arial,Helveticaa; 
+		TEXT-DECORATION: none
+	}
+	#bottom2 A:visited {
+		FONT-SIZE: 12px; 
+		COLOR: #038ad7; 
+		FONT-FAMILY:宋体, Dotum, Arial,Helvetica; 
+		TEXT-DECORATION: none
+	}
+	#bottom2 A:active {
+		FONT-SIZE: 12px; 
+		COLOR: #038ad7; 
+		FONT-FAMILY: 宋体, Dotum, Arial,Helvetica; 
+		TEXT-DECORATION: none
+	}
+	#bottom2 A:hover {
+		FONT-SIZE: 12px; COLOR: #00a5dd; 
+		FONT-FAMILY:宋体, Dotum, Arial,Helvetica; 
+		TEXT-DECORATION: none;
+		font-weight: normal;
+		background: #ffffff;
+	}

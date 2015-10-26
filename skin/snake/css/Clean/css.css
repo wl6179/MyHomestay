@@ -1,0 +1,222 @@
+/* 版权所属：http://skin.midicn.cn/ 未经本站允许，请勿随意提供下载。 请尊重作者劳动成果。 Design by:SNAKE */
+* {margin: 0;padding: 0;border: 0;}
+body {
+	background: url(bg.png) repeat-y center;
+	color: #333;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+}
+
+a {color: #333;text-decoration: none;}
+a:hover {color: #999;}
+
+* html #name {text-align: left;height: 60px;width: 700px;margin:0px auto -60px;padding:15px 0px 0px 9px;color: #036;font-size: 28px;position:relative;z-index:2;}
+#name {text-align: left;height: 45px;width: 700px;margin:0px auto -60px;padding:15px 0px 0px 15px;color: #999;font-size: 28px;position:relative;z-index:2;}
+
+* html #head {height: 79px;width: 700px;margin:30px auto;padding:18px 0px 0px 9px;text-align: left;background: url("header.png") no-repeat top center;position:relative;z-index:1}
+#head {height: 50px;width: 702px;margin:30px auto;padding:18px 0px 0px 8px;text-align: left;background: url("header.png") no-repeat top center;}
+
+#sub ul, #sub li { float:left;margin:0;}
+#sub li {padding:0px 0px 0px 9px;display:block;background:url("navleft.png") no-repeat left top;}
+#sub li a{margin:0; padding:27px 0px 0px 0px;color: #666;height:27px;}
+#sub li a:hover{color:#036;padding:27px 0px 0px 0px;background:url("mianli.gif") no-repeat top center;}
+/* Commented Backslash Hack
+     hides rule from IE5-Mac \*/
+/* End IE5-Mac hack */
+
+* html #container {padding:0px;width:702px;margin:0 auto;text-align:left;}
+#container {padding: 10px;width: 702px;margin: 0 auto;text-align: left;}
+
+* html .left {overflow: hidden;float: left;width: 470px;padding: 0px 0px 0px 20px;margin: 0px;color: #333;text-align: justify;background:url("leftbg.png") repeat-y;}
+.left {overflow: hidden;float: left;width: 450px;padding: 0px 0px 0px 20px;margin: 0px;color: #333;text-align: justify;background:url("leftbg.png") repeat-y;}
+.left a{color:#036;}
+.left a:hover {color:#09f;text-decoration:underline;}
+.left a:visited {color:#666;}
+
+#placard {margin: 10px 10px 10px 10px;padding: 10px 5px;line-height:150%;color: #fff;font-size: 12px;font-weight: normal;background: #7cf url(placard.png) no-repeat top right;border-top: 1px solid #666;border-bottom: 1px solid #666;}
+#placard:first-letter{margin: 0pt 5pt 0pt 0pt;padding: 3px; font: 30px bold; float: left; border : 1px dotted #fff;}
+#placard a{color: #37210B;}
+#placard a:hover {color: #A55F1E;}
+
+h1 {text-align: center;height: 25px;font-size:12px;color: #fff;padding: 6px 0px 0px 0px;font-weight:bold;background: url("sidebartitle.png") no-repeat top center;border:0;}
+* html h1 {text-align: center;height: 31px;font-size:12px;color: #fff;padding: 6px 0px 0px 0px;font-weight:bold;background: url("sidebartitle.png") no-repeat top center;border:0;}
+
+
+h4 {
+	width:430px;
+	margin:-21px 0px 0px 20px;
+	font-size: 9px;
+	font-family: 'Tahoma', sans-serif;
+	font-weight: lighter;
+	color: #666;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	border-top: 1px dotted #999;
+	text-align:right;
+}
+
+* html h4 {
+	width:430px;
+	margin:-18px 0px 0px 20px;
+	font-size: 9px;
+	font-family: 'Tahoma', sans-serif;
+	font-weight: lighter;
+	color: #666;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	border-top: 1px dotted #999;
+	text-align:right;
+}
+
+h3 {
+	height: 40px;
+	margin: 0px;
+	padding:3px 0px 0px 25px;
+	background:url("content.png") no-repeat left top;
+	font-size: 15px;	
+	font-weight: lighter;
+	color: #036;
+}
+
+.postoptions {
+	text-align: center;
+	border-top: 1px solid #C2C2C2;
+	border-bottom: 2px solid #C2C2C2;
+	margin-top: 15px;
+	font-size: 12px;
+	color: #C2C2C2;
+	margin-bottom: 35px;
+	font-weight: bold;
+}
+.postoptions a {color: #C2C2C2;padding: 0px 4px;}
+.postoptions a:hover {color: #000;}
+.postoptions a:active {color: red;}
+
+#right {
+	float: right;
+	width: 216px;
+	margin: -30px -14px 0 0px;
+	padding: 0px 0px 0px 5px;
+	position:relative;z-index:3;
+}
+
+* html #right {
+	float: right;
+	width:216px;
+	margin: -30px -14px 0px 0px;
+	padding: 0px 0px 0px 5px;
+	position:relative;z-index:3;
+}
+
+.sidebar {padding:0;}
+
+.sidebar ul{list-style:none;margin: 0px 0px 0px 0px;}
+* html .sidebar ul{list-style:none;margin: 0px 0px 0px -5px;}
+
+.sidebar li{padding:0px 0px 0px 10px;}
+.sidebar li a{width:170px;padding:0px 0px 0px 25px;background: transparent url("sidebarlist.png") no-repeat left center;display:inline;}
+.sidebar li a:hover{width:170px;padding:0px 0px 0px 25px;border:1px solid #666;background: #E0E0E0 url("sidebarlisthover.png") no-repeat left center;display:inline;}
+.sidebar li a:visited {text-decoration:underline;color:#036}
+
+
+
+*html #footer {width:702px;text-align: left;margin:0px auto;clear: both;color: #fff;padding:15px 0px 0px 10px;height: 46px;background: url(footer.png) no-repeat bottom center;}
+#footer {width:702px;text-align: left;margin:0px auto;clear: both;color: #fff;padding:15px 0px 0px 20px;height:29px;background: url(footer.png) no-repeat bottom center;}
+/* 隐藏版权标识别仅仅在IE下作用 */
+#hidden{ margin: -9999px 0 0 0; }
+/* 日历 */
+
+table {font-size: 12px;color: #999;}
+table p{font-size: 12px;color: #036;}
+#calendar table {
+width:180px;
+}
+#calendar{
+    width:170px;
+    margin-left:0px;
+	font-size: 10px;
+}
+#calendar caption {
+    line-height:20px;
+    font-weight:bold;  
+    font-family:'Century Gothic', Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333;
+}
+th{    /* 定义星期 */
+	font-size: 12px;
+}
+#calendar table { 
+   border-collapse: collapse;
+} 
+#calendar th{  
+font: normal 12px;  
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;   
+}
+#calendar a{background-color: #E0E0E0;width:16px;height:10px;} 
+#calendar a:hover{color: #333;}
+
+
+
+
+
+/* 表单样式 */
+textarea {
+	background-color: #9CF;
+	border: 1px solid #333;
+	color: #FFF;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+}
+input {
+	background-color: #9CF;
+	border: 1px #333 solid;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFF;
+}
+
+input.text {
+	background-color: #9CF;
+	border: 1px solid #333;
+	color: #CCC;
+	height: 20px;
+	padding: 1px;
+	color: #FFF;
+}
+
+select {
+	background-color: #9CF;
+	border: 1px solid #333;
+	color: #000;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+	color: #FFF;
+}
+#calendar
+{ width:100%; }
+#calendar caption 
+{  
+font:11px 'Century Gothic', Arial, Helvetica, sans-serif;  
+}
+#calendar table 
+{ border-collapse: collapse; 
+} 
+#calendar th{  
+font: normal 12px;  
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;   
+}
+
+/* 版权所属：http://skin.midicn.cn/ 未经本站允许，请勿随意提供下载。 请尊重作者劳动成果。 Design by:SNAKE */

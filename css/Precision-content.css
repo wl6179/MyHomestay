@@ -1,0 +1,305 @@
+/*-----------------------------------------------------------
+CSS:  CSS File Design For www.MyHomestay.com.cn's Index Precision细节布局等调整部分；
+Author:WL wangliang6179@163.com
+-------------------------------------------------------------*/
+/*operateList*/
+#head2-logo {
+	float:left;
+	width: 23%;
+	font-size: 12px;
+	color: #666666;
+	padding:13px 0px 0px 20px;
+}
+	#head2-logo ul {
+		margin:36px 0px 0px 160px;
+		width: 70px;
+	}
+	#head2-logo li {
+/*		font-weight: bold;*/
+		color: #666666;
+		width: 60px;
+		text-align:left;
+		margin:3px 0px 0px 0px;
+	}
+	#head2-logo li.active {
+		/*background:  url(../images/017.png) no-repeat top left ;*/
+		/*background: #ffffff;
+		color: #666666;*/
+	}
+		#head2-logo a:link {
+			color: #666666;
+			text-decoration: none;
+		}
+		#head2-logo a:visited {
+			color:#666666;
+			text-decoration: none;
+			}
+		#head2-logo a:hover {
+			color:#666666;
+			text-decoration: underline;
+			font-weight:bold;
+			background: #ffffff;
+		}
+
+
+#head2-menu {
+	float:left;
+	width: 66%;
+}
+	#head2-menu #head2-search {
+		width:750px;
+		height:30px;
+		text-align:right;
+		font-size:12px;
+		padding-top:0px;
+		line-height: 30px;
+		color: #333333;
+		CURSOR: hand; 
+	}
+		#head2-menu #head2-search span {
+		color:#1F84D2;
+		}
+		
+		#head2-menu #head2-search a {
+		color:#000000;
+		}
+		#head2-menu #head2-search a:link {
+			color: #000000;
+			text-decoration: none;
+		}
+		#head2-menu #head2-search a:visited {
+			color:#000000;
+			text-decoration: none;
+			}
+		#head2-menu #head2-search a:hover {
+			color:#ffffff;
+			text-decoration: underline;
+			font-weight:bold;
+			background: #2488D4;
+			/*font-weight:normal;
+			background: #ffffff;*/
+		}
+	
+	#head2-menu ul {
+		padding:0px 0px 0px 10px;
+		width: 600px;
+	}
+	#head2-menu li {
+		float:left;
+		margin-left: 15px;	
+		font-weight: bold;
+		color: white;
+		width: 70px;
+		text-align:center;
+	}
+	#head2-menu li.active {
+		/*background:  url(../images/017.png) no-repeat top left ;*/
+		/*background: #ffffff;
+		color: #666666;*/
+	}
+		#head2-menu a:link {
+			color: white;
+			text-decoration: none;
+		}
+		#head2-menu a:visited {
+			color:#ffffff;
+			text-decoration: none;
+			}
+		#head2-menu a:hover {
+		
+			color:#ffffff;
+			text-decoration: underline;
+			font-weight:bold;
+			background: none;
+		}
+	
+	
+
+							
+						
+	
+	
+/*mainContentList*/
+	#main-TextArea01
+						{  
+							background: #ffffff;
+							width: 86%;
+							/*table-layout:fixed; 对于表格table 
+							style="table-layout:fixed;word-break:break-all"*/
+							word-wrap:break-word;
+							/*word-break : break-all;*/
+							overflow: hidden;visibility: visible;display: block;
+							padding: 0px 28px;
+							CURSOR: hand;
+							line-height: 26px;
+							font-size: 15px;
+						}
+		#main-TextArea01 h2 {
+			font-size: 16px;
+			width:380px;
+			line-height: 30px;
+			text-align:center;
+		}						
+
+		
+#main-main-round2
+				{background: #ffffff;
+					width: 96%;
+					padding: 16px 8px 3px 8px;
+				}
+				
+	
+
+/*publicList*/				
+	/*#main-round内部的*/
+	.public-TextArea01 
+						{
+							width: 96%;
+							word-wrap:break-word;
+							/*word-break : break-all;*/
+							overflow: hidden;
+							visibility: visible;
+							display: block;
+							margin-bottom: 12px;
+						}
+							/*padding: 0px 8px;*/
+		.public-TextArea01 #public-title01 {
+			background: #666666;
+		   font-size: 12px;
+			color:#ffffff;
+			font-weight: bold;
+			padding-top:1px;
+			padding-right:3px;
+			padding-bottom:0px;
+			padding-left:3px;
+			width: 96%
+		}
+		
+		.public-TextArea01 .public-title01 {
+			/*background: #D75372;*/
+			background: #FFD1E0 ;
+			background:  url(../images/title01_bg.gif) no-repeat top left ;
+			
+		   font-size: 12px;
+			color:#F7498C;
+			font-weight: bold;
+			padding-top:1px;
+			padding-right:3px;
+			padding-bottom:0px;
+			padding-left:3px;
+			width: 96%;
+			height: 20px;
+			line-height: 20px;
+		}
+		.public-TextArea01 .public-title01_blue {
+			background: #88D5F1;
+		   font-size: 12px;
+			color:#ffffff;
+			font-weight: bold;
+			padding-top:1px;
+			padding-right:3px;
+			padding-bottom:0px;
+			padding-left:3px;
+			width: 98%;
+			height: 20px;
+			line-height: 20px;
+		}
+		
+		.public-TextArea01 p {
+		   font-size: 12px;
+			color:#000000;
+			padding:3px;
+			width: 96%;
+			border:0px #D75372 solid;
+			margin-bottom:2px;
+		}
+			.public-TextArea01 p img {
+				float: left;
+				padding: 8px;
+			}
+		.public-TextArea01 ul {
+			padding:0px;
+			margin: 0px;
+			width: 96%;
+			border:0px #D75372 solid;
+			padding-top:6px;
+			padding-left: 13px;
+			margin-bottom:2px;
+			list-style-type:none;
+		}
+
+		.public-TextArea01 #public-title02 {
+			background: #288AD5;
+		   font-size: 12px;
+			color:#ffffff;
+			font-weight: bold;
+			padding-top:5px;
+			padding-right:3px;
+			padding-bottom:3px;
+			padding-left:3px;
+			width: 96%
+		}
+			
+
+		.public-TextArea01 #public-title03 {
+			background: #D75372;
+		   font-size: 12px;
+			color:#ffffff;
+			font-weight: bold;
+			padding-top:3px;
+			padding-right:3px;
+			padding-bottom:1px;
+			padding-left:3px;
+			width: 96%
+		}
+		
+		
+		.public-TextArea01 #public-title04 {
+			background: #D75372;
+		   font-size: 12px;
+			color:#ffffff;
+			font-weight: bold;
+			padding-top:5px;
+			padding-right:3px;
+			padding-bottom:3px;
+			padding-left:3px;
+			width: 96%
+		}
+		
+
+		
+/*bottom*/		
+#bottom2 {
+	font-size: 13px;
+	color: #666666;
+}
+	#bottom2 div {
+	margin-top:6px;
+	margin-bottom:6px;
+	}	
+	
+	#bottom2 A:link {
+		FONT-SIZE: 12px; 
+		COLOR: #038ad7; 
+		FONT-FAMILY: 宋体, Dotum, Arial,Helveticaa; 
+		TEXT-DECORATION: none
+	}
+	#bottom2 A:visited {
+		FONT-SIZE: 12px; 
+		COLOR: #038ad7; 
+		FONT-FAMILY:宋体, Dotum, Arial,Helvetica; 
+		TEXT-DECORATION: none
+	}
+	#bottom2 A:active {
+		FONT-SIZE: 12px; 
+		COLOR: #038ad7; 
+		FONT-FAMILY: 宋体, Dotum, Arial,Helvetica; 
+		TEXT-DECORATION: none
+	}
+	#bottom2 A:hover {
+		FONT-SIZE: 12px; COLOR: #00a5dd; 
+		FONT-FAMILY:宋体, Dotum, Arial,Helvetica; 
+		TEXT-DECORATION: none;
+		font-weight: normal;
+		background: #ffffff;
+	}

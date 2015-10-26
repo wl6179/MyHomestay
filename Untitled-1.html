@@ -1,0 +1,302 @@
+<form name="oblogform" method="post" onSubmit="submits();">
+	        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td><div align="center"> 
+                <input name="note" id="edit" type="hidden" value="&lt;P&gt;&lt;IMG style=&quot;BORDER-LEFT-COLOR: #000000; FILTER: DropShadow(Color=#999999, OffX=7, OffY=4, Positive=1); BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000&quot; alt=&quot;你我的家 我的住家&quot; hspace=3 src=&quot;http://localhost:6179/images/IMG0302A.jpg&quot; vspace=6 border=0&gt;&lt;FONT color=#333333&gt;欢迎光临 &lt;BR&gt;&lt;BR&gt;我的住家网&lt;STRONG&gt; MyHomestay&lt;/STRONG&gt; &lt;BR&gt;官方站点：&lt;/FONT&gt;&lt;U&gt;&lt;A href=&quot;http://www.myhomestay.com.cn/&quot; target=_blank&gt;&lt;FONT color=#038ad7&gt;http://www.myhomestay.com.cn&lt;/FONT&gt;&lt;/A&gt;&lt;/U&gt;&lt;BR&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 让中国人都能轻松驾驭英语 全新的方式促进中外文化交流&lt;/P&gt;
+&lt;P align=right&gt;&lt;FONT color=#038ad7&gt;【&lt;/FONT&gt;&lt;A href=&quot;http://localhost:6179/HomestayFamilyMember.asp?id=35&quot; target=_blank&gt;&lt;FONT color=#038ad7&gt;详细情况...&lt;/FONT&gt;&lt;/A&gt;&lt;FONT color=#038ad7&gt;】&lt;/FONT&gt;&lt;/P&gt;">
+<ul class="list_edit">
+<link rel="STYLESHEET" type="text/css" href="images/edit.css">
+<Script src="images/DhtmlEdit.js"></Script>
+
+<div id="oblog_edit">
+	<ul id="ExtToolbar0">
+	<li >
+	
+	<select id="oblog_formatSelect"  onchange="oblog_doSelectClick('FormatBlock',this)">
+	<option>段落格式</option>
+	<option value="&lt;P&gt;">普通格式 
+	<option value="&lt;H1&gt;">标题 1 
+	<option value="&lt;H2&gt;">标题 2 
+	<option value="&lt;H3&gt;">标题 3 
+	<option value="&lt;H4&gt;">标题 4 
+	<option value="&lt;H5&gt;">标题 5 
+	<option value="&lt;H6&gt;">标题 6 
+	<option value="&lt;H7&gt;">标题 7 
+	<option value="&lt;PRE&gt;">已编排格式 
+	<option value="&lt;ADDRESS&gt;">地址 
+	</select>
+	
+	<select language="javascript" class="oblog_TBGen" id="FontName" onchange="FormatText ('fontname',this[this.selectedIndex].value);">
+	<option class="heading" selected>字体 
+	<option value="宋体">宋体 
+	<option value="黑体">黑体 
+	<option value="楷体_GB2312">楷体 
+	<option value="仿宋_GB2312">仿宋 
+	<option value="隶书">隶书 
+	<option value="幼圆">幼圆 
+	<option value="新宋体">新宋体 
+	<option value="细明体">细明体 
+	<option value="Arial">Arial 
+	<option value="Arial Black">Arial Black 
+	<option value="Arial Narrow">Arial Narrow 
+	<option value="Bradley Hand ITC">Bradley Hand ITC 
+	<option value="Brush Script	MT">Brush Script MT 
+	<option value="Century Gothic">Century Gothic 
+	<option value="Comic Sans MS">Comic Sans MS 
+	<option value="Courier">Courier 
+	<option value="Courier New">Courier New 
+	<option value="MS Sans Serif">MS Sans Serif 
+	<option value="Script">Script 
+	<option value="System">System 
+	<option value="Times New Roman">Times New Roman 
+	<option value="Viner Hand ITC">Viner Hand ITC 
+	<option value="Verdana">Verdana 
+	<option value="Wide Latin">Wide Latin 
+	<option value="Wingdings">Wingdings</option>
+	</select>
+	<select language="javascript" class="oblog_TBGen" id="FontSize" onchange="FormatText('fontsize',this[this.selectedIndex].value);">                                   
+	<option class="heading" selected>字号 
+	<option value="1">1 
+	<option value="2">2 
+	<option value="3">3 
+	<option value="4">4 
+	<option value="5">5 
+	<option value="6">6 
+	<option value="7">7</option>
+	</select>
+	</li>
+	<li class="oblog_Btn" title="字体颜色" language="javascript" onclick="oblog_foreColor();" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/fgcolor.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="字体背景颜色" language="javascript" onclick="oblog_backColor();ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn';> 
+	<img class="oblog_Ico" src="images/fbcolor.gif" /> 
+	</li>
+	
+	<li class="oblog_Btn" title="插入特殊符号" language="javascript" onclick="insertSpecialChar();" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn';> 
+	<img class="oblog_Ico" src="images/specialchar.gif" /></li>
+	<li class="oblog_Btn" title="替换" language="javascript" onclick="oblog_replace();" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn';> 
+	<img class="oblog_Ico" src="images/replace.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="清理代码" language="javascript" onclick="oblog_CleanCode();ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn';> 
+	<img class="oblog_Ico" src="images/cleancode.gif" /></li>
+	<li> 
+	<select ID="Zoom" class="oblog_TBGen" onchange="doZoom(this)" >
+	<option value="100">100% 
+	<option value="50">50% 
+	<option value="75">75% 
+	<option value="100">100% 
+	<option value="125">125% 
+	<option value="150">150% 
+	<option value="175">175% 
+	<option value="200">200%</option>
+	</select>
+	</li>
+     <li class="oblog_Btn" title="帮助" language="javascript" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn';> <a href="user_help.asp#edit" target="_blank"><img src="images/help.gif" class="oblog_Ico" border="0"></a> 
+	</li>        
+	</ul>
+	<ul id="ExtToolbar1"> 
+	<li class="oblog_Btn" title="全选" language="javascript" onclick="FormatText('selectAll');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn' > 
+	<img class="oblog_Ico" src="images/selectAll.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="剪切" language="javascript" onclick="FormatText('cut');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/cut.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="复制" language="javascript" onclick="FormatText('copy');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/copy.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="粘贴" language="javascript" onclick="FormatText('paste');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/paste.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="撤消" language="javascript" onclick="FormatText('undo');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/undo.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="恢复" language="javascript" onclick="FormatText('redo');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/redo.gif" /> 
+	</li>
+	
+	<li class="oblog_Btn" title="插入超级链接" language="javascript" onclick="oblog_forlink();ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/wlink.gif" > 
+	</li>
+	<li class="oblog_Btn" title="去掉超级链接" language="javascript" onclick="FormatText('Unlink');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/unlink.gif" /> 
+	</li>
+	
+	<li class="oblog_Btn" title="插入图片" language="javascript" onclick="oblog_forimg();ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/img.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="插入水平线" language="javascript" onclick="FormatText('InsertHorizontalRule', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/hr.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="插入表格" language="javascript" onclick="oblog_fortable();ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/table.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="插入行" language="javascript" onclick="oblog_InsertRow();ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/insertrow.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="删除行" language="javascript" onclick="oblog_DeleteRow();ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/deleterow.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="插入列" language="javascript" onclick="oblog_InsertColumn();ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/insertcolumn.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="删除列" language="javascript" onclick="oblog_DeleteColumn();ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/deletecolumn.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="插入Flash" language="javascript" onclick="oblog_forswf();ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/swf.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="插入Windows Media" language="javascript" onclick="oblog_forwmv();ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/wmv.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="插入Real Media" language="javascript" onclick="oblog_forrm();ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/rm.gif" /> 
+	</li>
+	</ul>
+	<ul id="ExtToolbar2"> 
+	
+	<li class="oblog_Btn" title="加粗" language="javascript" onclick="FormatText('bold', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/bold.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="斜体" language="javascript" onclick="FormatText('italic', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/italic.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="下划线" language="javascript" onclick="FormatText('underline', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/underline.gif" /> 
+	</li>
+	
+	<li class="oblog_Btn" title="上标" language="javascript" onclick="FormatText('superscript', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/superscript.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="下标" language="javascript" onclick="FormatText('subscript', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/subscript.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="删除线" language="javascript" onclick="FormatText('strikethrough', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/strikethrough.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="取消格式" language="javascript" onclick="FormatText('RemoveFormat', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/removeformat.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="左对齐" NAME="Justify" language="javascript" onclick="FormatText('justifyleft', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/aleft.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="居中" NAME="Justify" language="javascript" onclick="FormatText('justifycenter', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/center.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="右对齐" NAME="Justify" language="javascript" onclick="FormatText('justifyright', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/aright.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="编号" language="javascript" onclick="FormatText('insertorderedlist', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/numlist.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="项目符号" language="javascript" onclick="FormatText('insertunorderedlist', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/bullist.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="减少缩进量" language="javascript" onclick="FormatText('outdent', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/outdent.gif" /> 
+	</li>
+	<li class="oblog_Btn" title="增加缩进量" language="javascript" onclick="FormatText('indent', '');ondrag='return false;'" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/indent.gif" /> 
+	
+	</li>
+	<li class="oblog_Btn" title="插入表情" language="javascript" onclick="oblog_foremot()" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn'; > 
+	<img class="oblog_Ico" src="images/smiley.gif" / > 
+	</li>
+	
+	<!--
+	<li class="oblog_Btn" title="上传文件" language="javascript" onclick="oblog_forfile()" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn';>
+	<img class="oblog_Ico" src="images/file.gif" />
+	</li>
+	-->
+	<li class="oblog_Btn" title="插入代码" language="javascript" onclick="oblog_code()" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn';>
+	<img class="oblog_Ico" src="images/code.gif" />
+	</li>
+	<li class="oblog_Btn" title="插入引用" language="javascript" onclick="oblog_quote()" onmouseover=this.className='oblog_BtnMouseOverUp'; onmouseout=this.className='oblog_Btn';>
+	<img class="oblog_Ico" src="images/quote.gif" />
+	</li>
+	
+	</ul>
+	<ul style="height:100%" id="PostiFrame">		
+			<iframe class="oblog_Composition" ID="oblog_Composition" MARGINHEIGHT="5" MARGINWIDTH="5" width="96%" height="96%;"></iframe> 
+	</ul>
+	<ul>
+	<li style="width:10px"></li>
+	<li class="oblog_TabOn" id="oblog_TabDesign" onClick="if (oblog_bTextMode!=1) {oblog_setMode(1);}"> 
+	<img src="images/mode.design.gif" ALIGN="absmiddle" width="20" height="20">&nbsp;设计</li>
+	<li style="width:10px"></li>
+	<li class="oblog_TabOff" id="oblog_TabView" onClick="oblog_View();" > 
+	<img unselectable="on" src="images/mode.view.gif" ALIGN="absmiddle" width="20" height="20" />&nbsp;预览 
+	</li>
+	<li style="width:10px"></li>
+	<li class="oblog_TabOff" id="oblog_TabHtml" onClick="if (oblog_bTextMode!=2) {oblog_setMode(2);}" style="cursor: pointer;"><img unselectable="on" src="images/mode.html.gif" ALIGN="absmiddle" width=21 height=20 />&nbsp;源码</li>
+	<li style="width:300;text-align:right;">
+	<a href="javascript:oblog_Size(-560)"><img src="images/minus.gif" border="0" /></a> 
+	<a href="javascript:oblog_Size(320)"><img src="images/plus.gif" border="0" /></a></li>
+	<li style="width:10px"></li>
+	</ul>
+</div>
+</ul>
+
+<Script language="JavaScript">
+var oblog_bIsIE5=document.all;
+var canusehtml='1';
+var PostType=1;
+if (oblog_bIsIE5){
+	var IframeID=frames["oblog_Composition"];
+}
+else{
+	var IframeID=document.getElementById("oblog_Composition").contentWindow;
+	var oblog_bIsNC=true;
+}
+
+if (oblog_bLoad==false)
+{
+	oblog_InitDocument("Body","GB2312");
+}
+function submits(){
+	var html;
+	html =oblog_getText();
+	html=oblog_rCode(html,"<a>　</a>","");
+ 	document.oblogform.edit.value=html;
+}
+function initx(){
+IframeID.document.body.innerHTML=document.oblogform.edit.value;
+}
+function initt(){
+IframeID.document.body.innerHTML="<a>　</a>"+document.oblogform.edit.value;
+}
+if (0==1) {
+	initt();
+}
+else{
+	initx();
+}
+function part()
+{
+	oblog_InsertSymbol('#此前在首页部分显示#');
+}
+function pastestr()
+{
+	var tmpstr=window.clipboardData.getData("Text");
+	if (tmpstr!=null)
+	{
+		if (IframeID.document.body.innerHTML!="") {
+			if (confirm("您的编辑区有内容，是否覆盖？") == false)
+			return false;
+		}
+	IframeID.document.body.innerHTML=window.clipboardData.getData("Text");
+	}
+}
+</Script>
+<Script src="images/editor.js"></Script>
+
+<input type="hidden" name="isubb" id="isubb" value="" />
+
+
+				<br>
+                <br>
+				<input name="Actionsave" type="hidden" id="Action" value="savemodi"> 
+                <input type="submit" name="Submit" value="提交修改">
+              </div></td>
+          </tr>
+        </table>
+      </form>

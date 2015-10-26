@@ -1,0 +1,11 @@
+.top_button{height:40px;width:400px;top:7px;left:20px}
+.top_menu{
+	right:16px;
+	top:46px;
+}
+#top{
+	height:65px!important;
+	height:70px;
+}
+#menu{display:none;}
+.submenu_content{display:none;}

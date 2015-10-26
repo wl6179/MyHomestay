@@ -1,0 +1,114 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-image: url(index_36.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.6em;
+	text-decoration: none;
+}
+.content {
+	background-image: url(index_14.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.content1 {
+	background-image: url(index_16.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.content2 {
+	background-image: url(index_33.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.oblog {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 30px;
+	line-height: 180%;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	color: #CC0000;
+	text-decoration: none;
+}
+.a1:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.a1:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.a1:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #CC0000;
+	text-decoration: none;
+}
+.b1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+.b2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.b3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+li {
+list-style-type:circle;COLOR: #FF7D9C;
+}

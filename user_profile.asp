@@ -1,0 +1,1 @@
+<%response.Redirect("user_setting.asp")%>

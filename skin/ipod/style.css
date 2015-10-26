@@ -1,0 +1,144 @@
+/* CSS Document ---------------
+ Designed by ShineBlog.com
+ Last Updated:2005-7-10
+ Contact:shineblog@gmail.com
+------------------------------- */
+
+body,td,th,input,select,textarea{Font: 12px 'Lucida Grande', Verdana, Arial, Sans-Serif, "宋体"; }
+body {
+ font-size:12px;
+ font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+ background-color: #d5d6d7;
+ color: #333;
+ margin:0 auto;
+ padding:10 0 10 20;
+ width:760;
+ text-align: center;
+ line-height:150%;
+}
+a:visited,
+a:active,
+a:link {
+ color:#0279CB;
+ text-decoration:none;
+ }
+a:hover {
+ color:#00A4E3;
+ text-decoration:none;
+ BORDER-BOTTOM: 1px dotted;
+}
+
+#wrapper {
+ width:760px;
+ margin:0 auto;
+}
+/* 头部样式 */
+#header {
+ height:200px;
+ color:#fff;
+ margin:0;
+ background:url(header.jpg) center no-repeat;
+ clear:both;
+}
+#blogname{
+ font-size:16px;
+ font-weight:bold;
+ padding-left:350px;
+ padding-top:80px;
+ text-align:left;
+}
+#nav {
+ margin:80px 0 0 0;
+ padding-right:35px;
+ text-align:right;
+}
+#nav a,
+#nav a:hover,
+#nav a:visited {
+ font-size:12px;
+ color:#fff;
+}
+/* 中间主体部分样式 */
+#main {
+ margin: 0 auto;
+ background:url(main.jpg) repeat-y;
+}
+.clear { clear:both;height:1px;}
+#left {
+ width:520px;
+ float:left;
+}
+#log {
+ width:500px;
+ height:auto;
+ margin:20px 20px 0px 20px;
+ line-height:150%;
+ text-align:left;
+ overflow: hidden;
+}
+.title {
+ font-size:14px;
+ font-weight:bold;
+ color:#0279cb;
+}
+.date {
+ text-align:right;
+ color:#999;
+}
+.contant {
+ padding:5px;
+}
+.feedback {
+ BORDER-BOTTOM: #88bbff 1px dotted;
+ margin-bottom:20px;
+}
+
+/* 侧边条样式 */
+#right {
+ width:220px;
+ float:right;
+ text-align:left;
+}
+#sidebar {
+ width:200px;
+ margin:10px auto 0 auto;
+}
+#sidebar h5 {
+ width:180px;
+ font-size:13px;
+ font-weight:bold;
+ letter-spacing:10px;
+ border-bottom:1px dashed #000;
+}
+#sidebar p {
+ margin:0px;
+ padding:0px;
+}
+/* cup修改 */
+input{width: 80%;}
+/* 日历样式 */
+#calendar {
+ width:180px;
+ Font: 12px 'Lucida Grande', Verdana, Arial, Sans-Serif; 
+ background: #F9F9F9;
+ border: 1px solid #0279CB;
+ padding: 3px;
+}
+#calendar table {
+ border-collapse: collapse
+}
+#calendar A:link {
+ COLOR: #0279CB; TEXT-DECORATION: none
+}
+#calendar A:visited {
+ COLOR: #0279CB; TEXT-DECORATION: none
+}
+#calendar A:hover {
+ COLOR: #0279CB; TEXT-DECORATION: none
+}
+/* 底部样式 */
+#bom {
+ height:63px;
+ background:url(footer.jpg);
+ clear:both;
+}

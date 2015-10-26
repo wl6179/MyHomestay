@@ -1,0 +1,251 @@
+BODY {
+ BACKGROUND-POSITION: 50% 50%; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(bg.jpg); MARGIN: 0px; WIDTH: 100%; COLOR: #ffffff; BACKGROUND-REPEAT: repeat-y; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 100%; BACKGROUND-COLOR: #333300; TEXT-ALIGN: center
+}
+#subject_index li {
+ margin:0px!important;
+ font-weight: normal;
+ color: #ffffff;
+}
+div.quote{
+ margin:5px 20px;border:1px dotted #aaaaaa;padding:5px;background-color:#333300
+}
+A {
+ COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A:link {
+ COLOR: #fff; TEXT-DECORATION: underline
+}
+A:visited {
+ COLOR: #999; TEXT-DECORATION: none
+}
+A:hover {
+ COLOR: #ffcc00; TEXT-DECORATION: none
+}
+#subject_index ul {
+ list-style-type: none;
+ margin:10px!important;
+ text-align: left;
+ width: 90%;
+         LINE-HEIGHT: 180%;
+         font-size:14px;
+         color:#ffffff;
+ font-weight: bold;
+}
+#subject_index li {
+ margin:0px!important;
+ font-weight: normal;
+ color: #ffffff;
+}
+#subject_index h1 {
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: #CCCCCC;
+}
+#subject_index span {
+ FONT-SIZE: 11px; MARGIN: 0px 0px 5px; COLOR: #ffffff
+}
+#oblog_edit
+{
+ 
+ border:1px solid #CCCCCC;
+ margin:0px!important;
+ text-align: left;
+ width: 360px!important;
+        
+}
+#oblog_edit li{
+display: inline;
+padding: 0;
+text-align:center;
+}
+#oblog_edit ul{
+ margin: 1px!important;
+ text-align: left;
+ width: 100%;
+ padding:0;
+}
+#oblog_edit iframe.oblog_Composition {
+border: 1px dotted #333;
+}
+#calendar table { 
+   border-collapse: collapse;
+}
+caption{    
+PADDING-RIGHT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 9px; PADDING-BOTTOM: 2px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 2px; FONT-FAMILY: Arial, Helvetica, sans-serif; LETTER-SPACING: 2px; TEXT-ALIGN: center;background-color:#B21F2F;
+}
+#saveurl{
+FONT-SIZE: 12px; COLOR: #999999; FONT-FAMILY: ËÎÌå,verdana,Arial, Helvetica, sans-serif;text-align:right
+}
+
+#calendar {
+MARGIN: 0px 0px 10px; width:100%; PADDING-TOP: 0px; BORDER-BOTTOM: #000 1px solid; BACKGROUND-COLOR: #911a25; TEXT-ALIGN: center;HEIGHT:140px;
+}
+#calendar caption {  
+font:normal 10px Century Gothic, Arial, Helvetica, sans-serif;color:#FFF;BACKGROUND-COLOR: #111;
+}
+#calendar caption a{  
+font:normal 10px;BACKGROUND-COLOR: #111; 
+}
+#calendar table { 
+border-collapse: collapse;font: normal 10px; 
+}
+#calendar th{    
+      font: normal 10px; COLOR: #ffffff; TEXT-ALIGN: center;background-color:#660000;padding-top:3px;padding-bottom:3px;padding-left:3px;padding-right:3px;
+}
+#calendar td{
+text-align:center;FONT-SIZE: 9px; COLOR: #ffffff; LINE-HEIGHT: 110%;padding-top:5px;padding-bottom:5px;padding-left:2px;padding-right:2px
+}
+
+#calendar a {
+ COLOR: #ffcc00;text-decoration:none;BACKGROUND-COLOR: #ff3300; TEXT-ALIGN: center;
+}
+#calendar a:link {
+ COLOR: #ffffff;text-decoration:none;
+}
+#calendar a:visited {
+text-decoration:none;
+}
+#calendar a:hover {
+ COLOR: #ffffff; TEXT-DECORATION: none
+}
+.title {
+font:normal 14px;width:100%;border: 1px #FFFFCC dotted;background:#ffc;
+}
+.title a {
+ font:14px;COLOR: #333; TEXT-DECORATION: none
+}
+.title a:link {
+ COLOR: #333; TEXT-DECORATION: none
+}
+.title a:visited {
+ COLOR: #666;TEXT-DECORATION: none
+}
+.title a:hover {
+ COLOR: #FF9933; TEXT-DECORATION: underline
+}
+#container {
+ MARGIN: 0px auto; WIDTH: 740px; BACKGROUND-COLOR: #ac2232; TEXT-ALIGN: left
+}
+#banner {
+ BACKGROUND-IMAGE: url(head.jpg); WIDTH: 740px; HEIGHT: 309px
+}
+#banner A {
+ COLOR: #ffffff; TEXT-DECORATION: none
+}
+#banner A:link {
+ COLOR: #ffffff; TEXT-DECORATION: none
+}
+#banner A:visited {
+ TEXT-DECORATION: none
+}
+#banner A:active {
+ 
+}
+#banner A:hover {
+ COLOR: #000000; TEXT-DECORATION: underline
+}
+H1 {
+ PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+ PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H3 {
+ PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.blogtitle {
+  PADDING-right: 8px; FONT-WEIGHT: bold; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; PADDING-TOP: 260px; LETTER-SPACING: 1px; TEXT-ALIGN: right;color:#cccccc
+}
+.description {
+ PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; LETTER-SPACING: 2px; TEXT-ALIGN: left
+}
+#content {
+ FLOAT: right; PADDING-BOTTOM: 10px; WIDTH: 580px; MARGIN-RIGHT: 0px; BACKGROUND-COLOR: #b21f2f;overflow: hidden;
+}
+.blog {
+ MARGIN: 0px 25px
+}
+.blogbody {
+ PADDING-RIGHT: 10px; PADDING-LEFT: 10px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BORDER-BOTTOM: #aaaaaa 1px dotted
+}
+.title {
+ PADDING-LEFT: 5px; letter-spacing:1px; FONT-SIZE: 12px;FONT-FAMILY: ËÎÌå£¬Verdana,Arial, Helvetica, sans-serif; COLOR: #000; PADDING-TOP: 5px; HEIGHT: 20px
+}
+.main {
+ PADDING-LEFT: 5px; FONT-SIZE: 12px; MARGIN: 15px 0px; COLOR: #fff; LINE-HEIGHT: 180%; FONT-FAMILY: Arial, Helvetica, sans-serif; LETTER-SPACING: 1px
+}
+.posted {
+ FONT-SIZE: 11px; MARGIN: 0px 0px 5px; COLOR: #ffffff; TEXT-ALIGN: right
+}
+
+A.aposted {
+ COLOR: #ffcc00; TEXT-DECORATION: underline
+}
+A.aposted:link {
+ COLOR: #ffcc00; TEXT-DECORATION: underline
+}
+A.aposted:visited {
+ COLOR: #ffff00; TEXT-DECORATION: underline
+}
+A.aposted:active {
+ 
+}
+A.aposted:hover {
+ PADDING-BOTTOM: 10px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+from table {
+WIDTH: 500px;
+}
+#username {
+ BORDER-RIGHT: #aaaaaa 1px dotted; BORDER-TOP: #aaaaaa 1px dotted; BORDER-LEFT: #aaaaaa 1px dotted; WIDTH: 70px;height:20px;BORDER-BOTTOM: #aaaaaa 1px dotted;background-color:#333300;color:#ffcc00
+}
+#password {
+ BORDER-RIGHT: #aaaaaa 1px dotted; BORDER-TOP: #aaaaaa 1px dotted; BORDER-LEFT: #aaaaaa 1px dotted; WIDTH: 70px;height:20px;BORDER-BOTTOM: #aaaaaa 1px dotted;background-color:#333300;color:#ffcc00
+}
+#login {
+ BORDER-RIGHT: #aaaaaa 1px dotted; BORDER-TOP: #aaaaaa 1px dotted; BORDER-LEFT: #aaaaaa 1px dotted; WIDTH: 30px;height:20px;BORDER-BOTTOM: #aaaaaa 1px dotted;background-color:#333300;color:#ffcc00
+}
+.pagetop {
+ FONT-SIZE: 11px; MARGIN: 5px 0px 25px; TEXT-ALIGN: right
+}
+#pp {
+ MARGIN-TOP: 15px; FLOAT: left; MARGIN-LEFT: 15px; WIDTH: 160px; POSITION: absolute; BACKGROUND-COLOR: #b21f2f; TEXT-ALIGN: left
+}
+
+.sidetitle {
+ ;MARGIN-TOP: 5px; PADDING-LEFT: 16px; FONT-SIZE:12px; BACKGROUND-IMAGE: url(t1.gif); PADDING-BOTTOM: 5px;  COLOR: #fff; LINE-HEIGHT: 160%; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 14px; TEXT-ALIGN: left;WIDTH: 140px;LETTER-SPACING: 2px;border-bottom:1px dotted #aaaaaa;font-weight:bold
+}
+.side {
+ padding-top:2px;FONT-SIZE: 12px; PADDING-BOTTOM: 4px; LINE-HEIGHT: 180%; TEXT-ALIGN: left;WIDTH: 140px;padding-left:1px
+}
+
+A.aside {
+ COLOR: #ffcc00; TEXT-DECORATION: underline
+}
+A.aside:link {
+ COLOR: #ffcc00; TEXT-DECORATION: underline
+}
+A.aside:visited {
+ TEXT-DECORATION: underline
+}
+A.aside:hover {
+ COLOR: #ffffff; TEXT-DECORATION: none
+}
+.photo {
+ TEXT-ALIGN: center
+}
+.message {
+ FONT-SIZE: 11px
+}
+.quotetable {
+ 
+}
+.quote {
+ PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; COLOR: #cccccc; PADDING-TOP: 1px
+}
+.powered {
+ MARGIN: 0px 0px 10px; TEXT-ALIGN: center
+}
+.checkers {
+ MARGIN-TOP: 10px; FONT-SIZE: 11px
+}

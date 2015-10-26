@@ -1,0 +1,59 @@
+body,td,th {
+	font-size: 12px;
+}
+body{
+BACKGROUND: #646464;
+margin: 0px;
+font:normal 12px sans-serif;
+line-height:150%; 
+}
+p{
+line-height:150%;
+}
+
+a:link{text-decoration : none ;color : #000000;}
+a:visited {text-decoration : none ;color : #000000;}
+a:hover {text-decoration : underline ;color : #f60 ;}
+a:active {text-decoration : none ;color : #000000;} 
+.border1 {  border: 1px #FF9900 solid}
+.ntit3 {font-weight:bold; filter:progid:DXImageTransform.Microsoft.dropshadow(Color=white,offX=-1,offY=-1); width:100%; cursor:hand}
+.SOLID12 { BORDER-LEFT: #A8A8A8 1px solid; BORDER-RIGHT: #A8A8A8 1px solid;}
+
+.title {
+font: bold 14px;
+margin:0px 13px 0 5px;
+height:16px;
+width:100%;
+}
+.contenttitle{
+font: bold 14px;
+margin:0px 0px 0 10px;
+}
+.contenttime{
+font: normal 9;
+padding:5px;
+}
+
+#calendar{ 
+width:100%; 
+}
+#calendar caption {  
+font:bold 11px 'Century Gothic', Arial, Helvetica, sans-serif;  
+}
+#calendar table { 
+border-collapse: collapse; 
+} 
+#calendar th{  
+font: normal 12px;  
+}
+#calendar td { 
+text-align:center;
+font-size: 11px;   
+}
+#calendar td a{ 
+text-align:center;
+font: bold 11px;   
+}
+.text {
+table-layout:fixed;
+}

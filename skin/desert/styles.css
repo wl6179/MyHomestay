@@ -1,0 +1,189 @@
+BODY {
+	BACKGROUND: url(b_01.jpg); FONT-FAMILY: "Tahoma", "Verdana", "??"; FONT-SIZE: 11px
+}
+TABLE {
+	BACKGROUND: url(b_02.jpg); FONT-FAMILY: "Tahoma", "Verdana", "??"; FONT-SIZE: 11px
+}
+A:link {
+	COLOR: #000000; FONT-FAMILY: "Tahoma", "Verdana", "??"; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; FONT-FAMILY: "Tahoma", "Verdana", "??"; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #0000ff; FONT-FAMILY: "Tahoma", "Verdana", "??"
+}
+HR {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; HEIGHT: 1px
+}
+INPUT {
+	BACKGROUND: url(b_02.jpg); BORDER-BOTTOM-COLOR: #c0c0c0; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #c0c0c0; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #c0c0c0; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #c0c0c0; BORDER-TOP-WIDTH: 1px; COLOR: #000000; FONT-FAMILY: Tahoma, Verdana, "??"; FONT-SIZE: 11px; HEIGHT: 19px; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px
+}
+TEXTAREA {
+	BORDER-BOTTOM-COLOR: #c0c0c0; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #c0c0c0; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #c0c0c0; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #c0c0c0; BORDER-TOP-WIDTH: 1px; COLOR: #000000; FONT-FAMILY: "Tahoma", "Verdana", "??"; FONT-SIZE: 11px
+}
+SELECT {
+	COLOR: #000000; FONT-FAMILY: Tahoma, Verdana, "??"; FONT-SIZE: 11px
+}
+H3 {
+	FONT-SIZE: 18px; FONT-WEIGHT: bold
+}
+.comment-text {
+	COLOR: #000000; FONT-SIZE: 11px
+}
+.comment-text01 {
+	COLOR: #f83c1d; FONT-SIZE: 11px
+}
+.highlight {
+	COLOR: red; TEXT-DECORATION: underline
+}
+.page-header {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.page-header A:link {
+	COLOR: white; FONT-SIZE: 24px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.page-header A:visited {
+	COLOR: white; FONT-SIZE: 24px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.page-header A:hover {
+	COLOR: #0000ff; FONT-SIZE: 24px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.page-subheader {
+	COLOR: #cccccc; FONT-FAMILY: "Courier New"; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.sidebar {
+	HEIGHT: 400px; VERTICAL-ALIGN: top; WHITE-SPACE: nowrap; WIDTH: 180px
+}
+.mainbox {
+	VERTICAL-ALIGN: top
+}
+.multipage {
+	COLOR: #999999
+}
+.multipage-current {
+	COLOR: #000000; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.panel {
+	
+}
+.panel-title {
+	BACKGROUND-IMAGE: url(b_01.jpg); COLOR: #000000; FONT-WEIGHT: bold
+}
+.panel-content {
+	
+}
+
+#calendar{ 
+width:100%;COLOR: #666666; FONT-FAMILY: Tahoma, Verdana, "??"; FONT-SIZE: 11px
+}
+#calendar caption {  
+font:11px 'Century Gothic', Arial, Helvetica, sans-serif;  
+}
+#calendar table { 
+border-collapse: collapse; 
+} 
+#calendar th{  
+font: normal 12px; TEXT-ALIGN: center; COLOR: #000000;
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;   
+}
+
+#calendar A:link {
+	COLOR: #000066; TEXT-DECORATION: none
+}
+#calendar A:visited {
+	COLOR: #000066; TEXT-DECORATION: none
+}
+#calendar A:hover {
+	COLOR: #0000ff; TEXT-DECORATION: underline
+}
+.textbox {
+	BORDER-BOTTOM: #ce9421 1px dashed; BORDER-LEFT: #ce9421 1px dashed; BORDER-RIGHT: #ce9421 1px dashed; BORDER-TOP: #ce9421 1px dashed; TABLE-LAYOUT: fixed; WORD-WRAP: break-word
+}
+.textbox-title {
+	FONT-SIZE: 12px; PADDING-LEFT: 10px
+}
+.textbox-content {
+	BACKGROUND: url(b_03.jpg); BORDER-TOP-COLOR: #e0e0e0; PADDING-LEFT: 8px
+}
+.textbox-bottom {
+	BACKGROUND: url(b_03.jpg); COLOR: #000000; FONT-SIZE: 11px
+}
+.messagebox {
+	BACKGROUND: url(b_02.jpg); BORDER-BOTTOM: #ce9421 1px solid; BORDER-LEFT: #ce9421 1px solid; BORDER-RIGHT: #ce9421 1px solid; BORDER-TOP: #ce9421 1px solid; TEXT-ALIGN: center
+}
+.messagebox-title {
+	BACKGROUND: url(b_01.jpg)
+}
+.messagebox-content {
+	HEIGHT: 100px
+}
+.formbox {
+	BACKGROUND: url(b_02.jpg); BORDER-BOTTOM: #ce9421 1px solid; BORDER-LEFT: #ce9421 1px solid; BORDER-RIGHT: #ce9421 1px solid; BORDER-TOP: #ce9421 1px solid
+}
+.formbox-title {
+	BACKGROUND: url(b_01.jpg); TEXT-ALIGN: center
+}
+.formbox-content {
+	
+}
+.formbox-rowheader {
+	FONT-WEIGHT: bold; TEXT-ALIGN: right
+}
+.commentbox {
+	BORDER-BOTTOM: #ce9421 1px dashed; BORDER-LEFT: #ce9421 1px dashed; BORDER-RIGHT: #ce9421 1px dashed; BORDER-TOP: #ce9421 1px dashed; TABLE-LAYOUT: fixed; WORD-WRAP: break-word
+}
+.commentbox-content {
+	BACKGROUND: url(b_03.jpg)
+}
+.member-list {
+	
+}
+.ubb_code {
+	BACKGROUND-COLOR: #efefef; COLOR: #000000; FONT-FAMILY: "Courier New","??"; MARGIN: 10px; PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 15px
+}
+.ubb_quote {
+	BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #ce9421 1px solid; BORDER-LEFT: #ce9421 1px solid; BORDER-RIGHT: #ce9421 1px solid; BORDER-TOP: #ce9421 1px solid; COLOR: #666666; MARGIN: 10px; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.ubb_quote_title {
+	BORDER-BOTTOM: #ce9421 1px dashed; COLOR: #666666; FONT-WEIGHT: bold
+}
+.ubb_showobj {
+	BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #ce9421 1px dashed; BORDER-LEFT: #ce9421 1px dashed; BORDER-RIGHT: #ce9421 1px dashed; BORDER-TOP: #ce9421 1px dashed; COLOR: #666666; MARGIN: 10px; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.guidebox {
+	BACKGROUND: url(b_02.jpg); BORDER-BOTTOM: 0px; BORDER-LEFT: #e7e7e7 0px solid; BORDER-RIGHT: #e7e7e7 0px solid; BORDER-TOP: #e7e7e7 0px solid; TEXT-ALIGN: center
+}
+.panel-title-2 {
+	BACKGROUND-COLOR: #ffcc00; COLOR: #ffffff; FONT-WEIGHT: bold
+}
+.textbox-title-02 {
+	FONT-SIZE: 11px; PADDING-LEFT: 8px
+}
+.input-02 {
+	HEIGHT: 69px; TEXT-DECORATION: underline
+}
+.wordbreak {
+	TABLE-LAYOUT: fixed; WORD-WRAP: break-word
+}
+.textbox-title-03 {
+	BACKGROUND-IMAGE: url(default_log_title_bg.jpg); BACKGROUND-POSITION: center 50%; BACKGROUND-REPEAT: repeat-x; FONT-SIZE: 12px; HEIGHT: 35px; PADDING-LEFT: 12px; PADDING-TOP: 7px
+}
+.commentbox-title {
+	BORDER-BOTTOM: #ce9421 1px dashed
+}
+.textbox-bottom-02 {
+	BACKGROUND-IMAGE: url(b_01.jpg); COLOR: #999999; FONT-SIZE: 11px; PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 6px
+}
+.textbox-content-02 {
+	BACKGROUND-IMAGE: url(b_03.jpg); BORDER-BOTTOM-COLOR: #e0e0e0; BORDER-LEFT-COLOR: #e0e0e0; BORDER-RIGHT-COLOR: #e0e0e0; BORDER-TOP-COLOR: #e0e0e0; BORDER-TOP-WIDTH: 1px; MARGIN-LEFT: 0px; PADDING-BOTTOM: 8px; PADDING-LEFT: 10px; PADDING-RIGHT: 6px; PADDING-TOP: 8px
+}
+.hyperlink {
+	BORDER-LEFT: #ce9421 2px solid; MARGIN: 4px 0px; PADDING-LEFT: 6px; WIDTH: 120px
+}
+.textbox-2 {
+	BACKGROUND-COLOR: white; BORDER-BOTTOM: #ce9421 1px dashed; BORDER-LEFT: #ce9421 1px dashed; BORDER-RIGHT: #ce9421 1px dashed; BORDER-TOP: #ce9421 1px dashed
+}

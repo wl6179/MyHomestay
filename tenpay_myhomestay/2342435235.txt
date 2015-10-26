@@ -1,0 +1,6 @@
+	cmdno=1&date=20080516&bank_type=0&
+	desc=MyHomestay国际旅行公仔&purchaser_id=&
+	bargainor_id=1202844701&transaction_id=1202844701200805163771163914&
+	sp_billno=3771163914&total_fee=1&
+	fee_type=1&return_url=http://www.myhomestay.com.cn/tenpay_bargainor/notify_handler.asp&
+	attach=Welcome&sign=C217A96A4C75484B90BCF68C4D294E05

@@ -1,0 +1,155 @@
+* {margin: 0;padding: 0;border: 0;}
+body {
+	background: #A57A5D url(bg.png) repeat-y center;color: #333;margin: 0 auto;padding: 0;
+	border: 0;
+	text-align: center;
+	font-family: 'Century Gothic', Arial, Helvetica, sans-serif;;
+	font-size: 12px;
+	line-height: 150%;
+}
+
+a:hover {color: #A57A5D;}
+a {color: #A55F1E;text-decoration: none;}
+
+#head {margin:0px auto;height: 220px;background: url(head.jpg) no-repeat top center;margin:0px;position:relative;z-index:1;}
+#headnav {padding: 0;width: 760px;margin: 0 auto;text-align: left;}
+
+#sub{margin:6px 0px 0px 0px;height:35px;position:relative;z-index:2;}
+#sub li a{font-size:14px;margin:0; padding:5px 5px 2px 8px;color: #fff;border-left: 8px #58381F solid;border-right: 3px #58381F solid;border-bottom: 1px #58381F dotted;border-top: 1px #58381F dotted;background:#A57A5D;}
+#sub li a:hover{color:#fff;background:#8A5931;}
+/* Commented Backslash Hack
+     hides rule from IE5-Mac \*/
+#sub li a {float:none;}
+/* End IE5-Mac hack */
+
+* html #container {padding:0px;width:788px;margin:0 auto;text-align:left;}
+#container {padding: 10px;width: 788px;margin: 0 auto;text-align: left;}
+
+.lefttop {margin: 0px 0px 0px -10px;height:32px;padding:10px 0px 0px 10px;background:url("lefttop.png") no-repeat;}
+* html .lefttop {height:42px;padding:10px 0px 0px 10px;background:url("lefttop.png") no-repeat;}
+.leftend {margin: 0px 0px 0px -10px;height:31px;background:url("lefttop.png") no-repeat 0px -42px;}
+.left {float: left;width: 220px;padding: 0px 0px 0px 10px;margin: 0px;color: #fff;text-align: justify;background:url("leftbg.png") repeat-y;}
+.left a{color:#fff;}
+.left a:hover {color:#fff;text-decoration:underline;}
+
+h1 {width:200px;font-size:15px;font-weight:bold;border-bottom: 2px #fff dotted;}
+
+H4 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #A57A5D;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+H3 {
+	font-size: 22px;
+	font-weight: lighter;
+	color: #A55F1E;
+}
+
+.postoptions {
+	text-align: center;
+	border-top: 1px solid #C2C2C2;
+	border-bottom: 2px solid #C2C2C2;
+	margin-top: 15px;
+	font-size: 12px;
+	color: #C2C2C2;
+	margin-bottom: 35px;
+	padding: 5px 0px 5px;
+	font-weight: bold;
+}
+.postoptions a {color: #C2C2C2;padding: 0px 4px;}
+.postoptions a:hover {color: #000;}
+.postoptions a:active {color: red;}
+
+#right {
+	float: right;
+	width: 530px;
+	overflow: hidden;
+	margin: 0px 10px 0 0;
+	padding: 0px 5px 0px;
+}
+
+* html #right {
+	float: right;
+	width:530px;
+	margin: 25px 10px 0 0;
+	padding: 0px 5px 5px;
+}
+
+#placard {margin: 10px 10px 10px 10px;padding: 10px 5px;line-height:150%;color: #fff;font-size: 12px;font-weight: normal;background: #A57A5D url(placard.png) no-repeat top right;border-top: 1px solid #37210B;border-bottom: 1px solid #37210B;}
+#placard:first-letter{margin: 0pt 5pt 0pt 0pt;padding: 3px; font: 35px bold; float: left; border : 1px dotted buttonface;}
+#placard a{color: #37210B;}
+#placard a:hover {color: #A55F1E;}
+
+*html #footer {margin:0px auto;clear: both;padding:15px 0px 0px 0px;height: 44px;background: url(footer.png) no-repeat bottom center;}
+#footer {margin:0px auto;clear: both;padding:15px 0px 0px 0px;height:29px;background: url(footer.png) no-repeat bottom center;}
+/* 隐藏版权标识别 */
+#hidden{ margin: -9999px 0 0 0; }
+/* 日历 */
+
+table {font-size: 12px;color: #fff;}
+table p{font-size: 12px;color: A55F1E;}
+
+#calendar{ 
+width:100%; 
+}
+#calendar caption {  
+font:10px 'Century Gothic', Arial, Helvetica, sans-serif;  
+}
+#calendar table { 
+border-collapse: collapse; 
+} 
+#calendar th{  
+font: normal 12px;  
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;   
+}
+
+/*  这个日历没有进行定义的内容包括： */
+
+#calendar a{background-color: #A55F1E;width:16px;height:10px;} /* 有文章的号数样式(链接样式） */
+
+#calendar a:hover{background-color: #A57A5D;color: #fff;} /* 鼠标经过日历有链接的号数的样式 */
+
+
+/* 表单样式 */
+textarea {
+	background-color: #A55F1E;
+	border: 1px solid #333;
+	color: #FFF;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+}
+input {
+	background-color: #A55F1E;
+	border: 1px #333 solid;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFF;
+}
+
+input.text {
+	background-color: #A55F1E;
+	border: 1px solid #333;
+	color: #CCC;
+	height: 20px;
+	padding: 1px;
+	color: #FFF;
+}
+
+select {
+	background-color: #A55F1E;
+	border: 1px solid #333;
+	color: #000;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+	color: #FFF;
+}
+#powered {
+display:none;
+}

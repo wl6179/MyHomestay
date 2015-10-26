@@ -1,0 +1,267 @@
+@charset "gb2312";
+* {margin: 0;padding: 0;border: 0;}
+body {
+color: #333;  /* 本模版所有文字的颜色，我们使用略深的灰色 */
+background: #CF6;  /* 本模版的背景色，就是做图时的背景色，浅绿色 */
+text-align: center;  /* 本模版内所有属性居中 */
+margin: 0;  /* 外边距，默认好象是10，我们设置成0，因为是0所以可以不要单位。 */
+font-family: 'Century Gothic', Arial, Helvetica, sans-serif;  /* 本模版所有使用的字体，我觉得Century Gothic英文字体很好看，所以一直在用这个字体。 */
+font-size: 12px;  /* 本模版所有字体的大小，12px是FIREFOX下最小的显示字体，IE是11px，为了兼容性，我们选择12px。 */
+line-height: 150%;  /* 所有字的行高，这里设置的是150%，习惯。 */
+}
+
+a {
+color: #749A23;  /* 所有连接文字的颜色，我们使用深一些的绿色。 */
+text-decoration: none;  /* 所有连接文字的去掉下划线，默认是有的。 */
+}
+a:hover {
+color:#CF6;  /* 所有鼠标拖过连接文字的颜色，我们使用浅一些的绿色。 */
+}
+
+* html #head {  /* 对应IE的HEAD层。 */
+height: 135px;  /* HEAD的高。 */
+width: 780px;  /* HEAD的宽，780是在800*600下的推荐宽度。 */
+padding:99px 0px 0px 18px;  /* HEAD的内边距，“我的分类”位置取决于此。 */
+text-align: left;  /* HEAD层内所有所有属性居左。 */
+background: url("header.png") no-repeat top center;  /* HEAD的背景属性，分别是：背景图URL，背景图不重复，在层的位置：上 中。 */
+}
+#head {  /* 对应Mozilla Firefox浏览器的HEAD层。 */
+width: 780px;  /* HEAD的宽，780是在800*600下的推荐宽度。 */
+margin: 0 auto;  /* HEAD层居中。 */
+padding:105px 0px 30px 40px;  /* HEAD的内边距，“我的分类”位置取决于此。 */
+text-align: left;  /* HEAD层内所有所有属性居左。 */
+background: url("header.png") no-repeat top center;  /* HEAD的背景属性，分别是：背景图URL，背景图不重复，在层的位置：上 中。 */
+}
+
+#head ul, #head li {   /* HEAD层内UL标签和LI标签的样式属性。 */
+float:left;  /* 内容居左，就是横向显示，LI标签默认是竖向显示。 */
+margin:0;  /* 外边距，默认的不是0，所以我们要给它个值。 */
+display:block;  /* 块级元素，必须有。这个比较难解释，书上是这么写的：块对象的默认值。将对象强制作为块对象呈递，为对象之后添加新行。汗~~ */
+}
+* html #head li a{   /* HEAD LI标签内连接样式。（对应IE浏览器） */
+height: 26px;   /* 高度26。 */
+padding:3px 5px 0px 20px;   /* 内边距，定义连接文字在LI标签的位置。 */
+color: #666;   /* 连接色。 */
+background:url("mainli.png") no-repeat left top;   /* 连接的背景，连接到我们设计的背景图片上去，从左上开始显示，并且不重复。 */
+border: 1px solid #999;   /* 连接的边框，使用灰色。 */
+}
+#head li a{   /* HEAD LI标签内连接样式。（对应Mozilla Firefox浏览器） */
+padding:5px 5px 2px 20px;   /* 内边距，定义连接文字在LI标签的位置。 */
+color: #666;   /* 连接色。 */
+background:url("mainli.png") no-repeat left top;   /* 连接的背景，连接到我们设计的背景图片上去，从左上开始显示，并且不重复。 */
+border: 1px solid #999;   /* 连接的边框，使用灰色。 */
+}
+#head li a:hover{   /* HEAD LI标签内连接之鼠标拖过样式。 */
+color:#333;   /* 拖过之颜色。 */
+background:url("mainli.png") no-repeat 0px -26px;   /* 拖过后的背景，我们使用的图片和连接的背景图片是同一张，这样做的好处是节省带宽。要搞清楚位置，-26是从高位-26的地方开始显示图片，设计的时候要明白为什么这么做。 */
+}
+
+#content {
+padding:10px;  /* CONTENT层内边距10px。 */
+margin: 0px auto;   /* CONTENT层居中显示。 */
+width:780px;  /* CONTENT的宽，780px，和上面的HEAD层对齐。 */
+text-align:left;  /* CONTENT层内容居左。 */
+background: url("bg.png") repeat-y center;  /* CONTENT的背景属性，分别是：背景图URL，背景图重复在Y轴上（纵向重复显示），在层的位置：中。 */
+}
+
+#left {
+float: left;  /* LEFT层在CONTENT中的位置，要居左。 */
+width: 520px;  /* LEFT层宽度。 */
+padding: 0px 20px 0px 20px;  /* 内边距，左右要留下间隙。 */
+color: #333;  /* LEFT层内所有字体的颜色，SNAKE使用深灰色，比纯黑色要舒服。 */
+text-align: justify;  /* LEFT层内容的文字两端对齐，这在OFFICE里面经常用到，是细节，不要也可以。 */
+border-right: 1px dotted #999;  /* LEFT层右侧加一条灰色的虚线，LEFT和RIGHT的分界线。 */
+overflow: hidden;
+}
+
+#left a{
+color:#749A23;  /* LEFT层内连接字体色。 */
+text-decoration: none;  /* LEFT层内连接字体去掉下划线。 */
+}
+#left a:hover {
+color:#C1E27D;  /* LEFT层内鼠标拖过连接字体色。 */
+text-decoration:underline;  /* LEFT层内鼠标拖过连接字带有下划线。 */
+}
+#left a:visited {
+color:#999;  /* LEFT层访问后的连接字体色。 */
+}
+
+#placard {
+margin: 10px 10px 10px 10px;  /* 公告层外边距。 */
+padding: 10px 5px;  /* 公告层内边距。 */
+color: #3A5014;  /* 公告层内字体色。 */
+background: #C1E27D url("placard.png") no-repeat top right;  /* 公告层内背景色，背景图，背景图从右上开始显示，不重复。就是哪个双引号。 */
+border-top: 1px solid #666;  /* 公告层上面的灰黑色实线。 */
+border-bottom: 1px solid #666;  /* 公告层下面的灰黑色实线。个人觉得上下各一条线比较有个性，当然也可以是灰黑色边框。 */
+}
+#placard:first-letter {  /* 公告层内第一个字样式定义。 */
+margin: 0pt 5pt 0pt 0pt;  /* 公告层内第一个字的外边距。 */
+padding: 3px;  /* 公告层内第一个字的内边距。 */
+font: 20px bold;  /* 公告层内第一个字的字体大小，粗体。 */
+float: left;  /* 公告层内第一个字居左对齐，排版的人知道，至于为什么加你可以把这个样式属性去掉试试。 */
+border : 1px dotted #fff;  /* 公告层内第一个字的边框，1象素，虚线（好象是虚点），线颜色。 */
+}
+#placard p:first-letter {  /* 和上面的定义是一样的，但是这个段落的定义（注意多了个P），因为有的人在加公告的时候弄成段落格式的了，所以也需要定义一下。 */
+margin: 0pt 5pt 0pt 0pt;  /* 公告层内第一个字的外边距。 */
+padding: 3px;  /* 公告层内第一个字的内边距。 */
+font: 20px bold;  /* 公告层内第一个字的字体大小，粗体。 */
+float: left;  /* 公告层内第一个字居左对齐，排版的人知道，至于为什么加你可以把这个样式属性去掉试试。 */
+border : 1px dotted #fff;  /* 公告层内第一个字的边框，1象素，虚线（好象是虚点），线颜色。 */
+}
+#placard a{
+color: #666;  /* 公告层内连接字体颜色。 */
+}
+#placard a:hover {
+color: #698B23;  /* 公告层内连接字体鼠标拖过的颜色。 */
+}
+
+.contenttitle {  /* 用户文章的标题定义。 */
+height: 40px;  /* 用户文章标题的高度。 */
+padding:3px 0px 0px 25px;  /* 标题的内边距，同样是上右下左的顺序，左边25象素是为了和左边拉开距离，谁说的了？距离产生美么~ */
+background:url("content.png") no-repeat left;  /* 标题的背景，就是哪个像盾牌似的小图标了，为了好看，没别的。图片不重复，左对齐。 */
+font-size: 15px;  /* 标题的字体大小，15象素看着还凑合。 */
+color: #060;  /* 标题的字体颜色，这个一般用不到，因为文章标题都是连接文字，不过我发现“置顶”这两个字是没有连接的~所以加上吧，为了和标题字色配套。 */
+}
+.contenttime {  /* 用户文章的作者，发布时间定义。 */
+width:450px;  /* 时间的宽度，因为我们要文字上面有“上划线”，而且要右对齐所以定义这个。 */
+margin:-18px 0px 0px 20px;  /* 时间的外边距，也就是定位，上-18px是为了挨着标题显示，不信你去掉试试，20px是左边距，要不然“上划线”就盖住那标题图片了。 */
+font: 9px 'Tahoma', sans-serif;  /* 时间文字的大小，字体。我发现英文Tahoma字体最小的能显示的字就是9px了。 */
+color: #666;/* 时间文字的颜色。 */
+border-top: 1px dotted #999;  /* 传说中的上划线，1象素，虚线（应该是虚点），浅灰色。 */
+text-align:right;  /* 时间文字右对齐，同样为了好看。 */
+}
+.contentcomments {  /* 阅读全文数，回复数等信息的CSS定义。 */
+text-align: center;  /* 文字居中显示。 */
+border-top: 1px solid #C2C2C2;  /* 一个上划线。 */
+border-bottom: 2px solid #C2C2C2;  /* 一个2px的下划线，注意这两定义个不能缩写的。 */
+margin:15px 0px 35px 0px;  /* 外边距。 */
+font: bold 12px;  /* 字体粗细，大小。 */
+}
+
+#right {  /* RIGHT的CSS定义。 */
+float: right;  /* 位置，居右，相对LEFT层而言。 */
+width:230px;  /* 宽度，一点一点测试得出来的数字。 */
+padding: 0px 20px 0px 5px;  /* 内边距，右边距和LEFT的左边距一样，是20px，对称。 */
+}
+
+.bigtitle {  /* 大标题字层的CSS定义。 */
+text-align: center;  /* 字体居中。 */
+width:200px;  /* 层宽。 */
+height: 24px;  /* 层高。 */
+font: 14px;  /* 字体定义，14象素。 */
+color: #333;  /* 字体颜色。 */
+padding: 2px 0px 0px 0px;  /* 层内边距，距离上面是2px。 */
+background: url("sidebartitle.png") no-repeat top center;  /* 本层的背景定义，不重复，位置：上 中。 */
+}
+
+#calendar{  /* 日历层定义。 */
+width:195px;  /* 日历层宽。 */
+}
+#calendar caption {   /* 定义日历顶部月份。 */
+font:11px 'Century Gothic', Arial, Helvetica, sans-serif;  /* 日历顶部月份的字体大小，字体。 */
+}
+#calendar table { 
+border-collapse: collapse; /*合并表格相临边框*/
+} 
+#calendar th{   /* 定义星期 */
+font: normal 12px;   /* 字体正常显示，OBLog系统默认显示粗体，大小12象素，中文字最小12象素。 */
+}
+#calendar td {  /* 定义日期 */
+text-align:center;
+font-size: 10px;   /* 字体10px。 */
+}
+#calendar td a {   /* 日历内日期链接样式 */
+display:block;  /* 日历内日期呈块级元素 */
+background-color: #C1E27D;  /* 日历内日期背景色 */
+width:16px;  /* 日历内日期宽 */
+} 
+#calendar td a:hover{   /* 鼠标拖过日期的链接样式 */
+background-color: #CF6;  /* 背景色 */
+color: #333;  /* 字体色 */
+}
+
+.sidebar ul{  /* 字体色 */
+margin: 0 0 0 -5px;  /* 外边距 */
+}
+.sidebar li a{  /* LI连接样式 */
+padding: 0 0 0 20px;  /* 内边距，左20px的距离。 */
+color:#749A23;  /* 连接字体色，使用稍微有些深的绿颜色 */
+background: url("liimage.png") no-repeat left top;  /* 左边的小圆圈，是图片。本来LI属性自带圆圈这个设置，但是本地测试OK用做模版就不可以了。使用图片的话还可以改成别的小图标，设计灵活。 */
+}
+.sidebar li a:hover{  /* 连接字鼠标拖过 */
+padding: 0 0 0 20px;  /* 和上面的一样，也是左边内边距20px，这个不能省略。 */
+color:#C1E27D;  /* 鼠标拖过时字体颜色，使用较浅的绿色，相对于上面的连接色，这样的话色彩变换比较柔和。 */
+text-decoration:underline;  /* 鼠标拖过时有下划线，在英文网页里面连接一般都有下划线，但是汉字这样做就不好看了，要改。 */
+}
+.sidebar li a:visited {  /* 连接访问后样式 */
+text-decoration:underline;  /* 有下划线 */
+color:#060;  /* 更深的绿色，本来是要用更浅的色凋的，但是发现那样的话字就看不清了，使用灰色就不好看了~所以使用深色绿色。 */
+}
+
+table {  /* 所有表格定义 */
+font-size: 12px;  /* 字体12px */
+}
+input {  /* 输入框文本字段的定义 */
+background-color: #C1E27D;  /* 背景色 */
+border: 1px #333 solid;  /* 边框，1象素，灰黑色，实线。 */
+font-size: 12px;  /* 字体12px */
+color: #666;  /* 字体色 */
+}
+select {  /* 列表框文本字段的定义 */
+background-color: #C1E27D;  /* 背景色 */
+border: 1px solid #333;  /* 边框，1象素，灰黑色，实线。 */
+font-size: 12px;  /* 字体12px */
+color: #666;  /* 字体色 */
+}
+#form_comment textarea {
+background-color: #C1E27D;
+border: 1px solid #333;
+font-size: 12px;
+color: #666;
+}
+
+
+*html #footer {
+width:780px;  /* FOTTER层宽780px。 */
+height: 30px;  /* FOTTER层高43px，根据切出来的图的大小定义。 */
+color: #fff;  /* FOTTER层内字体颜色，因为背景是黑色，我们选择白色，而且这个地方只准备放版权。 */
+text-align: left;  /*  FOTTER层内容居左。 */
+padding:13px 0px 0px 30px;  /* FOTTER层的内边距定义，分别是 上 右 下 左。 */
+background: url("footer.png") no-repeat;  /* FOTTER的背景属性（我们省略掉一部分属性，因为是浏览器默认的），分别是：背景图URL，背景图不重复。 */
+}
+#footer {
+margin:0px auto;  /* FOTTER层居中显示。 */
+clear: both;  /* FOTTER 不悬挂在其他层之上。 */
+width:740px;  /* FOTTER层宽740px。 */
+height: 30px;  /* FOTTER层高43px，根据切出来的图的大小定义。 */
+color: #fff;  /* FOTTER层内字体颜色，因为背景是黑色，我们选择白色，而且这个地方只准备放版权。 */
+text-align: left;  /*  FOTTER层内容居左。 */
+padding:13px 0px 0px 30px;  /* FOTTER层的内边距定义，分别是 上 右 下 左。 */
+background: url("footer.png") no-repeat bottom center;;  /* FOTTER的背景属性（我们省略掉一部分属性，因为是浏览器默认的），分别是：背景图URL，背景图不重复。 */
+}
+
+table p{  /* 表格内段落的定义，这里一般针对单个文章的“BLOG主人回复”设置 */
+padding: 10px 10px 10px 10px;  /* 内边距 */
+font-size: 12px;  /* 字体大小 */
+color: #749A23;  /* 字体色，为了配合模版，使用绿色 */
+border: 1px solid #C2C2C2;  /* 1px的边框。 */
+}
+
+#oblog_edit {  /* 编辑窗口的定义。 */
+background-color: #fff;  /* 背景色为白色，以前是灰色。 */
+border: 0px  /* 边框为0，以前是1px，灰色。 */
+}
+#oblog_edit .oblog_Btn {  /* 加粗，斜体等小图的设置。 */
+background-color: #fff;  /* 背景为白色，原来是灰色。 */
+}
+/*
+.oblog_TBGen {
+display:none;
+}
+*/
+#powered {
+display:none;
+}
+#oblog_edit iframe.oblog_Composition {
+border: 1px dotted #333;
+}

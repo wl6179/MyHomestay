@@ -1,0 +1,104 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	line-height: 1.6em;
+	color: #000000;
+	text-decoration: none;
+}
+.a1:link {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.a1:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.a1:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #999999;
+	text-decoration: none;
+}
+
+
+.clear{
+	clear:both;
+}
+
+
+.star {
+	background-color: #FBEFE3;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #E2E0E1;
+	border-bottom-color: #E2E0E1;
+	border-left-color: #E2E0E1;
+}
+
+a:visited {
+	font-size: 12px;
+	line-height: 1.6em;
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 12px;
+	line-height: 1.6em;
+	color: #ff6600;
+	text-decoration: underline;
+}
+a:link {
+	font-size: 12px;
+	line-height: 1.6em;
+	color: #000000;
+	text-decoration: none;
+}
+.b1 {
+	font-size: 13px;
+	line-height: 1.6em;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	font-family: "宋体";
+}
+.b2 {
+	font-size: 12px;
+	line-height: 1.6em;
+	font-weight: bold;
+	color: #E0328A;
+	text-decoration: none;
+	padding-left: 8px;
+}
+.back {
+	background-image: url(index_20.gif);
+	background-repeat: repeat-x;
+}
+.left5 {
+}
+li {
+list-style-type:circle;
+}
+ul {
+padding-left:10px;
+}
+#ob_login {
+color: #fff;
+}
+#ob_login a{
+color: #fff;
+}

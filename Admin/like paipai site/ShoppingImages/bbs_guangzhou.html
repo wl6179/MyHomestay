@@ -1,0 +1,684 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>拍拍广东版图</title>
+<script type="text/javascript" src="http://www.myhomestay.com.cn/js/paipai_pv.js"></script>
+<script>ping_build(1);</script> 
+<script language="javascript">
+var g_iGroupID=0;
+var g_time=new Date().getTime();
+function LoadTime()
+{
+	if(g_time > 0)
+	{	
+		var query = "time="+g_time+"=domain=bbs.paipai.com";
+		document.write("<div style='position:absolute; left:0px; top:0px; width:0px; height:0px; z-index:0; visibility: hidden;'><img src='http://bbs.paipai.com/speedtest_loadtime.html?" + query + "' height='0' width='0'></div>");
+	}
+}
+
+var bbs_show_word="输入关键字进行搜索";
+function showBbsSearch(obj,type)
+{
+if(type)
+{
+  if(obj.value=="")
+  obj.value=bbs_show_word;
+  obj.style.color='gray';
+}
+else
+{
+  if(obj.value==bbs_show_word)
+    obj.value="";
+  obj.style.color='#000000';
+}
+}
+function SubmitSearch()
+{
+  var obj = document.getElementById("sc");
+  if(obj.value==bbs_show_word)
+  {
+    obj.value="";
+	obj.style.color='#000000';
+	alert('请输入搜索关键词');
+	obj.focus();
+	return false;
+  }
+  return true;
+}
+</script>
+<style>
+.content{margin:0 auto 5px;width:760px}
+.bbs_list{border:1px solid #ff0000;background:#FBF4F4;margin:5px 0}
+.layout{float:left}
+.centerDiv{margin:0 0 0 10px}
+p,td,select,textarea,body,div,span{
+	color:#333;
+	font:12px "宋体";
+	text-align: left;
+}
+table{text-align:left}
+ul{margin:0;padding:0px;list-style-type:none}
+.super_top{border-top:1px solid #FF0000}
+.super_bottom{border-bottom:1px solid #FF0000}
+.super_right{border-right:1px solid #FF0000}
+.super_left{border-left:1px solid #FF0000}
+.super0_top{border-left:1px solid #FF0000;border-top:1px solid #FF0000}
+.super0_bottom{border-left:1px solid #FF0000;border-bottom:1px solid #FF0000}
+.super0_right{border-right:1px solid #FF0000;border-top:1px solid #FF0000}
+.super1_right{border-right:1px solid #FF0000;border-bottom:1px solid #FF0000}
+#headMain{width:760px;text-align:right;height:66px;overflow:hidden;position:relative;margin:0 auto}
+#headLogo{position:absolute;top:0;left:0}
+#headLink{background:url(http://pics.paipai.com/common/menu/line.gif) right bottom no-repeat;height:18px;font-family:Verdana}
+#headInfo{padding:4px 40px 0 0;color:#545454;height:20px;font-family:Verdana}
+#headMenu{padding-left:140px}
+
+#menuFind a{color:#fff;text-decoration:underline}
+#menuFind a:hover{color:#ff4e00}
+#menuItem{height:24px;font-family:"宋体"}
+#menuItem a{background:url(http://pics.paipai.com/common/menu/main_left.gif) #EBEBEB left top no-repeat;display:block;float:left;height:24px;text-decoration:none}
+#menuItem a span{background:transparent url(http://pics.paipai.com/common/menu/main_side.gif) right top no-repeat;color:#000000;cursor:hand;display:block;float:left;height:17px;padding:7px 13px 0;text-align:center}
+#menuItem li{float:left;height:24px;margin-right:3px}
+#menuItem li#guanli6 a:hover{background:url(http://pics.paipai.com/common/menu/book_left.gif) #1D7D8B left top no-repeat}
+#menuItem li#guanli6 a:hover span{background:transparent url(http://pics.paipai.com/common/menu/book_side.gif) right top no-repeat;color:#FFFFFF}
+#menuItem li#guanli4 a:hover{background:url(http://pics.paipai.com/common/menu/digital_left.gif) #8B94A2 left top no-repeat}
+#menuItem li#guanli4 a:hover span{background:transparent url(http://pics.paipai.com/common/menu/digital_side.gif) right top no-repeat;color:#FFFFFF}
+#menuItem li#guanli2 a:hover{background:url(http://pics.paipai.com/common/menu/game_left.gif) #784544 left top no-repeat}
+#menuItem li#guanli2 a:hover span{background:transparent url(http://pics.paipai.com/common/menu/game_side.gif) right top no-repeat;color:#FFFFFF}
+#menuItem li#menuLady a:hover{background:url(http://pics.paipai.com/common/menu/home_left.gif) #FFA730 left top no-repeat}
+#menuItem li#menuLady a:hover span{background:transparent url(http://pics.paipai.com/common/menu/home_side.gif) right top no-repeat;color:#FFFFFF}
+#menuItem li#menuLady a:hover{background:url(http://pics.paipai.com/common/menu/lady_left.gif) #F0447D left top no-repeat}
+#menuItem li#menuLady a:hover span{background:transparent url(http://pics.paipai.com/common/menu/lady_side.gif) right top no-repeat;color:#FFFFFF}
+#menuItem li#guanli9 a:hover{background:url(http://pics.paipai.com/common/menu/q_left.gif) #32C1EC left top no-repeat}
+#menuItem li#guanli9 a:hover span{background:transparent url(http://pics.paipai.com/common/menu/q_side.gif) right top no-repeat;color:#FFFFFF}
+#menuItem li#guanli3 a:hover{background:url(http://pics.paipai.com/common/menu/sale_left.gif) #97C03D left top no-repeat}
+#menuItem li#guanli3 a:hover span{background:transparent url(http://pics.paipai.com/common/menu/sale_side.gif) right top no-repeat;color:#FFFFFF}
+#menuItem li#guanli5 a:hover{background:url(http://pics.paipai.com/common/menu/sport_left.gif) #60B900 left top no-repeat}
+#menuItem li#guanli5 a:hover span{background:transparent url(http://pics.paipai.com/common/menu/sport_side.gif) right top no-repeat;color:#FFFFFF}
+#menuItem li#guanli7 a:hover{background:url(http://pics.paipai.com/common/menu/student_left.gif) #FF6100 left top no-repeat}
+#menuItem li#guanli7 a:hover span{background:transparent url(http://pics.paipai.com/common/menu/student_side.gif) right top no-repeat;color:#FFFFFF}
+#headFind{background:url(http://pics.paipai.com/common/menu/home_find_left.gif) #FFA730 left top no-repeat}
+#headForm{background:transparent url(http://pics.paipai.com/common/menu/home_find_side.gif) right top no-repeat}
+#menuItem li#guanli1 a{background:url(http://pics.paipai.com/common/menu/lady_left.gif) #F0447D left top no-repeat}
+#menuItem li#guanli1 a span{background:transparent url(http://pics.paipai.com/common/menu/lady_side.gif) right top no-repeat;color:#FFFFFF}
+#headFind{background:url(http://pics.paipai.com/common/menu/lady_find_left.gif) #F0447D left top no-repeat}
+#headForm{background:transparent url(http://pics.paipai.com/common/menu/lady_find_side.gif) right top no-repeat}
+#search{position:relative}
+#menuFind{position:absolute;top:-19px;right:0;width:230px;height:14px;overflow:hidden}
+.STYLE33 {	font-size: 13px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.STYLE37 {color: #A0410D}
+#super_div div{
+	padding-left:2px;
+	text-align:left;
+	padding-top: 7px;
+}
+#super0_div div{
+	padding-top:3px;
+	padding-bottom: 3px;
+	text-align: center}
+#super1_div div{
+	padding-top: 5px;	
+	text-align: center}
+#super2_div div{
+	padding-top: 0px;	
+	text-align: right}
+#super3_div div{
+	padding-top: 0px;
+	text-align: center}
+#super4_div div{
+	padding-left:2px;
+	padding-right: 2px}	
+#super5_div div{style="line-height:1.5;
+	text-align: left;
+	padding-top: 5px;
+	top: 5px;
+}
+#super6_div div{
+	padding-left:2px;
+	text-align:left;
+	padding-top: 2px;
+}
+.dress_bottom {border-bottom:1px solid #54C2C3}
+.STYLE49 {color: #009966}
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+		<div id="headMenu">
+			<ul id="menuItem">
+			<li id="guanli1"><a href="http://bbs1.paipai.com/tg40027c0s0p0.html" target="_blank"><span>管理团队</span></a> </li>
+			<li id="guanli2"><a href="http://bbs.paipai.com/cgi-bin/bbs/friend/user_info_show?ln=33869511" target="_blank"><span>桂林烟袋</span></a> </li>
+			<li id="guanli3"><a href="http://bbs.paipai.com/cgi-bin/bbs/friend/user_info_show?ln=304767193" target="_blank"><span>君罗绮</span></a> </li>
+			<li id="guanli4"><a href="http://bbs.paipai.com/cgi-bin/bbs/friend/user_info_show?ln=183123699" target="_blank"><span>魔法小楼</span></a> </li>
+
+			<li id="guanli6"><a href="http://bbs.paipai.com/cgi-bin/bbs/friend/user_info_show?ln=33924562" target="_blank"><span>雪狼</span></a> </li>
+			<li id="guanli5"><a href="http://bbs.paipai.com/cgi-bin/bbs/friend/user_info_show?ln=197322867" target="_blank"><span>傻耕耕</span></a> </li>	
+			<li id="guanli7"><a href="http://bbs.paipai.com/cgi-bin/bbs/friend/user_info_show?ln=181913171" target="_blank"><span>E盟-自由人</span></a> </li>			
+			<li id="guanli3"><a href="http://bbs1.paipai.com/g40027c0i32147s0p0.html" target="_blank"><span>考核群20627930</span></a> </li>
+			<li id="guanli9"><a href="http://bbs1.paipai.com/g40027c0i32147s0p0.html" target="_blank"><span>主群22382360</span></a> </li>
+			</ul>
+		</div>
+	</div>
+  <table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="100"><img src="http://bbsimg.paipai.com/2007/01/03/000/100.gif" width="100" height="90" /></td>
+      <td width="560"><a href="http://bbs.paipai.com/cgi-bin/bbs/show/main?groupid=162:40027" target="_blank"><img src="http://bbsimg.paipai.com/2007/03/13/001/35.gif" width="560" height="90" border="0" /></td>
+      <td><img src="http://bbsimg.paipai.com/2006/12/25/001/141.gif" width="100" height="90" /></td>
+    </tr>
+</table>
+<table width="760" height="2" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+      <table width="760" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="260" background="http://bbsimg.paipai.com/2007/01/23/002/160.gif"><a href="http://bbs.paipai.com/cgi-bin/bbs/show/main?groupid=40027" target="_blank"><img src="http://bbsimg.paipai.com/2007/03/14/001/296.gif" width="260" height="29" border="0" /></a></td>
+    <td width="100" height="29" background="http://bbsimg.paipai.com/2007/03/14/001/308.gif">&nbsp;</td>
+    <td width="50" background="http://bbsimg.paipai.com/2007/03/14/001/308.gif"></td>
+    <td background="http://bbsimg.paipai.com/2007/03/14/001/308.gif">
+	      <table width=100% border=0 align="center" cellpadding=1 cellspacing=0>
+  <form method="post" id="form_ppsearch" action=http://bbs.paipai.com/cgi-bin/bbs/show/pptitle  target="_blank" onsubmit="return SubmitSearch();" >
+              <tr> 
+                <td id="super3_div" width="385" style="padding-left:30px;"><div> <input type=hidden name=groupid value=40027> <input type=hidden name=gpc> &nbsp;  &nbsp; <input name="sc" id="0" type="text" value="输入关键字进行搜索" onfocus="showBbsSearch(this)" onblur="showBbsSearch(this,1)" style="color:gray" /> <input type=submit
+value=相关贴搜索>
+            </div></td>
+        </tr></form></table></td>
+  </tr>
+</table>
+
+    <table width="760" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td colspan="5"><img src="http://bbsimg.paipai.com/2007/01/12/001/298.gif" width="760" height="30"></td>
+  </tr>
+  <tr> 
+    <td width="374"><!--焦点图开始--><SCRIPT type=text/javascript>           var focus_width=363;           var focus_height=175;           var text_height=0;  var swf_height = focus_height+text_height; var pics='http://bbsimg.paipai.com/2007/04/27/000/743.jpg|http://bbsimg.paipai.com/2007/04/27/000/734.jpg|http://bbsimg.paipai.com/2007/03/22/001/328.jpg'; var links='http://shop.paipai.com/183123699|http://shop.paipai.com/583387321|http://shop.paipai.com/197322867';          var texts='' ;            document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');           document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="http://image2.sina.com.cn/bj/zonghe/pixviewer.swf"><param name="quality" value="high"><param name="bgcolor" value="#ffffff">');           document.write('<param name="menu" value="false"><param name=wmode value="opaque">');          document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">');          document.write('<embed src="http://image2.sina.com.cn/bj/zonghe/pixviewer.swf" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'" menu="false" bgcolor="#ffffff" quality="high" width="'+ focus_width +'" height="'+ focus_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');           document.write('</object>');  //-->         </SCRIPT><!--焦点图结束--></td>
+    <td width="10"></td>
+    <td width="203"><br>
+	
+	<font color="#CC0000"><font color="#FF3300"><img src="http://bbsimg.paipai.com/2006/12/08/002/521.gif" width="15" height="11"><font color="#FF0066"><a href="http://bbs1.paipai.com/g40027c2i36919s0p0.html"  target="_blank">广东版图详细分解</a></font></font><br>
+	
+	<font color="#CC0000"><font color="#FF3300"><img src="http://bbsimg.paipai.com/2006/12/08/002/521.gif" width="15" height="11"><font color="#FF0066"><a href="http://bbs1.paipai.com/g40027c0i35419s0p0.html"  target="_blank">广东版图卖场推荐位申请章程</a></font></font><br>
+	
+	<font color="#CC0000"><font color="#FF3300"><img src="http://bbsimg.paipai.com/2006/12/08/002/521.gif" width="15" height="11"><font color="#FF0066"><a href="http://bbs1.paipai.com/g40027c2i38231s0p0.html"  target="_blank">版面热辣贴英雄榜</a></font></font><br>
+	
+	<font color="#CC0000"><font color="#FF3300"><img src="http://bbsimg.paipai.com/2006/12/08/002/521.gif" width="15" height="11"><font color="#FF0066"><a href="http://bbs1.paipai.com/g40027c0i36986s0p0.html"  target="_blank">东莞拍友首次见面会精彩无限</a></font></font><br>
+	
+	<font color="#CC0000"><font color="#FF3300"><img src="http://bbsimg.paipai.com/2006/12/08/002/521.gif" width="15" height="11"><font color="#FF0066"><a href="http://bbs1.paipai.com/g40027c0i32483s0p0.html"  target="_blank">“12·10”广州拍友见面会</a></font></font><br>
+	
+	<font color="#CC0000"><font color="#FF3300"><img src="http://bbsimg.paipai.com/2006/12/08/002/521.gif" width="15" height="11"><font color="#FF0066"><a href="http://bbs1.paipai.com/g40027c0i5359s0p0.html"  target="_blank">“3·26”广州拍友见面会</a></font></font><br>
+	
+	<font color="#CC0000"><font color="#FF3300"><img src="http://bbsimg.paipai.com/2006/12/08/002/521.gif" width="15" height="11"><font color="#FF0066"><a href="http://bbs1.paipai.com/g40027c7i39222s0p0.html"  target="_blank"> 广州拍友征服雨中的白云山</a></font></font><br>
+	
+	<font color="#CC0000"><font color="#FF3300"><img src="http://bbsimg.paipai.com/2006/12/08/002/521.gif" width="15" height="11"><font color="#FF0066"><a href="http://bbs1.paipai.com/g40027c0i35433s0p0.html"  target="_blank">拍友的展示空间·拍拍名片</a></font></font><br>
+	
+	<font color="#CC0000"><font color="#FF3300"><img src="http://bbsimg.paipai.com/2006/12/08/002/521.gif" width="15" height="11"><font color="#FF0066"><a href="http://bbs1.paipai.com/g40027c10i23845s0p0.html"  target="_blank">花城倩影靓丽MM秀</a></font></font><br>
+	
+	<font color="#CC0000"><font color="#FF3300"><img src="http://bbsimg.paipai.com/2006/12/08/002/521.gif" width="15" height="11"><font color="#FF0066"><a href="http://bbs1.paipai.com/g40027c2i38887s0p0.html"  target="_blank">《我的同城交易故事》主题征集</a></font></font><br>
+	  
+      </font><font color="#FF0066">&nbsp;       </font></td>
+    <td width="10"> </td>
+    <td width="163">
+      <table width="163" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="3"><img src="http://bbsimg.paipai.com/2006/12/08/001/951.gif" width="163" height="8"></td>
+        </tr>
+        <tr> 
+          <td width="9" background="http://bbsimg.paipai.com/2006/12/08/001/966.gif"> </td>
+          <td width="145" align="center"><A href="http://auction1.paipai.com/D9602A12000000000059353B00C2968A" target=_blank><IMG src="http://bbsimg.paipai.com/2007/04/28/000/782.jpg" width="145" height="137" border=0></A></td>
+          <td width="9" background="http://bbsimg.paipai.com/2006/12/08/001/966.gif"> </td>
+        </tr>
+        <tr> 
+          <td colspan="3"><img src="http://bbsimg.paipai.com/2006/12/08/001/955.gif" width="163" height="8"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table width="760" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td><img src="http://bbsimg.paipai.com/2007/03/13/000/683.gif" width="760" height="30" /></td>
+  </tr>
+</table>
+
+    <table width="760" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td background="/images/mrpd/BG-hufu.gif" valign="top"><table width="760" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td rowspan="2" width="5"></td>
+        <td><table width="161" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td colspan="3"><img src="http://bbsimg.paipai.com/2006/12/08/001/829.gif" width="161" height="8" /></td>
+          </tr>
+          <tr>
+            <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/830.gif" width="8" height="138" /></td>
+            <td width="145"><table cellspacing=0 cellpadding=0 border=0>
+              <tbody>
+                <tr>
+                  <td align=middle><a href="http://auction1.paipai.com/8B85050A00000000000B35900108E608" target=_blank><img style="FILTER: ; WIDTH: 145px; HEIGHT: 137px" height=150 alt="" hspace=0 src="http://bbsimg.paipai.com/2007/08/09/000/381.jpg" width=140 border=0 /></a></td>
+                </tr>
+                <tr>
+                  <td align=middle></td>
+                </tr>
+              </tbody>
+            </table></td>
+            <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/832.gif" width="8" height="138" /></td>
+          </tr>
+          <tr>
+            <td colspan="3"><a href="/region/C0003001001.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/03/13/000/682.gif" width="161" height="30" border="0" /></a></td>
+          </tr>
+        </table></td>
+        <td rowspan="2" width="5"></td>
+        <td><table width="161" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td colspan="3"><img src="http://bbsimg.paipai.com/2006/12/08/001/829.gif" width="161" height="8" /></td>
+          </tr>
+          <tr>
+            <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/830.gif" width="8" height="138" /></td>
+            <td width="145"><table cellspacing=0 cellpadding=0 border=0>
+              <tbody>
+                <tr>
+                  <td><a href="http://auction1.paipai.com/B0B91D11000000000030352900B6C13B" target=_blank><img style="FILTER: ; WIDTH: 145px; HEIGHT: 137px" height=150 alt="" hspace=0 src="http://bbsimg.paipai.com/2007/08/09/000/395.jpg" width=140 border=0 /></a></td>
+                </tr>
+                <tr>
+                  <td align=middle></td>
+                </tr>
+              </tbody>
+            </table></td>
+            <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/832.gif" width="8" height="138" /></td>
+          </tr>
+          <tr>
+            <td colspan="3"><a href="/region/C0003001002.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/03/13/000/682.gif" width="161" height="30" border="0" /></a></td>
+          </tr>
+        </table></td>
+        <td rowspan="2" width="5"></td>
+        <td><table width="161" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td colspan="3"><img src="http://bbsimg.paipai.com/2006/12/08/001/829.gif" width="161" height="8" /></td>
+          </tr>
+          <tr>
+            <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/830.gif" width="8" height="138" /></td>
+            <td width="145"><table cellspacing=0 cellpadding=0 border=0>
+              <tbody>
+                <tr>
+                  <td align=middle><a href="http://shop.paipai.com/121325728" target=_blank><img style="FILTER: ; WIDTH: 145px; HEIGHT: 137px" height=137 alt="" hspace=0 src="http://bbsimg.paipai.com/2007/03/31/001/503.jpg" width=145 border=0 /></a></td>
+                </tr>
+                <tr>
+                  <td align=middle></td>
+                </tr>
+              </tbody>
+            </table></td>
+            <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/832.gif" width="8" height="138" /></td>
+          </tr>
+          <tr>
+            <td colspan="3"><a href="/region/C0003001003.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/03/13/000/682.gif" width="161" height="30" border="0" /></a></td>
+          </tr>
+        </table></td>
+        <td rowspan="2" width="5"></td>
+        <td><table width="161" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td colspan="3"><img src="http://bbsimg.paipai.com/2006/12/08/001/829.gif" width="161" height="8" /></td>
+          </tr>
+          <tr>
+            <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/830.gif" width="8" height="138" /></td>
+            <td width="145"><table cellspacing=0 cellpadding=0 border=0>
+              <tbody>
+                <tr>
+                  <td align=middle><a href="http://auction1.paipai.com/6F77A30D00000000006F352100AAE0DD" target=_blank><img style="FILTER: ; WIDTH: 145px; HEIGHT: 137px" height=137 alt="" hspace=0 src="http://bbsimg.paipai.com/2007/04/27/000/895.jpg" width=145 border=0 /></a></td>
+                </tr>
+                <tr>
+                  <td align=middle></td>
+                </tr>
+              </tbody>
+            </table></td>
+            <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/832.gif" width="8" height="138" /></td>
+          </tr>
+          <tr>
+            <td colspan="3"><a href="/region/C0003001003.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/03/13/000/682.gif" width="161" height="30" border="0" /></a></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><font color="#FF0000"> <a href="http://auction1.paipai.com/8B85050A00000000000B35900108E608"  target="_blank">玫琳凯护肤轻便套装</a> <br />
+          <a href="http://shop.paipai.com/168134027" target="_blank">>>逛逛店铺...</a> </font></td>
+        <td><font color="#FF0000"> <a href="http://auction1.paipai.com/B0B91D11000000000030352900B6C13B"  target="_blank"> 欧碧娜雪颜三重美白5件套 </a> <br />
+              <a href="http://shop.paipai.com/287160752" target="_blank">>>逛逛店铺...</a> </font></td>
+        <td><font color="#FF0000"> <a href="http://shop.paipai.com/275959609"  target="_blank">嫣然.秀坊§演绎淑女穿出时尚</a> <br />
+              <a href="http://shop.paipai.com/275959609" target="_blank">>>逛逛店铺...</a> </font></td>
+        <td><font color="#FF0000"> <a href="http://auction1.paipai.com/6F77A30D00000000006F352100AAE0DD"  target="_blank">正版QQ公仔25CM QGG/QMM</a> <br />
+              <a href="http://shop.paipai.com/228816751" target="_blank">>>逛逛店铺...</a> </font></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr valign="middle">
+    <td colspan="3" height="3"></td>
+  </tr>
+</table>
+<table width="760" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td rowspan="2" width="4"> </td>
+  </tr>
+  <tr> 
+    <td width="587" valign="top" background="/images/mrpd/BG-hufu.gif"><table width="760" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td rowspan="2" width="5"> </td>
+        <td>
+          <table width="161" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td colspan="3"><img src="http://bbsimg.paipai.com/2006/12/08/001/829.gif" width="161" height="8"></td>
+            </tr>
+            <tr>
+              <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/830.gif" width="8" height="138"></td>
+                <td width="145"><TABLE cellSpacing=0 cellPadding=0 border=0><TBODY><TR><TD align=middle><A href="http://auction1.paipai.com/86E28E16000000000006352700BA27A8" target=_blank><IMG style="FILTER: ; WIDTH: 145px; HEIGHT: 137px" height=137 alt="" hspace=0 src="http://bbsimg.paipai.com/2007/08/09/000/393.jpg" width=145 border=0></A></TD>
+                </TR><TR><TD align=middle></TD></TR></TBODY></TABLE></td>
+              <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/832.gif" width="8" height="138"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><a href="/region/C0003002001.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/03/13/000/682.gif" width="161" height="30" border="0"></a></td>
+            </tr>
+        </table></td>
+        <td rowspan="2" width="5"> </td>
+        <td>
+          <table width="161" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td colspan="3"><img src="http://bbsimg.paipai.com/2006/12/08/001/829.gif" width="161" height="8"></td>
+            </tr>
+            <tr>
+              <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/830.gif" width="8" height="138"></td>
+                <td width="145"><TABLE cellSpacing=0 cellPadding=0 border=0><TBODY><TR><TD><A href="http://auction1.paipai.com/53C6D70A000000000053352200AB4A9A" target=_blank><IMG style="FILTER: ; WIDTH: 145px; HEIGHT: 137px" height=137 alt="" hspace=0 src="http://bbsimg.paipai.com/2007/04/12/001/715.jpg" width=145 border=0></A></TD>
+                </TR><TR><TD align=middle></TD></TR></TBODY></TABLE></td>
+              <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/832.gif" width="8" height="138"></td>
+            </tr>
+
+
+
+
+
+
+
+            <tr>
+                <td colspan="3"><a href="/region/C0003002002.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/03/13/000/682.gif" width="161" height="30" border="0"></a></td>
+            </tr>
+        </table></td>
+        <td rowspan="2" width="5"> </td>
+        <td>
+          <table width="161" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td colspan="3"><img src="http://bbsimg.paipai.com/2006/12/08/001/829.gif" width="161" height="8"></td>
+            </tr>
+            <tr>
+              <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/830.gif" width="8" height="138"></td>
+                <td width="145"><TABLE cellSpacing=0 cellPadding=0 border=0><TBODY><TR><TD><A href="http://auction1.paipai.com/537D8604000000000053352700AF3BC9" target=_blank><IMG style="FILTER: ; WIDTH: 145px; HEIGHT: 137px" height=137 alt="" hspace=0 src="http://bbsimg.paipai.com/2007/04/12/001/696.jpg" width=145 border=0></A></TD>
+                </TR><TR><TD align=middle></TD></TR></TBODY></TABLE></td>
+              <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/832.gif" width="8" height="138"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><a href="/region/C0003002003.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/03/13/000/682.gif" width="161" height="30" border="0"></a></td>
+            </tr>
+        </table></td>
+        <td rowspan="2" width="5"> </td>
+        <td>
+          <table width="161" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td colspan="3"><img src="http://bbsimg.paipai.com/2006/12/08/001/829.gif" width="161" height="8"></td>
+            </tr>
+            <tr>
+              <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/830.gif" width="8" height="138"></td>
+                <td width="145"><TABLE cellSpacing=0 cellPadding=0 border=0><TBODY><TR><TD><A href="http://auction1.paipai.com/6120B912000000000061350F00A2C0A7" target=_blank><IMG style="FILTER: ; WIDTH: 145px; HEIGHT: 137px" height=155 alt="" hspace=0 src="http://bbsimg.paipai.com/2007/04/27/000/919.jpg" width=144 border=0></A></TD>
+                </TR><TR><TD align=middle></TD></TR></TBODY></TABLE></td>
+              <td width="8"><img src="http://bbsimg.paipai.com/2006/12/08/001/832.gif" width="8" height="138"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><a href="/region/C0003002003.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/03/13/000/682.gif" width="161" height="30" border="0"></a></td>
+            </tr>
+        </table></td>
+
+      </tr>
+
+      <tr>
+        <td><font color="#FF0000">
+          
+          <a href="http://auction1.paipai.com/86E28E16000000000006352700BA27A8"  target="_blank">
+          疗肤堂美白祛斑组合          </a> <br>
+          <a href="http://shop.paipai.com/378462854" target="_blank">>>逛逛店铺...</a> </font></td>
+          <td><font color="#FF0000"> 
+            
+            <a href="http://auction1.paipai.com/53C6D70A000000000053352200AB4A9A"  target="_blank">
+            性能好，QQ会员特权价10元
+            </a><br>
+            
+            <a href="http://shop.paipai.com/181913171" target="_blank">>>逛逛店铺...</a> </font></td>
+        <td><font color="#FF0000">
+          
+          <a href="http://auction1.paipai.com/537D8604000000000053352700AF3BC9"  target="_blank">零售韩式精美饰品及可爱的公仔</a> <br>
+          <a href="http://shop.paipai.com/75922771" target="_blank">>>逛逛店铺...</a> </font></td>
+        <td><font color="#FF0000">
+          
+          <a href="http://auction1.paipai.com/6120B912000000000061350F00A2C0A7"  target="_blank">
+          漂亮宝贝MP-4号猪          </a> <br>
+          <a href="http://shop.paipai.com/314122337" target="_blank">>>逛逛店铺...</a> </font></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="760" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+<table width="760" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="320"><a href="http://bbs1.paipai.com/g40027c0i42507s0p0.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/01/12/001/191.gif" width="315" height="30" border="0" /></a></td>
+    <td colspan="2" id="super3_div"><div><img src="http://bbsimg.paipai.com/2007/03/14/001/527.gif" width="250" height="30" /></div></td>
+    <td width="190" id="super2_div"><div><img src="http://bbsimg.paipai.com/2007/01/02/001/747.gif" width="185" height="30" /></div></td>
+  </tr>
+  <tr>
+    <td width="320" id="super0_div"><div><span class="STYLE33">男人色情还是女人绝情</span></div></td>
+    <td width="110" rowspan="5" id="super3_div"><div><a href="http://bbs1.paipai.com/g40027c2i40688s0p0.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/08/09/000/403.jpg" width="100" height="100" border="0" /></a></div></td>
+    <td width="140" rowspan="5" id="super5_div"><div>
+      <p style="line-height:1.5; text-align: left;" class="STYLE49">　　　美丽的广州，繁体的都市...今天，来自本地之星自由人的采访中，让我们相约拍拍，通过拍拍把这份喜悦展现给更多的用户。让大家更进一步...<a href="http://bbs1.paipai.com/g40027c2i40688s0p0.html" target="_blank">[详情]</a></p>
+    </div></td>
+    <td width="190" valign="top" class="dress_right" id="super_div"><div><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c7i35860s0p0.html" target="_blank">合格卖家起码应该遵循以下几点</a></div></td>
+  </tr>
+  <tr>
+    <td width="320" rowspan="5" bgcolor="#FFF7E4" id="super4_div"><div><p style="line-height:1.5; text-align: left;" class="STYLE37">　　说男人绝情的大多是女人。因为男人多情，家里红旗不倒外面彩旗飘飘，不但心里可以容纳2个甚至2个以上的女人，而且“再多也不够”。若是像段正淳那样的多情者倒也还是多情男人中的极品了，偏偏是那类桌上吃着正餐，手里拿着小食美味，心里还想着偷食的男人。他的爱，来时如暴风雨般激情浩荡，去时如暴风雨过后的风轻云淡。想当初，那个口口声声爱你到生命最后一刻的男人，此时正不知对着哪个女人讲着同样的话...<a href="http://bbs.paipai.com/cgi-bin/bbs/show/content_history?groupid=40027&messageid=27805" target="_blank">[详情]</a></p></div></td>
+    <td width="190" valign="top" class="dress_right" id="super_div"><div><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c11i33140s0p0.html" target="_blank">怎么节省邮寄包裹费用</a></div></td>
+  </tr>
+  <tr>
+    <td width="190" valign="top" class="dress_right" id="super_div"><div><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c0i37045s0p0.html" target="_blank">网上开店必须具备的素质</a></div></td>
+  </tr>
+  <tr>
+    <td width="190" valign="top" class="dress_right" id="super_div"><div><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c9i30896s0p0.html" target="_blank">新手如何提高您的法眼</a></div></td>
+  </tr>
+  <tr>
+    <td width="190" valign="top" class="dress_right" id="super_div"><div><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c9i34088s0p0.html" target="_blank">选择快递公司之我见</a></div></td>
+  </tr>
+  <tr>
+    <td width="110"  id="super3_div"><div><a href="http://shop.paipai.com/294649180?RDTAG=199.1.2" target="_blank">[拍友店铺]</a></div></td>
+    <td width="140" id="super3_div"><div><a href="http://bbs1.paipai.com/g40027c0i35420s0p0.html" target="_blank">[我要参选]</a></div></td>
+    <td width="190" valign="top" class="dress_right" id="super_div"><div><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c2i38854s0p0.html" target="_blank">More...</a></div></td>
+  </tr>
+</table>
+<table width="760" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="760" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td colspan="5"><a href="http://bbs1.paipai.com/g40027c2i42509s0p0.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/01/24/001/433.gif" width="760" height="30" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td id="super1_div"><div><a href="http://bbs1.paipai.com/g40027c0i5359s0p0.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/01/24/001/365.jpg" alt="欢迎来到拍拍广州" width="140" height="110" border="0" /></a></div></td>
+    <td id="super1_div"><div><a href="http://bbs.paipai.com/cgi-bin/bbs/show/content?groupid=40027&amp;messageid=24225&amp;msgpage=0" target="_blank"><img src="http://bbsimg.paipai.com/2007/01/24/001/366.jpg" alt="欢迎来到拍拍广州" width="140" height="110" border="0" /></a></div></td>
+    <td id="super1_div"><div><a href="http://bbs1.paipai.com/g40027c7i39222s0p0.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/08/09/000/597.jpg" alt="欢迎来到拍拍广州" width="140" height="110" border="0" /></a></div></td>
+    <td id="super1_div"><div><a href="http://bbs1.paipai.com/g40027c7i39097s0p0.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/04/27/001/351.jpg" alt="欢迎来到拍拍广州" width="140" height="110" border="0" /></a></div></td>
+    <td id="super1_div"><div><a href="http://bbs1.paipai.com/g40027c0i35433s0p0.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/01/24/001/373.jpg" alt="欢迎来到拍拍广州" width="140" height="110" border="0" /></a></div></td>
+  </tr>
+  <tr>
+    <td id="super1_div"><div><a href="http://bbs1.paipai.com/g40027c0i5359s0p0.html" target="_blank">“3·26”广州拍友见面会</a></div></td>
+    <td id="super1_div"><div><a href="http://bbs.paipai.com/cgi-bin/bbs/show/content?groupid=40027&amp;messageid=23845&amp;msgpage=0" target="_blank">花城倩影靓丽MM秀</a></div></td>
+    <td id="super1_div"><div><u><font color="#800080"><a href="http://bbs1.paipai.com/g40027c7i39222s0p0.html" target="_blank">广州拍友征服雨中的白云山</a></font></u></div></td>
+    <td id="super1_div"><div><u><font color="#800080"><a href="http://bbs1.paipai.com/g40027c7i39097s0p0.html" target="_blank">东莞拍友黄旗山见面会</a></font></u></div></td>
+    <td id="super1_div"><div><a href="http://bbs1.paipai.com/g40027c0i35433s0p0.html" target="_blank">拍拍名片</a></div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><a href="http://bbs1.paipai.com/g40027c0i35433s0p0.html" target="_blank"></a></td>
+  </tr>
+</table>
+<div align="left" class="content bbs_main"> 
+  <div style="width:375px" class="layout"> <a name="a1" id="a1"></a> 
+    <div><img src="http://bbsimg.paipai.com/2007/01/02/001/320.gif" width="375" height="30" align="absmiddle" /></div>
+    <div style="width:373px" class="bbs_list">
+      <table cellspacing="0" cellpadding="0" width="100%" border="0">
+<tbody>
+  <tr>
+    <td rowspan="7" id="super3_div"><div><a href="http://bbs.paipai.com/cgi-bin/bbs/show/content_history?groupid=40027&messageid=27918" target="_blank"><img src="http://bbsimg.paipai.com/2007/08/09/000/623.jpg" alt="欢迎来到拍拍广州" width="160" height="120" border="0" /></a></div></td>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c1i27799s0p0.html" target="_blank">抵食：聚福鹅 多图 </a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c1i32247s0p0.html" target="_blank">广州“滚友”新晋派 </a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c1i32451s0p0.html" target="_blank">“寻寻蝶蝶”下午茶</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c6i36897s0p0.html" target="_blank">广州新菜排行榜 夜夜“宵”魂</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c10i36052s0p0.html" target="_blank">火连坡 “湘”味诱人</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c1i27755s0p0.html" target="_blank">风情万种的提拉米苏</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c6i35847s0p0.html" target="_blank">中山觅食:自助甜品 滋补养颜</a></td>
+  </tr>
+  <tr>
+    <td id="super3_div"><div><a href="http://bbs.paipai.com/cgi-bin/bbs/show/content_history?groupid=40027&messageid=27918" target="_blank">本土味道丰富你的味蕾</a></div></td>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c0i35422s0p0.html" target="_blank">More...</a></td>
+  </tr>
+</tbody> 
+</table>
+    </div>
+    <a name="a2" id="a2"></a> 
+    <div><img src="http://bbsimg.paipai.com/2007/01/02/001/619.gif" width="375" height="30" align="absmiddle" /></div>
+    <div style="width:373px" class="bbs_list">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td rowspan="7" id="super3_div"><div><a href="http://bbs1.paipai.com/g40027c3i31609s0p0.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/03/31/001/538.jpg" alt="欢迎来到拍拍广州" width="160" height="120" border="0" /></a></div></td>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c3i31051s0p0.html" target="_blank">7款绝色内衣让罩杯升级</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs.paipai.com/cgi-bin/bbs/show/content_history?groupid=40027&messageid=27313" target="_blank">暗香浮动广州小资的特色店</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c9i31605s0p0.html" target="_blank">带你逛创意橱窗</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c2i26794s0p0.html" target="_blank">潮店：以简为主的J·简</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c2i26818s0p0.html" target="_blank">Kiss清凉贝饰</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c3i30668s0p0.html" target="_blank">逛上流鞋店</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c3i30632s0p0.html" target="_blank">香港艺人的帮衬店</a></td>
+  </tr>
+  <tr>
+    <td id="super3_div"><div><a href="http://bbs1.paipai.com/g40027c3i31609s0p0.html" target="_blank">全球顶级富婆的不堪生活</a></div></td>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c0i35425s0p0.html" target="_blank">More...</a></td>
+  </tr>
+</table>
+    </div>
+  </div>	  
+  <div class="centerDiv layout" style="width:375px"> 
+    <div><img src="http://bbsimg.paipai.com/2007/01/27/001/304.gif" width="375" height="30" align="absmiddle" /></div>
+    <div style="width:373px" class="bbs_list">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td rowspan="7" id="super3_div"><div><a href="http://bbs1.paipai.com/g40027c3i35084s0p0.html" target="_blank"><img src="http://bbsimg.paipai.com/2007/02/03/002/801.jpg" alt="欢迎来到拍拍广州" width="160" height="120" border="0" /></a></div></td>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c6i35843s0p0.html" target="_blank">夜生活省钱绝技</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c9i30738s0p0.html" target="_blank">广州性文化节真人演示</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs.paipai.com/cgi-bin/bbs/show/content_history?groupid=40027&messageid=26810" target="_blank">七夕￥100情侣学厨技多图</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c1i34859s0p0.html" target="_blank">红酒馆里的优雅时光</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c1i28725s0p0.html" target="_blank">追溯老广州的凉茶铺子</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c3i31163s0p0.html" target="_blank">新探白宫 组图</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c1i31164s0p0.html" target="_blank">搞搞新意 坐跑车 叹咖啡</a></td>
+  </tr>
+  <tr>
+    <td id="super3_div"><div><a href="http://bbs1.paipai.com/g40027c3i35084s0p0.html" target="_blank">广州最美舞娘的肚皮诱惑</a></div></td>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c0i35417s0p0.html" target="_blank">More...</a></td>
+  </tr>
+</table>
+    </div>
+    <div><img src="http://bbsimg.paipai.com/2007/01/28/000/925.gif" width="375" height="30" align="absmiddle" /></div>
+    <div style="width:373px" class="bbs_list">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c3i35913s0p0.html" target="_blank">东莞新八景</a></td>
+    <td><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c9i34005s0p0.html" target="_blank">荔湾新八景出炉古祠留芳居首</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c0i29198s0p0.html" target="_blank">广州KTV（部分）价目一览表</a></td>
+    <td><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c0i29865s0p0.html" target="_blank">广州夜景新名片</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c3i34290s0p0.html" target="_blank">老广乔迁的讲究和禁忌</a></td>
+    <td><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c9i31165s0p0.html" target="_blank">老广饮茶礼节话你知</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c1i30217s0p0.html" target="_blank">广州烧烤场大全</a></td>
+    <td><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c9i29261s0p0.html" target="_blank">广州饭店订座电话大全</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c0i29920s0p0.html" target="_blank">经典广州话对照</a></td>
+    <td><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c9i34005s0p0.html" target="_blank">繁华十八甫 西关文化的传奇</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c9i32146s0p0.html" target="_blank">增城 从化</a></td>
+    <td><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c9i35684s0p0.html" target="_blank">广州小吃地图汇总</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c11i31652s0p0.html" target="_blank">异性合租（求男）</a></td>
+    <td><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c11i31679s0p0.html" target="_blank">异性合租（求女）</a></td>
+  </tr>
+  <tr>
+    <td height="20"><font color="#800080">·</font><a href="http://bbs1.paipai.com/g40027c2i39241s0p0.html" target="_blank">More...</a></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+
+</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,225 @@
+form {
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+}
+INPUT {
+	BORDER-TOP-WIDTH: 1px; 
+	PADDING-RIGHT: 1px; 
+	PADDING-LEFT: 1px; 
+	BORDER-LEFT-WIDTH: 1px; 
+	FONT-SIZE: 12px; 
+	BORDER-LEFT-COLOR: #c0c0c0; 
+	BORDER-BOTTOM-WIDTH: 1px; 
+	BORDER-BOTTOM-COLOR: #c0c0c0; 
+	PADDING-BOTTOM: 1px; 
+	CURSOR: hand; 
+	
+	COLOR: #000000; 
+	BORDER-TOP-COLOR: #c0c0c0; 
+	PADDING-TOP: 1px; 
+	FONT-FAMILY:  Verdana;  
+	HEIGHT: 18px; 
+	BACKGROUND-COLOR: #ffffff; 
+	BORDER-RIGHT-WIDTH: 1px; 
+	BORDER-RIGHT-COLOR: #c0c0c0;
+	font-weight: bold;
+
+}
+
+ul {
+	margin-left: 12px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	
+}
+li {
+	margin-bottom: 6px;
+	display: block;
+}
+
+
+
+a {
+	color:#333333;
+}
+a:link {
+	color:#333333;
+	text-decoration: none;
+	}
+a:visited {
+	color:#000000;
+	text-decoration: none;
+	}
+a:hover {
+	color:#000000;
+	text-decoration: underline;
+	font-weight:bold;
+	background: #eeeeee;
+}
+
+
+
+hr {
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+	line-height: 1px;
+}
+p {
+display: block;
+	margin: 0px;
+	padding: 0px;
+	
+	word-wrap:break-word;
+
+	overflow: hidden;
+	visibility: visible;
+	
+}
+
+
+
+#oblogform input {
+
+	font-weight: normal;
+	height: 17px;
+}
+
+#oblogform tr {
+font-size: 13px;
+	padding: 3px 0px 3px 0px
+}
+#oblogform td {
+  
+  line-height: 28px;
+}
+#oblogform label {
+	CURSOR: hand; 
+}
+
+
+
+
+
+
+
+
+/* Nav顶部的 企业加盟 等按钮图标样式；WL */
+
+ #head #head2 #head2-menu #head2-search span#joincompany {
+	background:url(/images/joincompany06.gif) no-repeat -1px left;
+	padding-left:25px; 
+	padding-top:8px; 
+padding-bottom:6px;
+	line-height:32px; 
+	 
+	color:#666666; 
+	font-weight:bold;
+	padding-right:8px; 
+}
+#head #head2 #head2-menu #head2-search span#joincompany a {
+	color:#333333;
+   }
+#head #head2 #head2-menu #head2-search span#joincompany a:link {
+	color:#333333;
+	text-decoration: none;
+	}
+	
+#head #head2 #head2-menu #head2-search span#joincompany a:visited {
+	color:#333333;
+	text-decoration: none;
+	}
+#head #head2 #head2-menu #head2-search span#joincompany a:hover {
+	color:#ffffff;
+	/*text-decoration: underline;*/
+	text-decoration:  none;
+	font-weight: normal;
+	background: #00A1E4;
+	padding:3px;
+}
+
+
+/* Nav顶部的 企业登录Login 等按钮图标样式；WL */
+
+ #head #head2 #head2-menu #head2-search span#joincompany_login {
+	background:url(/images/joincompany06.gif) no-repeat -1px left;
+	padding-left:25px; 
+	padding-top:8px; 
+padding-bottom:6px;
+	line-height:32px; 
+	
+	color:#666666; 
+	font-weight:bold;
+	padding-right:8px; 
+}
+#head #head2 #head2-menu #head2-search span#joincompany_login a {
+	color:#333333;
+   }
+#head #head2 #head2-menu #head2-search span#joincompany_login a:link {
+	color:#333333;
+	text-decoration: none;
+	}
+	
+#head #head2 #head2-menu #head2-search span#joincompany_login a:visited {
+	color:#333333;
+	text-decoration: none;
+	}
+#head #head2 #head2-menu #head2-search span#joincompany_login a:hover {
+	color:#ffffff;
+	/*text-decoration: underline;*/
+	text-decoration:  none;
+	font-weight: normal;
+	background: #00A1E4;
+	padding:3px;
+}
+
+
+
+
+
+/* 查询项的样式； */
+#TextArea02 P#title-clubLogin {
+background:  url(../images/title01_bg_blue.gif) no-repeat top left ;
+			/*background: #88D5F1;*/
+		   font-size: 12px;
+			color:#999999;
+			font-weight: bold;
+			padding-top:1px;
+			padding-right:3px;
+			padding-bottom:0px;
+			padding-left:3px;
+			width: 96%;
+			height: 21px;
+			line-height: 18px;
+margin:0px;
+		}
+	#TextArea02 P#title-clubLogin img {
+padding-right:2px;
+				padding-bottom: 0px;
+				margin-bottom: 0px;
+			}
+			
+			
+
+
+#TextArea03 P.title-clubNews {
+background:  url(../images/title01_bg_blue.gif) no-repeat top left ;
+			/*background: #88D5F1;*/
+		   font-size: 12px;
+			color:#999999;
+			font-weight: bold;
+			padding-top:1px;
+			padding-right:3px;
+			padding-bottom:0px;
+			padding-left:3px;
+			width: 96%;
+			height: 21px;
+			line-height: 18px;
+margin:0px;
+		}
+	#TextArea03 P.title-clubNews img {
+padding-right:2px;
+				padding-bottom: 0px;
+				margin-bottom: 0px;
+			}

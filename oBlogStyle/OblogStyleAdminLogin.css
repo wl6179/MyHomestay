@@ -1,0 +1,89 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	height: 180px;
+	width: 420px;
+	margin: 10% auto auto;
+	background-image: url(OblogStyleAdminImages/login_background.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 90px;
+	line-height: 140%;
+}
+html {
+	background-color: #FFFFFF;
+	text-align: center;
+}
+.put1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	height: 25px;
+	background-color: transparent;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	border-bottom-color: #D6EFEF;
+}
+.put2{
+	background-color: #FFFFFF;
+	height: 20px;
+	font-family: "Courier New", Courier, mono;
+	font-size: 18px;
+	line-height: 140%;
+	font-weight: bold;
+	color: #FF6600;
+	padding-top: 5px!important;
+	padding-top: 3px;
+	padding-bottom:0px!important;
+	padding-bottom:2px;
+	border-top: 2px solid #B8E3E3;
+	border-right: none;
+	border-bottom: 2px solid #B8E3E3;
+	border-left: none;
+	text-align: center;
+	text-decoration: blink;
+	letter-spacing: 2px;
+	background-image: url(OblogStyleAdminImages/login_code.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+.p1 {
+	margin-top: -7px!Important;
+	margin-top:-1px;
+}
+.p1 input {
+	color: #FFFFFF;
+}
+.p2 {
+	margin-top: 20px!important;
+}
+.p2 input{
+	color: #000000;
+}
+.p3 {
+	margin-top: 26px!important;
+	margin-top:24px;
+	margin-left: 35px;
+	color: #000000;
+}
+.p4{
+	margin-top: 20px!important;
+	text-align: right;
+}
+.but {
+	float: right;
+	margin-right: 25px!important;
+	margin-right:13px;
+}
+.code{
+	float:left;
+	margin-left: 23px!important;
+	margin-left:8px;
+}

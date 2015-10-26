@@ -1,0 +1,42 @@
+BODY {
+	BACKGROUND-COLOR: white; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; MARGIN: 0px; scrollbar-face-color: #FAFAD2; scrollbar-highlight-color: WHite; scrollbar-3dlight-color: White; scrollbar-shadow-color: White; scrollbar-darkshadow-color: White; scrollbar-track-color: White; scrollbar-arrow-color: #FFA500
+}
+A.nav {
+	COLOR: #ffa500
+}
+A.nav:hover {
+	COLOR: #d8bfd8
+}
+A {
+	COLOR: #d8bfd8; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ffa500
+}
+.marley {
+	LEFT: 0px; POSITION: absolute; TOP: 0px; WIDTH: 200px; Z-INDEX: 2
+}
+.blogmain {
+	LEFT: 50px; MARGIN: 0px 70px 5px 170px; POSITION: relative; WIDTH: auto; Z-INDEX: 3
+}
+.content {
+	BACKGROUND-COLOR: white; BORDER-BOTTOM: #fafad2 thin solid; BORDER-LEFT: #fafad2 thin solid; BORDER-RIGHT: #fafad2 thin solid; BORDER-TOP: #fafad2 thin solid; FONT-SIZE: 9pt; MARGIN: 0px 1px; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 0px; WIDTH: auto; Z-INDEX: 4
+}
+.sidetext {
+	BACKGROUND-COLOR: #fafad2; BORDER-BOTTOM: #ffa500 thin dotted; BORDER-LEFT: #ffa500 thin dotted; BORDER-RIGHT: #ffa500 thin dotted; BORDER-TOP: #ffa500 thin dotted; FONT-SIZE: 8pt; MARGIN-LEFT: 25px; PADDING-LEFT: 5px; WIDTH: 170px
+}
+.date {
+	FONT-SIZE: 7pt; FONT-STYLE: italic
+}
+.DateHeader {
+	BACKGROUND-COLOR: #fafad2; BORDER-BOTTOM: #ffa500 thin solid; BORDER-LEFT: #ffa500 thin solid; BORDER-RIGHT: #ffa500 thin solid; BORDER-TOP: #ffa500 thin solid; COLOR: #ffa500; FONT-SIZE: 11pt; FONT-STYLE: italic; FONT-WEIGHT: bold; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+.title {
+	FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.blogbottom {
+	FONT-SIZE: 7pt
+}
+.header {
+	LEFT: 50px; MARGIN: 0px 70px 0px 170px; POSITION: relative; TOP: 0px; WIDTH: auto; Z-INDEX: 3
+}

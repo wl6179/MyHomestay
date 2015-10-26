@@ -1,0 +1,272 @@
+/*
+=== Cascading StyleSheet File ===============================
+ Style Name: Blue
+     Author: Hoo
+Last Update: 2005-05-10 11:30:16
+Modified by shineblog&leeways 允许非商业使用 保留此信息
+==============================================================
+*/
+
+a:link,a:visited {
+	color: #076AA6;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3FA8E7;
+	text-decoration: none;
+}
+
+body {
+	background-color: #E2F0F9;
+	background-image: url(images/bg.gif);
+	background-repeat: repeat-x;
+	font-family: Tahoma, Arial;
+	font-size: 12px !important;
+	font-size: 11px;
+	margin: 20px;
+	margin-bottom: 40px;
+	padding: 0px;
+	text-align: center;
+}
+
+form {
+	display: inline;
+}
+
+h1 {
+	border-bottom: 1px dashed #000000;
+	color: #000000;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0,8px,0,8px;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #CCCCCC;
+	height: 1px;
+}
+
+input {
+	background-color: #FFFFFF;
+	border: 1px #000000 dotted;
+	font-family: Tahoma, Arial;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+input.text {
+	background-color: #F6F6F6;
+	border: 1px solid #076AA6;
+	color: #076AA6;
+	height: 20px;
+	padding: 1px;
+}
+
+select {
+	background-color: #F6F6F6;
+	border: 1px solid #076AA6;
+	color: #076AA6;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+}
+
+table {
+	color: #000000;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+}
+
+td{
+	word-break: break-all;
+}
+
+textarea {
+	background-color: #F6F6F6;
+	border: 1px solid #076AA6;
+	color: #076AA6;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+}
+
+.announce{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.announce-content{
+	color: #076AA6;
+	padding: 10px;
+}
+
+.left {
+	padding: 0,10px,0,10px;
+color: #aaaaaa;
+}
+
+.sidebar {
+	background-color: #FFFFFF;
+	float: left;
+	padding: 10px,4px,0,4px;
+	width: 200px;
+}
+
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 15px;
+	padding-bottom: 25px;
+}
+
+.textbox-content{
+	color: 000000;
+	font-family: Tahoma, Arial;
+	font-size: 12px !important;
+	font-size: 11px;
+	padding: 0,10px,10px,10px;
+	word-wrap: break-word;
+}
+
+.textbox-content img {
+}
+
+.textbox-label{
+	color: #91CDF1;
+	font-size: 12px !important;
+	font-size: 11px;
+	padding-left: 5px;
+}
+
+.textbox-title{
+	background: url('./images/title_icon.jpg') no-repeat left top;
+	font-size: 14px;
+	height: 42px;
+	padding-left: 42px;
+	padding-top: 2px;
+	word-wrap: break-all;
+}
+
+.textbox-title h4{
+	color: #gggggg;
+	display: inline;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.textbox-title h4 a:link,
+.textbox-title h4 a:visited,
+.textbox-title h4 a:active {
+	color: #076AA6;
+}
+
+.textbox-urls {
+	border-top: 1px dashed #C0C0C0;
+	color: #91CDF1;
+	float: right;
+	font-size: 12px !important;
+	font-size: 11px;
+	padding: 4px,12px,4px,150px;
+}
+
+#blogtitle {
+	color: #FFFFFF;
+	font-size: 14.7px;
+	font-weight: bold;
+}
+
+#calendar {
+	width:175px;
+	background-image: url(images/snake.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#calendar td a, 
+#calendar td a:link,
+#calendar td a:visited,
+#calendar td a:active {
+	color: #000;
+	font-weight: bold;
+}
+
+#count {
+	display: none;
+}
+
+#footer {
+	background: url('images/footer_bg.jpg');
+	clear: both;
+	height: 65px;
+}
+
+#footer a{
+	color: #FFFFFF;
+}
+
+#header {
+	background: url('images/main_bg.jpg') repeat-y;
+}
+
+#innercontent {
+	margin-left: 200px;
+	overflow: visible;
+}
+
+#innerfooter {
+	color: #FFFFFF;
+	font-size: 11px;
+	padding: 10px;
+	text-align: center;
+}
+
+#innerheader {
+	background: url('images/header_bg.jpg') no-repeat;
+	color: #FFFFFF;
+	font-size: 12px;
+	height: 150px;
+	padding-left: 48px;
+	padding-right: 25px;
+	padding-top: 30px;
+	vertical-align: bottom;
+}
+
+#innerwrapper {
+	background: url('images/main_bg.jpg') repeat-y;
+	width: 100%;
+}
+
+#leftnav {
+	padding-bottom: 20px;
+}
+
+#mainwrapper {
+	margin-left: 18px;
+	margin-right: 20px;
+}
+
+#placard {
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	color: #076AA6;
+	height: 30px;
+	margin: 4px,10px,14px,10px;
+	padding: 8px,6px,4px,10px;
+}
+
+#saveurl {
+	clear: none!important;
+}
+
+#titlesmall {
+	color: #FFFFFF;
+	font-size: 11px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	width: 780px;
+}

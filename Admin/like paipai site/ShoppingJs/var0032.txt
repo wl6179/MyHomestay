@@ -1,0 +1,1 @@
+&introNum=3&fileName1=ShoppingFlash/01.swf&url1=http://www.myhomestay.com.cn/HouseShop_Products.html&fileName2=ShoppingFlash/02.swf&url2=http://www.myhomestay.com.cn/HouseShop_Products.html&fileName3=ShoppingFlash/03.swf&loadOk=true

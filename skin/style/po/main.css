@@ -1,0 +1,98 @@
+.chinesefont9pt {
+	FONT-SIZE: 9pt; FONT-FAMILY: "Tahoma", "Arial", "新宋体", "宋体"
+}
+.chinesefont12pt {
+	FONT-SIZE: 12pt; FONT-FAMILY: "Tahoma", "Arial", "新宋体", "宋体"
+}
+.en9pt {
+	FONT-SIZE: 8pt; FONT-FAMILY: "Tahoma", "Arial", "Verdana", "新宋体", "宋体"
+}
+.en8pt {
+	FONT-SIZE: 8pt; FONT-FAMILY: "Tahoma", "Verdana", "Arial"
+}
+.en7pt {
+	FONT-SIZE: 7pt; FONT-FAMILY: "Tahoma", "Verdana", "Arial"
+}
+.chinese9ptmain {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 18px; FONT-FAMILY: "Times New Roman", "新宋体"
+}
+.chinese9ptmain li{
+border-bottom: 1px #CB96B0 dotted;
+}
+.chinesefont105pt {
+	FONT-SIZE: 10.5pt; FONT-FAMILY: "Tahoma", "Arial", "新宋体"
+}
+.chinesefont105main {
+	FONT-SIZE: 10.5pt; LINE-HEIGHT: 22px; FONT-FAMILY: "Tahoma", "Arial", "新宋体"
+}
+.input1 {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 9pt; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 185px; BORDER-RIGHT-WIDTH: 0px
+}
+.input2 {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 9pt; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 120px; BORDER-RIGHT-WIDTH: 0px
+}
+A:link {
+COLOR: #a7537b; TEXT-DECORATION: none;
+}
+A:visited {
+	COLOR: #a7537b; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #723854; TEXT-DECORATION: none
+}
+body {font-size:9pt;line-height:1.5;}
+td {font-size:9pt}
+.bold { FONT-WEIGHT: bold
+}
+.style1 {color: #3F3249}
+.style4 {color: #A7537B}
+.style5 {
+ color: #723854;
+ font-weight: bold;
+ font-family: "宋体";
+ font-size: 13px;
+}
+.wz12_blue A:link {font-size:12px;color:#A7537B;text-decoration:none;}
+.wz12_blue A:Visited {color:#A7537B;text-decoration:none;}
+.wz12_blue A:Hover {color:#A7537B;TEXT-DECORATION: underline;}
+.wz12_red {font-size:12px;color:#00795C;line-height:20px}
+.wz12_red A:link {color:#00795C;text-decoration:none;}
+.wz12_red A:Visited {color:#FF0000;text-decoration:none;}
+.wz12_red A:Hover {color:#FF0000;TEXT-DECORATION: underline;}
+.wz12_gr {font-size:12px;color:#CCB0CF;line-height:18px}
+.wz12_gr A:link {color:#A7537B;text-decoration:none;}
+.wz12_gr A:Visited {color:#A7537B;text-decoration:none;}
+.wz12_gr A:Hover {color:#A7537B;TEXT-DECORATION: underline;}
+.style3 {color: #6C6C6C}
+.style7 {color: #B18CAE}
+.style10 {color: #0099FF}
+.style13 {font-family: "宋体"; font-size: 12px; color: #339900;}
+.style14 {font-family: "宋体"; font-size: 12px; color: #723854;}
+.style15 {font-family: "宋体"; font-size: 12px; color: #66CC00;}
+.style18 {font-family: "宋体"; font-size: 12px; color: #CCCC00; }
+.style20 {color: #CC6600}
+from {
+margin:0;
+}
+hr {
+filter:alpha(opacity=100,finishopacity=100,style=3);
+color: #ccc;
+height:1px;
+}
+li {
+list-style-type:circle;COLOR: #a7537b;
+}
+input {
+background-color: #fff;
+border: 1px #a7537b solid;
+font-size: 12px;
+color: #666;
+height:18px;
+}
+select {
+background-color: #fff;
+border: 1px solid #a7537b;
+font-size: 12px;
+color: #666;
+height:18px;
+}

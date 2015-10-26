@@ -1,0 +1,106 @@
+两个防SQL注入过滤代码    
+    
+
+--------------------------------------------------------------------------------
+   
+    
+<%
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'ASP通用防注入代码 
+'您可以把该代码COPY到头文件中.也可以单独作
+'为一个文件存在,每次调用使用 
+'作者:y3gu - 2005-7-29 
+'http://www.dosu.cn 
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+Dim GetFlag Rem(提交方式)
+Dim ErrorSql Rem(非法字符) 
+Dim RequestKey Rem(提交数据)
+Dim ForI Rem(循环标记)
+ErrorSql = "'~;~and~(~)~exec~update~count~*~%~chr~mid
+~master~truncate~char~declare" Rem(每个敏感字符或者词语请使用半角 "~" 格开)
+ErrorSql = split(ErrorSql,"~")
+If Request.ServerVariables("REQUEST_METHOD")="GET" Then
+GetFlag=True
+Else
+GetFlag=False
+End If
+If GetFlag Then
+For Each RequestKey In Request.QueryString
+For ForI=0 To Ubound(ErrorSql)
+If Instr(LCase(Request.QueryString(RequestKey)),
+ErrorSql(ForI))<>0 Then
+response.write "<script>alert(""警告:\n请不要使用敏感字符"");location.href=""Sql.asp"";</script>"
+Response.End
+End If
+Next
+Next 
+Else
+For Each RequestKey In Request.Form
+For ForI=0 To Ubound(ErrorSql)
+If Instr(LCase(Request.Form(RequestKey)),
+ErrorSql(ForI))<>0 Then
+response.write "<script>alert(""警告:\n请不要使用敏感字符"");location.href=""Sql.asp"";</script>"
+Response.End
+End If
+Next
+Next
+End If
+%>
+
+第二个
+
+Function Checkstr(Str) 
+If Isnull(Str) Then 
+CheckStr = "" 
+Exit Function 
+End If 
+Str = Replace(Str,Chr(0),"", 1, －1, 1) 
+Str = Replace(Str, """", """, 1, －1, 1) 
+Str = Replace(Str,"<；","<；", 1, －1, 1) 
+Str = Replace(Str,">；",">；", 1, －1, 1) 
+Str = Replace(Str, "script", "script", 1, －1, 0) 
+Str = Replace(Str, "SCRIPT", "SCRIPT", 1, －1, 0) 
+Str = Replace(Str, "Script", "Script", 1, －1, 0) 
+Str = Replace(Str, "script", "Script", 1, －1, 1) 
+Str = Replace(Str, "object", "object", 1, －1, 0) 
+Str = Replace(Str, "OBJECT", "OBJECT", 1, －1, 0) 
+Str = Replace(Str, "Object", "Object", 1, －1, 0) 
+Str = Replace(Str, "object", "Object", 1, －1, 1) 
+Str = Replace(Str, "applet", "applet", 1, －1, 0) 
+Str = Replace(Str, "APPLET", "APPLET", 1, －1, 0) 
+Str = Replace(Str, "Applet", "Applet", 1, －1, 0) 
+Str = Replace(Str, "applet", "Applet", 1, －1, 1) 
+Str = Replace(Str, "[", "[") 
+Str = Replace(Str, "]", "]") 
+Str = Replace(Str, """", "", 1, －1, 1) 
+Str = Replace(Str, "=", "=", 1, －1, 1) 
+Str = Replace(Str, "’", "’’", 1, －1, 1) 
+Str = Replace(Str, "select", "select", 1, －1, 1) 
+Str = Replace(Str, "execute", "execute", 1, －1, 1) 
+Str = Replace(Str, "exec", "exec", 1, －1, 1) 
+Str = Replace(Str, "join", "join", 1, －1, 1) 
+Str = Replace(Str, "union", "union", 1, －1, 1) 
+Str = Replace(Str, "where", "where", 1, －1, 1) 
+Str = Replace(Str, "insert", "insert", 1, －1, 1) 
+Str = Replace(Str, "delete", "delete", 1, －1, 1) 
+Str = Replace(Str, "update", "update", 1, －1, 1) 
+Str = Replace(Str, "like", "like", 1, －1, 1) 
+Str = Replace(Str, "drop", "drop", 1, －1, 1) 
+Str = Replace(Str, "create", "create", 1, －1, 1) 
+Str = Replace(Str, "rename", "rename", 1, －1, 1) 
+Str = Replace(Str, "count", "count", 1, －1, 1) 
+Str = Replace(Str, "chr", "chr", 1, －1, 1) 
+Str = Replace(Str, "mid", "mid", 1, －1, 1) 
+Str = Replace(Str, "truncate", "truncate", 1, －1, 1) 
+Str = Replace(Str, "nchar", "nchar", 1, －1, 1) 
+Str = Replace(Str, "char", "char", 1, －1, 1) 
+Str = Replace(Str, "alter", "alter", 1, －1, 1) 
+Str = Replace(Str, "cast", "cast", 1, －1, 1) 
+Str = Replace(Str, "exists", "exists", 1, －1, 1) 
+Str = Replace(Str,Chr(13),"<；br>；", 1, －1, 1) 
+CheckStr = Replace(Str,"’","’’", 1, －1, 1) 
+End Function 
+
+
+  
+ 

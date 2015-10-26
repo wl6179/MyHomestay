@@ -1,0 +1,542 @@
+*{
+padding:0;
+margin:0;
+font:11px/140% Arial, Helvetica, sans-serif;
+}
+body{
+	margin:27px 0;
+	background:url(bg.gif) repeat-y center;
+	color: #FF000000;
+	SCROLLBAR-HIGHLIGHT-COLOR: buttonface;
+	SCROLLBAR-SHADOW-COLOR: buttonface;
+	SCROLLBAR-3DLIGHT-COLOR: buttonhighlight;
+	SCROLLBAR-TRACK-COLOR: #eeeeee;
+	SCROLLBAR-DARKSHADOW-COLOR: buttonshadow;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: left;
+}
+a:link {font-family: "Arial", "Helvetica", "sans-serif";font-size: 11px;color: #000000;text-decoration: none;}
+a:active {font-family: "Arial", "Helvetica", "sans-serif";font-size: 11px;color: #000000;text-decoration: underline;}
+a:visited {font-family: "Arial", "Helvetica", "sans-serif";font-size: 11px;color: #000000;text-decoration: none;}
+a:hover {font-family: "Arial", "Helvetica", "sans-serif";font-size: 11px;color: #000000;text-decoration: underline;;}
+/*************************下拉列表定义****************************
+.box001 {
+	OVERFLOW: hidden;
+	WIDTH: 102px;
+	CLIP: rect(0px 181px 18px 0px);
+	HEIGHT: 20px;
+	border: 0px solid #D9D9D9;
+}
+.box002{
+	BORDER-RIGHT: #f4f4f4 1px solid;
+	BORDER-TOP: #f4f4f4 1px solid;
+	OVERFLOW: hidden;
+	BORDER-LEFT: #f4f4f4 0px solid;
+	WIDTH: 100px;
+	CLIP: rect(0px 179px 16px 0px);
+	BORDER-BOTTOM: #f4f4f4 1px solid;
+	HEIGHT: 20px;
+}
+select {
+	BORDER-RIGHT: 0px;
+	BORDER-TOP: 0px;
+	FONT-SIZE: 12px;
+	LEFT: 2px;
+	BORDER-LEFT: 0px;
+	WIDTH: 104px;
+	LINE-HEIGHT: 14px;
+	BORDER-BOTTOM: 0px;
+	POSITION: relative;
+	TOP: 1px;
+	background-color: #EEEEEE;
+}
+/*************************下拉列表定义****************************/
+.box {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000033;
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+	height: 19px;
+}
+.button {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	background-color: #D9D9D9;
+	border: 1px outset #EBEBEB;
+	font-size: 11px;
+}
+img{border:none;}
+/****************************************Menu Start**********************************************/
+.s_menu_left {
+	background-image: url(menu_left.gif);
+	height: 22px;
+	width: 10px;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.s_menu_bg {
+	background-image: url(menu_bg.gif);
+	height: 22px;
+	width: 70px;
+	background-repeat: repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+}
+.s_menu_right {
+	background-image: url(menu_right.gif);
+	height: 22px;
+	width: 8px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.s_menu:link {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.s_menu:hover {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #FF6600;
+	text-decoration: none;
+	font-weight: bold;
+}
+.s_menu:active {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #FF6600;
+	text-decoration: none;
+	font-weight: bold;
+}
+.s_menu:visited{
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+/****************************************Menu End**********************************************/
+.s_login_top {
+	background-image: url(login_top.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	text-align: left;
+	height: 10px;
+}
+.s_logo_affiche_bg {
+	background-image: url(logo_affiche_bg.gif);
+	background-repeat: repeat-x;
+	height: 190px;
+	width: 100%;
+	background-position: center 15px;
+	background-attachment: fixed;
+}
+.s_menu_left_bg {
+	background-image: url(menu_left_bg.gif);
+	height: 170px;
+	width: 206px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	cursor: hand;
+}
+.s_login_bot {
+	background-image: url(login_bot.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 206px;
+	background-position: center bottom;
+}
+.s_blogger_login_title {
+	background-image: url(blogger_login.gif);
+	background-repeat: no-repeat;
+	height: 37px;
+	background-position: 10px;
+}
+.s_blogger_affiche_title {
+	background-image: url(blogger_affiche_title.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	width: 180px;
+	height: 80px;
+}
+.s_placard {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #000000;
+	padding: 5px 10px 10px 30px;
+	background-position: left center;
+	list-style-image: url(placard_row.gif);
+	list-style-type: none;
+}
+/****************************************System Blog Menu >>>>>>>>>>>>>>>>>>>>>>>*/
+.Menulist{
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 3px;
+	line-height: 10px;
+	margin: 5px;
+}
+.Menulist a{
+	color:#FFFFFF;
+	line-height: 17px;
+	text-decoration: none;
+	width: 122px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	list-style-image: url(menu_row.gif);
+}
+
+.Menulist a:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+	background:transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.Menulist a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+/************************************System Blog Menu*************************/
+.article_search {
+	background-image: url(article_search_bg.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 91px;
+	width: 228px;
+}
+.most_newly_pub_title {
+	background-image: url(most_newly_pub_title.gif);
+	background-repeat: no-repeat;
+	background-position: 20px 2px;
+	height: 50px;
+	width: 191px;
+}
+.point {
+	background-image: url(point.gif);
+	background-repeat: repeat-x;
+	background-position: center top;
+	height: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	line-height: 1px;
+}
+/*****************************List Start*******************************/
+.list{
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-indent: 20px;
+	line-height: 15px;
+	text-align: left;
+	background-position: left;
+	list-style-type: none;
+	list-style-image: url(list_row.gif);
+	margin-top: 20px;
+}
+.list a{
+	color:#000000;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+}
+.list a:hover{color:#E54312;text-decoration:underline;}
+/*****************************List End*****************************/
+/*****************************List Start*******************************/
+.list2{
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-indent: 20px;
+	line-height: 15px;
+	text-align: left;
+	background-position: left;
+	list-style-type: none;
+	list-style-image: url(list_row.gif);
+	margin-top: 20px;
+}
+.list2 a{
+	color:#000000;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+}
+.list2 a:hover{color:#E54312;text-decoration:underline;}
+/*****************************List End*****************************/
+.article_btn {
+	height: 41px;
+	width: 72px;
+	background-image: url(affiche_btn.gif);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	border: 0px none #72A4DB;
+}
+/***********推荐用户开始***********************/
+.recommend_blogger_title {
+	background-image: url(recommend_blogger_title.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	height: 50px;
+	width: 206px;
+}/*顶部图片*/
+.recommend_blogger_bg {
+	background-color: #E8E8BA;
+}
+.recommend_blogger_bot {
+	background-image: url(recommend_blogger_bot.gif);
+	background-repeat: no-repeat;
+	height: 14px;
+	width: 206px;
+	background-position: center top;
+}
+/*精华文章定义开始*/
+.essence_logs_title {
+	background-image: url(essence_logs_title.gif);
+	background-position: center bottom;
+	height: 49px;
+	width: 228px;
+	background-repeat: no-repeat;
+}
+/*精华文章列表开始*/
+.essence{
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-indent: 20px;
+	line-height: 15px;
+	text-align: left;
+	background-position: left;
+	list-style-type: none;
+	list-style-image: url(list_row.gif);
+}
+.essence_bg{
+	background-position: left;
+	list-style-type: none;
+	list-style-image: url(list_row.gif);
+	background-color: #EDF1CE;
+}
+.essence a{
+	color:#000000;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+}
+.essence a:hover{color:#E54312;text-decoration:underline;}
+/*精华文章列表结束*/
+/*精华文章定义结束*/
+.most_newly_bot02 {
+	background-image: url(most_newly_bot02.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 10px;
+	width: 544px;
+	line-height: 15px;
+}
+.most_newly_bot01 {
+	background-image: url(most_newly_bot01.gif);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	width: 544px;
+}
+.blogger_search_bg {
+	background-image: url(blogger_search_bg.gif);
+	background-repeat: no-repeat;
+	height: 41px;
+	width: 544px;
+}
+.photo_bg{
+	background-image: url(photo_bg.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 114px;
+	width: 753px;
+	padding-bottom: 15px;
+	padding-left: 21px;
+	cursor: hand;
+}
+.essence_bot {
+	background-image: url(essence_logs_bot.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 13px;
+	width: 228px;
+	line-height: 13px;
+}
+.new_reg_title {
+	background-image: url(new_reg_title.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 55px;
+	width: 206px;
+}
+.new_reg_bg {
+	background-color: #EAEAEA;
+}
+.count_title {
+	background-image: url(count_title.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 67px;
+	width: 206px;
+}
+.hot_title {
+	background-image: url(hot_title.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 45px;
+	width: 543px;
+}
+.hot_bg {
+	width: 543px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #E1E1E1;
+	border-bottom-color: #E1E1E1;
+	border-left-color: #E1E1E1;
+	padding-bottom: 10px;
+	background-image: url(hot_line.gif);
+	background-repeat: repeat-y;
+	background-position: center bottom;
+}
+.hot{
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-indent: 20px;
+	text-align: left;
+	list-style-type: none;
+	list-style-image: url(list_row.gif);
+	top: 20px;
+}
+.hot a{
+	color:#000000;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	padding-top: 5px;
+}
+.hot a:hover{color:#E54312;text-decoration: none;}
+.blog_star_bg {
+	background-color: #EDF1CE;
+	height: 150px;
+	width: 543px;
+	margin-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+}
+.blog_star {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #333333;
+	margin-top: 25px;
+	padding-top: 25px;
+}
+#blog_star img{
+	color: #333333;
+	text-align: left;
+	vertical-align: absmiddle;
+	float: left;
+	margin-right: 20px;
+	display: inline;
+	clear: both;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	height: 100px;
+	width: 120px;
+	border: 1px inset #666666;
+}
+.font9 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	color: #000000;
+}
+.pahang_title {
+	background-image: url(pahang_title.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 57px;
+	width: 228px;
+	margin-top: 5px;
+}
+.pahanglist{
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-indent: 20px;
+	line-height: 15px;
+	text-align: left;
+	background-position: left;
+	list-style-type: none;
+	list-style-image: url(list_row_white.gif);
+	margin-top: 20px;
+}
+.pahanglist a{
+	color:#FFFFFF;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+}
+.pahanglist a:hover{color:#FFFFFF;}
+.blog_star_title {
+	background-image: url(blog_star_title.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 47px;
+	width: 228px;
+}
+.link_bot {
+	background-image: url(link.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 11px;
+	width: 986px;
+}
+.link_bg {
+	height: 50px;
+	background-color: #DFDFDF;
+	background-position: center center;
+	margin-top: 5px;
+}
+.count_list {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #000000;
+	padding-left: 50px;
+	list-style-type: disc;
+	text-align: left;
+	padding-bottom: 10px;
+}
+#ob_login {
+color: #fff;
+
+}
+#ob_login a{
+color: #fff;
+}

@@ -1,0 +1,16 @@
+Js代码：
+function getDate(strdate){
+var Arguments = new Array(1);
+Arguments[0]=strdate;
+var strResult=showModalDialog("/<计算的值>/Calendar?openpage",Arguments,"center:yes;resizable:no;dialogHeight:235px;dialogWidth:230px;help:no;status:no"); 
+if (strResult!=null){
+  return strResult;
+}
+else{
+  return "";
+}
+}
+
+html中的调用：
+<tr valign="top"><td class="linegrid_right" style="height:0.8cm;" width="13%" valign="middle"><div align="center"><font size="2" face="宋体">余付款时间</font></div></td><td width="87%" valign="middle"><font size="2" face="楷体_GB2312">
+<input name="dat_YuFuKuanShiJian" value="" readonly ondblclick="dat_YuFuKuanShiJian.value=getDate(dat_YuFuKuanShiJian.value);" class="txtareazyz8" title="请双击选择日期"></font></td></tr>

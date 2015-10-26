@@ -1,0 +1,142 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.6em;
+	text-decoration: none;
+	background:#600001
+}
+a:link {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	color: #CC0000;
+	text-decoration: none;
+}
+a:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	text-decoration: none;
+	color: #000;
+}
+.a1:link {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.a1:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #CC0000;
+	text-decoration: none;
+}
+.a1:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}.b1 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.b2 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	color: #fff;
+	text-decoration: none;
+	align:center;
+}
+.b2 a {
+	color: #fff;
+	text-decoration: none;
+}
+.b2 a:visited {
+	color: #fff;
+	text-decoration: underline;
+}
+.b2 li {
+	color: #fff;
+}
+.b3 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.b4 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.b5 table a:visited {
+color: #ffffff;
+}
+.oblog {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+input {
+background-color: #fff;
+border: 1px #f00 solid;
+font-size: 12px;
+color: #f00;
+height:18px;
+}
+select {
+background-color: #fff;
+border: 1px #f00 solid;
+font-size: 12px;
+color: #f00;
+height:18px;
+}
+li {
+list-style-type:circle;COLOR: #aa3939;
+}
+
+
+/*
+.search {
+width:1002px;
+height:31px;
+padding:0 0 0 500px;
+margin:0 auto;
+background:#000 url("index_01.jpg") no-repeat left top;
+}
+*/

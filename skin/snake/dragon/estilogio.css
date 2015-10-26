@@ -1,0 +1,128 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #213c4a; FONT-WEIGHT: normal; FONT-SIZE: 11px; SCROLLBAR-HIGHLIGHT-COLOR: #969696; SCROLLBAR-SHADOW-COLOR: #969696; COLOR: #999999; SCROLLBAR-3DLIGHT-COLOR: #ededed; SCROLLBAR-ARROW-COLOR: #b1c1ca; SCROLLBAR-TRACK-COLOR: #657b75; FONT-FAMILY: Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #384e44
+margin:0;
+background:#666 url("bg.jpg");
+}
+A:link {
+	COLOR: #92a9b6;TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #666666; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #435663;
+}
+TABLE {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #666666; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.fontemaisclara {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.fontemaisclara:hover {
+	COLOR: #7aa828; TEXT-DECORATION: underline
+}
+.tiulos {
+	FONT-WEIGHT: 400; FONT-SIZE: 11px; COLOR: #ff6633; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none;padding:0px 0 0px 0px;line-height:23px;
+}
+.tiulos a:link {
+	COLOR: #1F3835;TEXT-DECORATION: none
+}
+.descicao {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #999999; FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+BODY {
+	BACKGROUND-POSITION: center center
+}
+IMG {
+	BORDER-RIGHT: #ffffff 1px; BORDER-TOP: #ffffff 1px; BORDER-LEFT: #ffffff 1px; BORDER-BOTTOM: #ffffff 1px
+}
+.estilo5 {
+	BORDER-RIGHT: #cccccc 1px outset; BORDER-TOP: #cccccc 1px outset; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #cccccc 1px outset; WIDTH: 250px; COLOR: #ffffff; BORDER-BOTTOM: #cccccc 1px outset; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #06242e; TEXT-DECORATION: none
+}
+.estilo5:hover {
+	COLOR: #ffff99; TEXT-DECORATION: underline
+}
+.estilo7 {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #c1c14e; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.estilo7:hover {
+	COLOR: #e3e3a3; TEXT-DECORATION: underline
+}
+PRE {
+	FONT-SIZE: 10pt; FONT-FAMILY: monospaced
+}
+CODE {
+	FONT-SIZE: 10pt; FONT-FAMILY: monospaced
+}
+
+.estilo2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #c1c14e; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.estilo2 a:link {
+	COLOR: #cccc00;TEXT-DECORATION: none
+}
+.estilo2 a:hover {
+	COLOR: #7aa828
+}
+.estilo2 a:visited {
+	COLOR: #c1c14e;
+}
+.estilox {
+	FONT-WEIGHT: bold;FONT-SIZE: 11px; COLOR: #92a9b6; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none;border-bottom: 1px #84AE6B dotted;padding:10px 0 0px 0;margin:0 0 0px 0;
+}
+.estilox a:link {
+	COLOR: #92a9b6;TEXT-DECORATION: none
+}
+.estilo3 {
+ FONT-SIZE: 11px; COLOR: #92a9b6; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.estilo3 a:link {
+	COLOR: #92a9b6;TEXT-DECORATION: none
+}
+.estilo3:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.estilo3b {
+	FONT-SIZE: 10px; COLOR: #92a9b6; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.estilo3b:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.estilo3b a:visited {
+	COLOR: #92a9b6;
+}
+.estilo4 {
+	BORDER-RIGHT: #666666 thin inset; BORDER-TOP: #666666 thin inset; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: #666666 thin inset; WIDTH: 190px; COLOR: #666666; BORDER-BOTTOM: #666666 thin inset; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #d9ddd0; TEXT-DECORATION: none
+}
+.estilo4:hover {
+	COLOR: #c4a340; TEXT-DECORATION: underline
+}
+.novo {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #c1c14e; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.novo:hover {
+	COLOR: #c1c14e; TEXT-DECORATION: underline
+}
+#calendar{ 
+width:100%;
+}
+#calendar caption {  
+font:11px 'Century Gothic', Arial, Helvetica, sans-serif;color:#84AE6B; 
+}
+#calendar table { 
+border-collapse: collapse;color:#fff;height:120px;
+} 
+#calendar th{  
+font: normal 12px;color:#84AE6B;
+}
+#calendar td { 
+text-align:center;
+font-size: 10px;   
+}
+ul {
+margin:0;
+padding:0;
+}
+input,select {
+BORDER: #84AE6B 1px solid; COLOR: #ffffff; BACKGROUND-COLOR: #102C39;height:16px;
+}

@@ -1,0 +1,125 @@
+#oblog_edit div.quote{margin:5px 20px;border:1px solid #CCCCCC;padding:5px;background:#F3F3F3 ;line-height : normal ;
+}
+#oblog_edit div.HtmlCode{margin:5px 20px;border:1px solid #CCCCCC;padding:5px; background:#FDFDDF ;
+font-size:14px;font-family:Tahoma;font-style : oblique;line-height : normal ;font-weight:bold;
+}
+
+#oblog_edit
+{
+	background-color:gainsboro;
+	border:1px solid #CCCCCC;
+	margin:0px!important;
+	text-align: left;
+	width: 360px!important;
+}
+#oblog_edit li{
+display: inline;
+padding: 0;
+text-align:center;
+}
+#oblog_edit ul{
+	margin: 1px!important;
+	text-align: left;
+	width: 100%;
+	padding:0;
+}
+
+#oblog_edit iframe.oblog_Composition
+{
+	border: 2px inset;
+
+}
+#oblog_edit .oblog_Reply
+{
+	border : 1px dashed buttonface;
+}
+
+}
+#oblog_edit .oblog_Btn
+{
+	BACKGROUND-COLOR: gainsboro;
+	Text-align: center;
+	HEIGHT: 23px;
+	WIDTH: 23px;
+	margin-top: 0px;
+	padding-top: 5;
+}
+
+#oblog_edit .oblog_BtnMouseOverUp
+{
+	background-color : #B5BED6;
+	Text-align: center;
+	cursor: hand;
+	HEIGHT: 23px;
+	WIDTH: 23px;
+	margin-top: 0px;
+	padding-top: 3;
+	border : 1px solid transparent;
+}
+
+#oblog_edit .oblog_Ico
+{
+	cursor: pointer;
+}
+#oblog_edit .oblog_TBGen
+{
+	FONT: 8pt "verdana", "arial", "sans-serif";
+	margin: 0px;
+}
+
+#oblog_edit .oblog_BtnMouseOverDown
+{
+	border : 1px solid transparent;
+	BACKGROUND-COLOR: #EEEEEE;
+	Text-align: center;
+	cursor: pointer;
+	HEIGHT: 22px;
+	WIDTH: 22px;
+}
+
+#oblog_edit .BtnDown
+{
+	BACKGROUND-COLOR:  #8592B5;
+	cursor: pointer;
+	Text-align: center;
+}
+
+#oblog_edit .oblog_IcoDown
+{
+	cursor: pointer;
+	
+}
+
+#oblog_edit .oblog_IcoDownPressed
+{
+	cursor: pointer;
+	
+}
+
+#oblog_edit li.oblog_TabOn {
+	font: 8pt MS Sans Serif;
+	padding:1px 5px;
+	border:1px inset;
+	background-color: #EEEEEE;
+}
+
+#oblog_edit li.oblog_TabOff {
+	font: 8pt MS Sans Serif;
+	padding:1px 5px;
+	cursor: pointer;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #848284;
+	border-bottom: 1px solid #848284;
+	border-left: 1px solid #FFFFFF;
+}
+#oblog_edit li.oblog_SmileOn {
+	font: 9pt MS Sans Serif;
+	border:1px inset;
+	background-color: #FFD988;
+	cursor: pointer;
+	
+
+}
+#oblog_edit li.oblog_SmileOff {
+	font: 9pt MS Sans Serif;
+}
